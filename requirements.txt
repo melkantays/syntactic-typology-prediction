@@ -1,0 +1,42 @@
+# Typology prediction pipeline -- dependencies
+# Tested on Python 3.14, Windows.
+# Install:  py -m pip install -r requirements.txt
+ 
+# --- ORDER MATTERS -----------------------------------------------------
+# setuptools 82+ removed the pkg_resources module, which lang2vec imports
+# at load time. Without this pin, `import lang2vec` fails with
+# ModuleNotFoundError: No module named 'pkg_resources'.
+setuptools<82
+ 
+# --- Numerics and modelling --------------------------------------------
+numpy
+pandas
+scikit-learn
+ 
+# --- Unicode-aware tokenization ----------------------------------------
+# feature_engineer.py relies on \p{L}, \p{M} (combining marks) and \X
+# (grapheme clusters). The standard library `re` module does NOT support
+# these constructs; without `regex`, Devanagari, Tamil and Arabic text is
+# shattered into individual code points and every length statistic is wrong.
+regex
+ 
+# --- Word segmentation for scriptio continua ---------------------------
+# Chinese and Japanese are written without spaces, so whitespace-based
+# tokenization yields a single token per document. These provide the
+# language-specific segmenters used by feature_engineer.py.
+jieba          # Chinese
+janome         # Japanese
+ 
+# --- Typological database ----------------------------------------------
+# Provides URIEL syntax_wals / syntax_knn feature vectors.
+lang2vec
+ 
+# --- Pretrained representations (embedding_extractor.py) ---------------
+# XLM-RoBERTa inference. Runs on CPU; no CUDA required.
+torch
+transformers
+ 
+# --- Results compilation and figures (results_compiler.py) -------------
+matplotlib
+tabulate
+ 

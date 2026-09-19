@@ -1,0 +1,23 @@
+{
+  "n_languages": 31,
+  "n_targets": 7,
+  "target_names": [
+    "S_SOV",
+    "S_SVO",
+    "S_VSO",
+    "S_ADPOSITION_BEFORE_NOUN",
+    "S_ADPOSITION_AFTER_NOUN",
+    "S_CASE_SUFFIX",
+    "S_ADJECTIVE_BEFORE_NOUN"
+  ],
+  "grid_loss": 0.24884792626728108,
+  "honest_loss": 0.2488479262672811,
+  "baseline_loss": 0.2488479262672811,
+  "beats_baseline": false,
+  "best_params": {
+    "clf__max_depth": 2,
+    "clf__max_features": "sqrt",
+    "clf__min_samples_split": 2,
+    "clf__n_estimators": 100
+  }
+}

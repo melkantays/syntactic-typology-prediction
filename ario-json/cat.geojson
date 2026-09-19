@@ -1,0 +1,3228 @@
+{
+	"type": "FeatureCollection",
+	"features": [{
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Ariaramnes 1",
+			"id_composite": "Q007129",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007129/.",
+			"designation": "Ariaramnes 1",
+			"display_name": "ARIo AmHa",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Old Persian",
+			"period": "Achaemenid",
+			"pleiades_id": "903021",
+			"popular_name": "AmHa",
+			"provenience": "Ecbatana",
+			"ruler": "Ariaramnes",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Ariaramnes",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [48.512209,34.799294]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Arsames 1",
+			"id_composite": "Q007130",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007130/.",
+			"designation": "Arsames 1",
+			"display_name": "ARIo AsHa",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Old Persian",
+			"period": "Achaemenid",
+			"pleiades_id": "903021",
+			"popular_name": "AsHa",
+			"provenience": "Ecbatana",
+			"ruler": "Arsames",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Arsames",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [48.512209,34.799294]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Cyrus II 1",
+			"id_composite": "Q006653",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q006653/.",
+			"designation": "Cyrus II 1",
+			"display_name": "ARIo CB²a",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Akkadian",
+			"period": "Achaemenid",
+			"pleiades_id": "893951",
+			"popular_name": "CB²a",
+			"provenience": "Babylon",
+			"ruler": "Cyrus II",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Cyrus II",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [44.422236,32.543395]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Cyrus II 2",
+			"id_composite": "Q006654",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q006654/.",
+			"designation": "Cyrus II 2",
+			"display_name": "ARIo CUa",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Akkadian",
+			"period": "Achaemenid",
+			"pleiades_id": "912985",
+			"popular_name": "CUa",
+			"provenience": "Ur",
+			"ruler": "Cyrus II",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Cyrus II",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [46.104748,30.961580]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Cyrus II 3",
+			"id_composite": "Q006655",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q006655/.",
+			"designation": "Cyrus II 3",
+			"display_name": "ARIo CWa",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Akkadian",
+			"period": "Achaemenid",
+			"pleiades_id": "912986",
+			"popular_name": "CWa",
+			"provenience": "Uruk",
+			"ruler": "Cyrus II",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Cyrus II",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [45.638752,31.32446]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Darius I  15",
+			"id_composite": "Q007148",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007148/.",
+			"designation": "Darius I  15",
+			"display_name": "ARIo DHa",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Akkadian, Old Persian, Elamite",
+			"period": "Achaemenid",
+			"pleiades_id": "903021",
+			"popular_name": "DHa",
+			"provenience": "Ecbatana",
+			"ruler": "Darius I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Darius I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [48.512209,34.799294]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Darius I  24",
+			"id_composite": "Q007157",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007157/.",
+			"designation": "Darius I  24",
+			"display_name": "ARIo DPa",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Akkadian, Old Persian, Elamite",
+			"period": "Achaemenid",
+			"pleiades_id": "922695",
+			"popular_name": "DPa",
+			"provenience": "Persepolis",
+			"ruler": "Darius I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Darius I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [52.889437,29.9353403333]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Darius I  25",
+			"id_composite": "Q007158",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007158/.",
+			"designation": "Darius I  25",
+			"display_name": "ARIo DPb",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Akkadian, Old Persian, Elamite",
+			"period": "Achaemenid",
+			"pleiades_id": "922695",
+			"popular_name": "DPb",
+			"provenience": "Persepolis",
+			"ruler": "Darius I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Darius I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [52.889437,29.9353403333]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Darius I  26",
+			"id_composite": "Q007159",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007159/.",
+			"designation": "Darius I  26",
+			"display_name": "ARIo DPc",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Akkadian, Old Persian, Elamite",
+			"period": "Achaemenid",
+			"pleiades_id": "922695",
+			"popular_name": "DPc",
+			"provenience": "Persepolis",
+			"ruler": "Darius I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Darius I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [52.889437,29.9353403333]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Darius I  27",
+			"id_composite": "Q007160",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007160/.",
+			"designation": "Darius I  27",
+			"display_name": "ARIo DPd",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Old Persian",
+			"period": "Achaemenid",
+			"pleiades_id": "922695",
+			"popular_name": "DPd",
+			"provenience": "Persepolis",
+			"ruler": "Darius I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Darius I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [52.889437,29.9353403333]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Darius I  28",
+			"id_composite": "Q007161",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007161/.",
+			"designation": "Darius I  28",
+			"display_name": "ARIo DPe",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Old Persian",
+			"period": "Achaemenid",
+			"pleiades_id": "922695",
+			"popular_name": "DPe",
+			"provenience": "Persepolis",
+			"ruler": "Darius I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Darius I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [52.889437,29.9353403333]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Darius I  29",
+			"id_composite": "Q007162",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007162/.",
+			"designation": "Darius I  29",
+			"display_name": "ARIo DPf",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Elamite",
+			"period": "Achaemenid",
+			"pleiades_id": "922695",
+			"popular_name": "DPf",
+			"provenience": "Persepolis",
+			"ruler": "Darius I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Darius I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [52.889437,29.9353403333]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Darius I  30",
+			"id_composite": "Q007163",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007163/.",
+			"designation": "Darius I  30",
+			"display_name": "ARIo DPg",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Akkadian",
+			"period": "Achaemenid",
+			"pleiades_id": "922695",
+			"popular_name": "DPg",
+			"provenience": "Persepolis",
+			"ruler": "Darius I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Darius I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [52.889437,29.9353403333]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Darius I  31",
+			"id_composite": "Q007164",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007164/.",
+			"designation": "Darius I  31",
+			"display_name": "ARIo DPh",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Akkadian, Old Persian, Elamite",
+			"period": "Achaemenid",
+			"pleiades_id": "922695",
+			"popular_name": "DPh",
+			"provenience": "Persepolis",
+			"ruler": "Darius I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Darius I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [52.889437,29.9353403333]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Darius I  32",
+			"id_composite": "Q007165",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007165/.",
+			"designation": "Darius I  32",
+			"display_name": "ARIo DPi",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Akkadian, Old Persian, Elamite",
+			"period": "Achaemenid",
+			"pleiades_id": "922695",
+			"popular_name": "DPi",
+			"provenience": "Persepolis",
+			"ruler": "Darius I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Darius I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [52.889437,29.9353403333]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Darius I  33",
+			"id_composite": "Q007166",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007166/.",
+			"designation": "Darius I  33",
+			"display_name": "ARIo DPj",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Akkadian, Old Persian, Elamite",
+			"period": "Achaemenid",
+			"pleiades_id": "922695",
+			"popular_name": "DPj",
+			"provenience": "Persepolis",
+			"ruler": "Darius I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Darius I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [52.889437,29.9353403333]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Darius I  34",
+			"id_composite": "Q007167",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007167/.",
+			"designation": "Darius I  34",
+			"display_name": "ARIo DSa",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Old Persian",
+			"period": "Achaemenid",
+			"pleiades_id": "912936",
+			"popular_name": "DSa",
+			"provenience": "Susa",
+			"ruler": "Darius I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Darius I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [48.257787,32.189217]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Darius I  35",
+			"id_composite": "Q007168",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007168/.",
+			"designation": "Darius I  35",
+			"display_name": "ARIo DSb",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Old Persian",
+			"period": "Achaemenid",
+			"pleiades_id": "912936",
+			"popular_name": "DSb",
+			"provenience": "Susa",
+			"ruler": "Darius I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Darius I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [48.257787,32.189217]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Darius I  36",
+			"id_composite": "Q007169",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007169/.",
+			"designation": "Darius I  36",
+			"display_name": "ARIo DSc",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Akkadian, Old Persian, Elamite",
+			"period": "Achaemenid",
+			"pleiades_id": "912936",
+			"popular_name": "DSc",
+			"provenience": "Susa",
+			"ruler": "Darius I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Darius I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [48.257787,32.189217]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Darius I  37",
+			"id_composite": "Q007170",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007170/.",
+			"designation": "Darius I  37",
+			"display_name": "ARIo DSd",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Akkadian, Old Persian, Elamite",
+			"period": "Achaemenid",
+			"pleiades_id": "912936",
+			"popular_name": "DSd",
+			"provenience": "Susa",
+			"ruler": "Darius I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Darius I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [48.257787,32.189217]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Darius I  38",
+			"id_composite": "Q007171",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007171/.",
+			"designation": "Darius I  38",
+			"display_name": "ARIo DSe",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Akkadian, Old Persian, Elamite",
+			"period": "Achaemenid",
+			"pleiades_id": "912936",
+			"popular_name": "DSe",
+			"provenience": "Susa",
+			"ruler": "Darius I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Darius I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [48.257787,32.189217]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Darius I  39",
+			"id_composite": "Q007172",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007172/.",
+			"designation": "Darius I  39",
+			"display_name": "ARIo DSf",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Akkadian, Old Persian, Elamite",
+			"period": "Achaemenid",
+			"pleiades_id": "912936",
+			"popular_name": "DSf",
+			"provenience": "Susa",
+			"ruler": "Darius I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Darius I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [48.257787,32.189217]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Darius I  40",
+			"id_composite": "Q007173",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007173/.",
+			"designation": "Darius I  40",
+			"display_name": "ARIo DSg",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Akkadian, Old Persian, Elamite",
+			"period": "Achaemenid",
+			"pleiades_id": "912936",
+			"popular_name": "DSg",
+			"provenience": "Susa",
+			"ruler": "Darius I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Darius I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [48.257787,32.189217]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Darius I  41",
+			"id_composite": "Q007174",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007174/.",
+			"designation": "Darius I  41",
+			"display_name": "ARIo DSi",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Akkadian, Old Persian, Elamite",
+			"period": "Achaemenid",
+			"pleiades_id": "912936",
+			"popular_name": "DSi",
+			"provenience": "Susa",
+			"ruler": "Darius I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Darius I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [48.257787,32.189217]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Darius I  42",
+			"id_composite": "Q007175",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007175/.",
+			"designation": "Darius I  42",
+			"display_name": "ARIo DSj",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Akkadian, Old Persian, Elamite",
+			"period": "Achaemenid",
+			"pleiades_id": "912936",
+			"popular_name": "DSj",
+			"provenience": "Susa",
+			"ruler": "Darius I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Darius I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [48.257787,32.189217]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Darius I  43",
+			"id_composite": "Q007176",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007176/.",
+			"designation": "Darius I  43",
+			"display_name": "ARIo DSk",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Old Persian",
+			"period": "Achaemenid",
+			"pleiades_id": "912936",
+			"popular_name": "DSk",
+			"provenience": "Susa",
+			"ruler": "Darius I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Darius I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [48.257787,32.189217]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Darius I  44",
+			"id_composite": "Q007177",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007177/.",
+			"designation": "Darius I  44",
+			"display_name": "ARIo DSl",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Old Persian",
+			"period": "Achaemenid",
+			"pleiades_id": "912936",
+			"popular_name": "DSl",
+			"provenience": "Susa",
+			"ruler": "Darius I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Darius I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [48.257787,32.189217]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Darius I  45",
+			"id_composite": "Q007178",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007178/.",
+			"designation": "Darius I  45",
+			"display_name": "ARIo DSn",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Akkadian, Old Persian, Elamite",
+			"period": "Achaemenid",
+			"pleiades_id": "912936",
+			"popular_name": "DSn",
+			"provenience": "Susa",
+			"ruler": "Darius I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Darius I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [48.257787,32.189217]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Darius I  46",
+			"id_composite": "Q007179",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007179/.",
+			"designation": "Darius I  46",
+			"display_name": "ARIo DSao",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Akkadian, Old Persian, Elamite",
+			"period": "Achaemenid",
+			"pleiades_id": "912936",
+			"popular_name": "DSo",
+			"provenience": "Susa",
+			"ruler": "Darius I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Darius I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [48.257787,32.189217]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Darius I  47",
+			"id_composite": "Q007180",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007180/.",
+			"designation": "Darius I  47",
+			"display_name": "ARIo DSp",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Old Persian",
+			"period": "Achaemenid",
+			"pleiades_id": "912936",
+			"popular_name": "DSp",
+			"provenience": "Susa",
+			"ruler": "Darius I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Darius I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [48.257787,32.189217]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Darius I  48",
+			"id_composite": "Q007181",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007181/.",
+			"designation": "Darius I  48",
+			"display_name": "ARIo DSs",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Old Persian",
+			"period": "Achaemenid",
+			"pleiades_id": "912936",
+			"popular_name": "DSs",
+			"provenience": "Susa",
+			"ruler": "Darius I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Darius I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [48.257787,32.189217]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Darius I  49",
+			"id_composite": "Q007182",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007182/.",
+			"designation": "Darius I  49",
+			"display_name": "ARIo DSt",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Old Persian",
+			"period": "Achaemenid",
+			"pleiades_id": "912936",
+			"popular_name": "DSt",
+			"provenience": "Susa",
+			"ruler": "Darius I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Darius I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [48.257787,32.189217]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Darius I  50",
+			"id_composite": "Q007183",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007183/.",
+			"designation": "Darius I  50",
+			"display_name": "ARIo DSu",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Elamite",
+			"period": "Achaemenid",
+			"pleiades_id": "912936",
+			"popular_name": "DSu",
+			"provenience": "Susa",
+			"ruler": "Darius I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Darius I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [48.257787,32.189217]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Darius I  51",
+			"id_composite": "Q007184",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007184/.",
+			"designation": "Darius I  51",
+			"display_name": "ARIo DSv",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Akkadian",
+			"period": "Achaemenid",
+			"pleiades_id": "912936",
+			"popular_name": "DSv",
+			"provenience": "Susa",
+			"ruler": "Darius I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Darius I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [48.257787,32.189217]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Darius I  52",
+			"id_composite": "Q007185",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007185/.",
+			"designation": "Darius I  52",
+			"display_name": "ARIo DSw",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Akkadian",
+			"period": "Achaemenid",
+			"pleiades_id": "912936",
+			"popular_name": "DSw",
+			"provenience": "Susa",
+			"ruler": "Darius I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Darius I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [48.257787,32.189217]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Darius I  53",
+			"id_composite": "Q007186",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007186/.",
+			"designation": "Darius I  53",
+			"display_name": "ARIo DSy",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Akkadian, Old Persian, Elamite",
+			"period": "Achaemenid",
+			"pleiades_id": "912936",
+			"popular_name": "DSy",
+			"provenience": "Susa",
+			"ruler": "Darius I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Darius I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [48.257787,32.189217]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Darius I  54",
+			"id_composite": "Q007187",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007187/.",
+			"designation": "Darius I  54",
+			"display_name": "ARIo DSz",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Old Persian, Elamite",
+			"period": "Achaemenid",
+			"pleiades_id": "912936",
+			"popular_name": "DSz",
+			"provenience": "Susa",
+			"ruler": "Darius I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Darius I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [48.257787,32.189217]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Darius I  55",
+			"id_composite": "Q007188",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007188/.",
+			"designation": "Darius I  55",
+			"display_name": "ARIo DSaa",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Akkadian",
+			"period": "Achaemenid",
+			"pleiades_id": "912936",
+			"popular_name": "DSaa",
+			"provenience": "Susa",
+			"ruler": "Darius I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Darius I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [48.257787,32.189217]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Darius I  56",
+			"id_composite": "Q007189",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007189/.",
+			"designation": "Darius I  56",
+			"display_name": "ARIo DSab",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Akkadian, Old Persian, Elamite",
+			"period": "Achaemenid",
+			"pleiades_id": "912936",
+			"popular_name": "DSab",
+			"provenience": "Susa",
+			"ruler": "Darius I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Darius I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [48.257787,32.189217]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Darius I  57",
+			"id_composite": "Q007190",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007190/.",
+			"designation": "Darius I  57",
+			"display_name": "ARIo DSac",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Akkadian, Old Persian, Elamite",
+			"period": "Achaemenid",
+			"pleiades_id": "912936",
+			"popular_name": "DSac",
+			"provenience": "Susa",
+			"ruler": "Darius I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Darius I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [48.257787,32.189217]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Darius I  58",
+			"id_composite": "Q007191",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007191/.",
+			"designation": "Darius I  58",
+			"display_name": "ARIo DSad",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Old Persian",
+			"period": "Achaemenid",
+			"pleiades_id": "912936",
+			"popular_name": "DSad",
+			"provenience": "Susa",
+			"ruler": "Darius I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Darius I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [48.257787,32.189217]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Darius I  65",
+			"id_composite": "Q007198",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007198/.",
+			"designation": "Darius I  65",
+			"display_name": "ARIo VDa",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Akkadian, Old Persian, Elamite",
+			"period": "Achaemenid",
+			"pleiades_id": "922698",
+			"popular_name": "VDa",
+			"provenience": "Persia",
+			"ruler": "Darius I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Darius I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [51.5,30.5]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Darius I  66",
+			"id_composite": "Q007200",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007200/.",
+			"designation": "Darius I  66",
+			"display_name": "ARIo VDb",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Akkadian, Old Persian, Elamite",
+			"period": "Achaemenid",
+			"pleiades_id": "922698",
+			"popular_name": "VDb",
+			"provenience": "Persia",
+			"ruler": "Darius I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Darius I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [51.5,30.5]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Darius I  67",
+			"id_composite": "Q007201",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007201/.",
+			"designation": "Darius I  67",
+			"display_name": "ARIo VDc",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Akkadian, Old Persian, Elamite,  Hieroglyphs",
+			"period": "Achaemenid",
+			"pleiades_id": "922698",
+			"popular_name": "VDc",
+			"provenience": "Persia",
+			"ruler": "Darius I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Darius I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [51.5,30.5]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Darius I  68",
+			"id_composite": "Q007202",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007202/.",
+			"designation": "Darius I  68",
+			"display_name": "ARIo VDd",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Old Persian",
+			"period": "Achaemenid",
+			"pleiades_id": "922698",
+			"popular_name": "VDd",
+			"provenience": "Persia",
+			"ruler": "Darius I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Darius I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [51.5,30.5]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Darius I  69",
+			"id_composite": "Q007203",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007203/.",
+			"designation": "Darius I  69",
+			"display_name": "ARIo SDa-h",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Old Persian",
+			"period": "Achaemenid",
+			"pleiades_id": "922698",
+			"popular_name": "SDa-h",
+			"provenience": "Persia",
+			"ruler": "Darius I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Darius I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [51.5,30.5]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Darius I  70",
+			"id_composite": "Q007204",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007204/.",
+			"designation": "Darius I  70",
+			"display_name": "ARIo WDa-h",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Old Persian",
+			"period": "Achaemenid",
+			"pleiades_id": "922698",
+			"popular_name": "WDa-h",
+			"provenience": "Persia",
+			"ruler": "Darius I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Darius I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [51.5,30.5]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Darius I  71",
+			"id_composite": "Q007284",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007284/.",
+			"designation": "Darius I  71",
+			"display_name": "ARIo WDi-j",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Old Persian",
+			"period": "Achaemenid",
+			"pleiades_id": "922698",
+			"popular_name": "WDi-j",
+			"provenience": "Persia",
+			"ruler": "Darius I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Darius I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [51.5,30.5]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Xerxes  I 03",
+			"id_composite": "Q007207",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007207/.",
+			"designation": "Xerxes  I 03",
+			"display_name": "ARIo XHa",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Old Persian",
+			"period": "Achaemenid",
+			"pleiades_id": "903021",
+			"popular_name": "XHa",
+			"provenience": "Ecbatana",
+			"ruler": "Xerxes I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Xerxes I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [48.512209,34.799294]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Xerxes  I 04",
+			"id_composite": "Q007208",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007208/.",
+			"designation": "Xerxes  I 04",
+			"display_name": "ARIo XIa",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Old Persian",
+			"period": "Achaemenid",
+			"pleiades_id": "922698",
+			"popular_name": "XIa",
+			"provenience": "Persia",
+			"ruler": "Xerxes I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Xerxes I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [51.5,30.5]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Xerxes  I 05",
+			"id_composite": "Q007209",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007209/.",
+			"designation": "Xerxes  I 05",
+			"display_name": "ARIo XPa",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Akkadian, Old Persian, Elamite",
+			"period": "Achaemenid",
+			"pleiades_id": "922695",
+			"popular_name": "XPa",
+			"provenience": "Persepolis",
+			"ruler": "Xerxes I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Xerxes I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [52.889437,29.9353403333]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Xerxes  I 06",
+			"id_composite": "Q007210",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007210/.",
+			"designation": "Xerxes  I 06",
+			"display_name": "ARIo XPb",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Akkadian, Old Persian, Elamite",
+			"period": "Achaemenid",
+			"pleiades_id": "922695",
+			"popular_name": "XPb",
+			"provenience": "Persepolis",
+			"ruler": "Xerxes I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Xerxes I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [52.889437,29.9353403333]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Xerxes  I 07",
+			"id_composite": "Q007211",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007211/.",
+			"designation": "Xerxes  I 07",
+			"display_name": "ARIo XPc",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Akkadian, Old Persian, Elamite",
+			"period": "Achaemenid",
+			"pleiades_id": "922695",
+			"popular_name": "XPc",
+			"provenience": "Persepolis",
+			"ruler": "Xerxes I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Xerxes I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [52.889437,29.9353403333]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Xerxes  I 08",
+			"id_composite": "Q007212",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007212/.",
+			"designation": "Xerxes  I 08",
+			"display_name": "ARIo XPd",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Akkadian, Old Persian, Elamite",
+			"period": "Achaemenid",
+			"pleiades_id": "922695",
+			"popular_name": "XPd",
+			"provenience": "Persepolis",
+			"ruler": "Xerxes I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Xerxes I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [52.889437,29.9353403333]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Xerxes  I 09",
+			"id_composite": "Q007213",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007213/.",
+			"designation": "Xerxes  I 09",
+			"display_name": "ARIo XPe",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Akkadian, Old Persian, Elamite",
+			"period": "Achaemenid",
+			"pleiades_id": "922695",
+			"popular_name": "XPe",
+			"provenience": "Persepolis",
+			"ruler": "Xerxes I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Xerxes I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [52.889437,29.9353403333]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Xerxes  I 10",
+			"id_composite": "Q007214",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007214/.",
+			"designation": "Xerxes  I 10",
+			"display_name": "ARIo XPf",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Akkadian, Old Persian",
+			"period": "Achaemenid",
+			"pleiades_id": "922695",
+			"popular_name": "XPf",
+			"provenience": "Persepolis",
+			"ruler": "Xerxes I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Xerxes I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [52.889437,29.9353403333]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Xerxes  I 11",
+			"id_composite": "Q007215",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007215/.",
+			"designation": "Xerxes  I 11",
+			"display_name": "ARIo XPg",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Old Persian",
+			"period": "Achaemenid",
+			"pleiades_id": "922695",
+			"popular_name": "XPg",
+			"provenience": "Persepolis",
+			"ruler": "Xerxes I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Xerxes I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [52.889437,29.9353403333]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Xerxes  I 12",
+			"id_composite": "Q007216",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007216/.",
+			"designation": "Xerxes  I 12",
+			"display_name": "ARIo XPh",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Akkadian, Old Persian, Elamite",
+			"period": "Achaemenid",
+			"pleiades_id": "922695",
+			"popular_name": "XPh",
+			"provenience": "Persepolis",
+			"ruler": "Xerxes I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Xerxes I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [52.889437,29.9353403333]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Xerxes  I 13",
+			"id_composite": "Q007217",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007217/.",
+			"designation": "Xerxes  I 13",
+			"display_name": "ARIo XPi",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Old Persian, Elamite",
+			"period": "Achaemenid",
+			"pleiades_id": "922695",
+			"popular_name": "XPi",
+			"provenience": "Persepolis",
+			"ruler": "Xerxes I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Xerxes I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [52.889437,29.9353403333]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Xerxes  I 14",
+			"id_composite": "Q007218",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007218/.",
+			"designation": "Xerxes  I 14",
+			"display_name": "ARIo XPj",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Akkadian, Old Persian, Elamite",
+			"period": "Achaemenid",
+			"pleiades_id": "922695",
+			"popular_name": "XPj",
+			"provenience": "Persepolis",
+			"ruler": "Xerxes I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Xerxes I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [52.889437,29.9353403333]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Xerxes  I 15",
+			"id_composite": "Q007219",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007219/.",
+			"designation": "Xerxes  I 15",
+			"display_name": "ARIo XPk",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Akkadian, Old Persian, Elamite",
+			"period": "Achaemenid",
+			"pleiades_id": "922695",
+			"popular_name": "XPk",
+			"provenience": "Persepolis",
+			"ruler": "Xerxes I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Xerxes I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [52.889437,29.9353403333]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Xerxes  I 16",
+			"id_composite": "Q007220",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007220/.",
+			"designation": "Xerxes  I 16",
+			"display_name": "ARIo XPl",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Old Persian",
+			"period": "Achaemenid",
+			"pleiades_id": "922695",
+			"popular_name": "XPl",
+			"provenience": "Persepolis",
+			"ruler": "Xerxes I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Xerxes I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [52.889437,29.9353403333]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Xerxes  I 17",
+			"id_composite": "Q007221",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007221/.",
+			"designation": "Xerxes  I 17",
+			"display_name": "ARIo XPm",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Akkadian, Old Persian, Elamite",
+			"period": "Achaemenid",
+			"pleiades_id": "922695",
+			"popular_name": "XPm",
+			"provenience": "Persepolis",
+			"ruler": "Xerxes I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Xerxes I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [52.889437,29.9353403333]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Xerxes  I 18",
+			"id_composite": "Q007222",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007222/.",
+			"designation": "Xerxes  I 18",
+			"display_name": "ARIo XPn",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Akkadian, Old Persian, Elamite",
+			"period": "Achaemenid",
+			"pleiades_id": "922695",
+			"popular_name": "XPn",
+			"provenience": "Persepolis",
+			"ruler": "Xerxes I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Xerxes I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [52.889437,29.9353403333]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Xerxes  I 19",
+			"id_composite": "Q007223",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007223/.",
+			"designation": "Xerxes  I 19",
+			"display_name": "ARIo XPo",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Old Persian",
+			"period": "Achaemenid",
+			"pleiades_id": "922695",
+			"popular_name": "XPo",
+			"provenience": "Persepolis",
+			"ruler": "Xerxes I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Xerxes I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [52.889437,29.9353403333]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Xerxes  I 20",
+			"id_composite": "Q007224",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007224/.",
+			"designation": "Xerxes  I 20",
+			"display_name": "ARIo XPp",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Akkadian, Old Persian, Elamite",
+			"period": "Achaemenid",
+			"pleiades_id": "922695",
+			"popular_name": "XPp",
+			"provenience": "Persepolis",
+			"ruler": "Xerxes I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Xerxes I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [52.889437,29.9353403333]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Xerxes  I 21",
+			"id_composite": "Q007225",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007225/.",
+			"designation": "Xerxes  I 21",
+			"display_name": "ARIo XPq",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Akkadian, Old Persian, Elamite",
+			"period": "Achaemenid",
+			"pleiades_id": "922695",
+			"popular_name": "XPq",
+			"provenience": "Persepolis",
+			"ruler": "Xerxes I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Xerxes I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [52.889437,29.9353403333]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Xerxes  I 22",
+			"id_composite": "Q007226",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007226/.",
+			"designation": "Xerxes  I 22",
+			"display_name": "ARIo XPr",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Akkadian, Old Persian, Elamite",
+			"period": "Achaemenid",
+			"pleiades_id": "922695",
+			"popular_name": "XPr",
+			"provenience": "Persepolis",
+			"ruler": "Xerxes I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Xerxes I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [52.889437,29.9353403333]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Xerxes  I 23",
+			"id_composite": "Q007227",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007227/.",
+			"designation": "Xerxes  I 23",
+			"display_name": "ARIo XPs",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Akkadian, Old Persian, Elamite",
+			"period": "Achaemenid",
+			"pleiades_id": "922695",
+			"popular_name": "XPs",
+			"provenience": "Persepolis",
+			"ruler": "Xerxes I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Xerxes I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [52.889437,29.9353403333]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Xerxes  I 24",
+			"id_composite": "Q007228",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007228/.",
+			"designation": "Xerxes  I 24",
+			"display_name": "ARIo XSa",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Akkadian, Old Persian, Elamite",
+			"period": "Achaemenid",
+			"pleiades_id": "912936",
+			"popular_name": "XSa",
+			"provenience": "Susa",
+			"ruler": "Xerxes I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Xerxes I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [48.257787,32.189217]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Xerxes  I 25",
+			"id_composite": "Q007229",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007229/.",
+			"designation": "Xerxes  I 25",
+			"display_name": "ARIo XSb",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Akkadian",
+			"period": "Achaemenid",
+			"pleiades_id": "912936",
+			"popular_name": "XSb",
+			"provenience": "Susa",
+			"ruler": "Xerxes I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Xerxes I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [48.257787,32.189217]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Xerxes  I 26",
+			"id_composite": "Q007230",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007230/.",
+			"designation": "Xerxes  I 26",
+			"display_name": "ARIo XSc",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Old Persian",
+			"period": "Achaemenid",
+			"pleiades_id": "912936",
+			"popular_name": "XSc",
+			"provenience": "Susa",
+			"ruler": "Xerxes I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Xerxes I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [48.257787,32.189217]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Xerxes  I 27",
+			"id_composite": "Q007231",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007231/.",
+			"designation": "Xerxes  I 27",
+			"display_name": "ARIo XSd",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Akkadian, Old Persian, Elamite",
+			"period": "Achaemenid",
+			"pleiades_id": "912936",
+			"popular_name": "XSd",
+			"provenience": "Susa",
+			"ruler": "Xerxes I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Xerxes I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [48.257787,32.189217]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Xerxes  I 28",
+			"id_composite": "Q007232",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007232/.",
+			"designation": "Xerxes  I 28",
+			"display_name": "ARIo XSe",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Akkadian",
+			"period": "Achaemenid",
+			"pleiades_id": "912936",
+			"popular_name": "XSe",
+			"provenience": "Susa",
+			"ruler": "Xerxes I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Xerxes I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [48.257787,32.189217]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Xerxes  I 29",
+			"id_composite": "Q007233",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007233/.",
+			"designation": "Xerxes  I 29",
+			"display_name": "ARIo XVa",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Akkadian, Old Persian, Elamite",
+			"period": "Achaemenid",
+			"pleiades_id": "964673805",
+			"popular_name": "XVa",
+			"provenience": "Tushpa",
+			"ruler": "Xerxes I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Xerxes I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [43.380000,38.494166]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Xerxes  I 30",
+			"id_composite": "Q007234",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007234/.",
+			"designation": "Xerxes  I 30",
+			"display_name": "ARIo VXa",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Akkadian, Old Persian, Elamite, Hieroglyphs",
+			"period": "Achaemenid",
+			"pleiades_id": "922698",
+			"popular_name": "VXa",
+			"provenience": "Persia",
+			"ruler": "Xerxes I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Xerxes I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [51.5,30.5]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Xerxes  I 31",
+			"id_composite": "Q007235",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007235/.",
+			"designation": "Xerxes  I 31",
+			"display_name": "ARIo VXb",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Akkadian, Old Persian, Elamite, Hieroglyphs",
+			"period": "Achaemenid",
+			"pleiades_id": "922698",
+			"popular_name": "VXb",
+			"provenience": "Persia",
+			"ruler": "Xerxes I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Xerxes I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [51.5,30.5]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Xerxes  I 32",
+			"id_composite": "Q007236",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007236/.",
+			"designation": "Xerxes  I 32",
+			"display_name": "ARIo VXc",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Akkadian, Old Persian, Elamite, Hieroglyphs",
+			"period": "Achaemenid",
+			"pleiades_id": "922698",
+			"popular_name": "VXc",
+			"provenience": "Persia",
+			"ruler": "Xerxes I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Xerxes I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [51.5,30.5]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Xerxes  I 33",
+			"id_composite": "Q007237",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007237/.",
+			"designation": "Xerxes  I 33",
+			"display_name": "ARIo VXd",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Akkadian, Old Persian, Elamite, Hieroglyphs",
+			"period": "Achaemenid",
+			"pleiades_id": "922698",
+			"popular_name": "VXd",
+			"provenience": "Persia",
+			"ruler": "Xerxes I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Xerxes I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [51.5,30.5]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Xerxes  I 34",
+			"id_composite": "Q007238",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007238/.",
+			"designation": "Xerxes  I 34",
+			"display_name": "ARIo VXh",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Akkadian, Old Persian, Elamite, Hieroglyphs",
+			"period": "Achaemenid",
+			"pleiades_id": "922698",
+			"popular_name": "VXh",
+			"provenience": "Persia",
+			"ruler": "Xerxes I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Xerxes I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [51.5,30.5]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Xerxes  I 35",
+			"id_composite": "Q007239",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007239/.",
+			"designation": "Xerxes  I 35",
+			"display_name": "ARIo VXi",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Akkadian, Old Persian, Elamite, Hieroglyphs",
+			"period": "Achaemenid",
+			"pleiades_id": "922698",
+			"popular_name": "VXi",
+			"provenience": "Persia",
+			"ruler": "Xerxes I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Xerxes I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [51.5,30.5]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Xerxes  I 36",
+			"id_composite": "Q007240",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007240/.",
+			"designation": "Xerxes  I 36",
+			"display_name": "ARIo VXj",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Akkadian, Old Persian, Elamite, Hieroglyphs",
+			"period": "Achaemenid",
+			"pleiades_id": "922698",
+			"popular_name": "VXj",
+			"provenience": "Persia",
+			"ruler": "Xerxes I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Xerxes I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [51.5,30.5]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Xerxes  I 37",
+			"id_composite": "Q007241",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007241/.",
+			"designation": "Xerxes  I 37",
+			"display_name": "ARIo VXk",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Akkadian, Old Persian, Elamite, Hieroglyphs",
+			"period": "Achaemenid",
+			"pleiades_id": "922698",
+			"popular_name": "VXk",
+			"provenience": "Persia",
+			"ruler": "Xerxes I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Xerxes I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [51.5,30.5]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Xerxes  I 38",
+			"id_composite": "Q007242",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007242/.",
+			"designation": "Xerxes  I 38",
+			"display_name": "ARIo VXl",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Akkadian, Old Persian, Elamite, Hieroglyphs",
+			"period": "Achaemenid",
+			"pleiades_id": "922698",
+			"popular_name": "VXl",
+			"provenience": "Persia",
+			"ruler": "Xerxes I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Xerxes I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [51.5,30.5]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Xerxes  I 39",
+			"id_composite": "Q007243",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007243/.",
+			"designation": "Xerxes  I 39",
+			"display_name": "ARIo VXm",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Akkadian, Old Persian, Elamite, Hieroglyphs",
+			"period": "Achaemenid",
+			"pleiades_id": "922698",
+			"popular_name": "VXm",
+			"provenience": "Persia",
+			"ruler": "Xerxes I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Xerxes I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [51.5,30.5]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Xerxes  I 40",
+			"id_composite": "Q007244",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007244/.",
+			"designation": "Xerxes  I 40",
+			"display_name": "ARIo VXn",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Akkadian, Old Persian, Elamite, Hieroglyphs",
+			"period": "Achaemenid",
+			"pleiades_id": "922698",
+			"popular_name": "VXn",
+			"provenience": "Persia",
+			"ruler": "Xerxes I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Xerxes I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [51.5,30.5]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Xerxes  I 41",
+			"id_composite": "Q007245",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007245/.",
+			"designation": "Xerxes  I 41",
+			"display_name": "ARIo VXo",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Akkadian, Old Persian, Elamite, Hieroglyphs",
+			"period": "Achaemenid",
+			"pleiades_id": "922698",
+			"popular_name": "VXo",
+			"provenience": "Persia",
+			"ruler": "Xerxes I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Xerxes I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [51.5,30.5]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Xerxes  I 42",
+			"id_composite": "Q007246",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007246/.",
+			"designation": "Xerxes  I 42",
+			"display_name": "ARIo VXp",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Akkadian, Old Persian, Elamite, Hieroglyphs",
+			"period": "Achaemenid",
+			"pleiades_id": "922698",
+			"popular_name": "VXp",
+			"provenience": "Persia",
+			"ruler": "Xerxes I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Xerxes I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [51.5,30.5]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Xerxes  I 43",
+			"id_composite": "Q007247",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007247/.",
+			"designation": "Xerxes  I 43",
+			"display_name": "ARIo VXr",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Akkadian, Old Persian, Elamite, Hieroglyphs",
+			"period": "Achaemenid",
+			"pleiades_id": "922698",
+			"popular_name": "VXr",
+			"provenience": "Persia",
+			"ruler": "Xerxes I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Xerxes I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [51.5,30.5]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Xerxes  I 44",
+			"id_composite": "Q007248",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007248/.",
+			"designation": "Xerxes  I 44",
+			"display_name": "ARIo VXs",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Akkadian, Old Persian, Elamite, Hieroglyphs",
+			"period": "Achaemenid",
+			"pleiades_id": "922698",
+			"popular_name": "VXs",
+			"provenience": "Persia",
+			"ruler": "Xerxes I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Xerxes I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [51.5,30.5]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Xerxes  I 45",
+			"id_composite": "Q007249",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007249/.",
+			"designation": "Xerxes  I 45",
+			"display_name": "ARIo SXa-g",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Old Persian",
+			"period": "Achaemenid",
+			"pleiades_id": "922698",
+			"popular_name": "SXa-g",
+			"provenience": "Persia",
+			"ruler": "Xerxes I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Xerxes I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [51.5,30.5]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Artaxerxes I  01",
+			"id_composite": "Q007250",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007250/.",
+			"designation": "Artaxerxes I  01",
+			"display_name": "ARIo A¹Pa",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Akkadian, Old Persian",
+			"period": "Achaemenid",
+			"pleiades_id": "922695",
+			"popular_name": "A¹Pa",
+			"provenience": "Persepolis",
+			"ruler": "Artaxerxes I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Artaxerxes I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [52.889437,29.9353403333]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Artaxerxes I  02",
+			"id_composite": "Q007251",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007251/.",
+			"designation": "Artaxerxes I  02",
+			"display_name": "ARIo A¹Pb",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Akkadian, Old Persian",
+			"period": "Achaemenid",
+			"pleiades_id": "922695",
+			"popular_name": "A¹Pb",
+			"provenience": "Persepolis",
+			"ruler": "Artaxerxes I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Artaxerxes I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [52.889437,29.9353403333]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Artaxerxes I  03",
+			"id_composite": "Q007252",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007252/.",
+			"designation": "Artaxerxes I  03",
+			"display_name": "ARIo VA¹a",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Akkadian, Old Persian, Elamite, Hieroglyphs",
+			"period": "Achaemenid",
+			"pleiades_id": "922698",
+			"popular_name": "VA¹a",
+			"provenience": "Persia",
+			"ruler": "Artaxerxes I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Artaxerxes I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [51.5,30.5]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Artaxerxes I  04",
+			"id_composite": "Q007253",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007253/.",
+			"designation": "Artaxerxes I  04",
+			"display_name": "ARIo VA¹b",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Akkadian, Old Persian, Elamite, Hieroglyphs",
+			"period": "Achaemenid",
+			"pleiades_id": "922698",
+			"popular_name": "VA¹b",
+			"provenience": "Persia",
+			"ruler": "Artaxerxes I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Artaxerxes I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [51.5,30.5]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Artaxerxes I  05",
+			"id_composite": "Q007254",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007254/.",
+			"designation": "Artaxerxes I  05",
+			"display_name": "ARIo VA¹c",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Akkadian, Old Persian, Elamite, Hieroglyphs",
+			"period": "Achaemenid",
+			"pleiades_id": "922698",
+			"popular_name": "VA¹c",
+			"provenience": "Persia",
+			"ruler": "Artaxerxes I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Artaxerxes I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [51.5,30.5]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Artaxerxes I  06",
+			"id_composite": "Q007255",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007255/.",
+			"designation": "Artaxerxes I  06",
+			"display_name": "ARIo VA¹d",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Akkadian, Old Persian, Elamite, Hieroglyphs",
+			"period": "Achaemenid",
+			"pleiades_id": "922698",
+			"popular_name": "VA¹d",
+			"provenience": "Persia",
+			"ruler": "Artaxerxes I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Artaxerxes I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [51.5,30.5]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Artaxerxes I  07",
+			"id_composite": "Q007256",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007256/.",
+			"designation": "Artaxerxes I  07",
+			"display_name": "ARIo VA¹e",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Old Persian",
+			"period": "Achaemenid",
+			"pleiades_id": "922698",
+			"popular_name": "VA¹e",
+			"provenience": "Persia",
+			"ruler": "Artaxerxes I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Artaxerxes I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [51.5,30.5]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Artaxerxes I  08",
+			"id_composite": "Q007257",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007257/.",
+			"designation": "Artaxerxes I  08",
+			"display_name": "ARIo VA¹f",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Akkadian, Old Persian",
+			"period": "Achaemenid",
+			"pleiades_id": "922698",
+			"popular_name": "VA¹f",
+			"provenience": "Persia",
+			"ruler": "Artaxerxes I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Artaxerxes I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [51.5,30.5]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Artaxerxes I  09",
+			"id_composite": "Q007258",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007258/.",
+			"designation": "Artaxerxes I  09",
+			"display_name": "ARIo VA¹g",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Akkadian, Old Persian, Elamite, Hieroglyphs",
+			"period": "Achaemenid",
+			"pleiades_id": "922698",
+			"popular_name": "VA¹g",
+			"provenience": "Persia",
+			"ruler": "Artaxerxes I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Artaxerxes I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [51.5,30.5]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Artaxerxes I  10",
+			"id_composite": "Q007259",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007259/.",
+			"designation": "Artaxerxes I  10",
+			"display_name": "ARIo SA¹a-b",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Old Persian",
+			"period": "Achaemenid",
+			"pleiades_id": "922698",
+			"popular_name": "SA¹a-b",
+			"provenience": "Persia",
+			"ruler": "Artaxerxes I",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Artaxerxes I",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [51.5,30.5]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Darius II 1",
+			"id_composite": "Q007260",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007260/.",
+			"designation": "Darius II 1",
+			"display_name": "ARIo D²Ha",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Old Persian",
+			"period": "Achaemenid",
+			"pleiades_id": "903021",
+			"popular_name": "D²Ha",
+			"provenience": "Ecbatana",
+			"ruler": "Darius II",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Darius II",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [48.512209,34.799294]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Darius II 2",
+			"id_composite": "Q007262",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007262/.",
+			"designation": "Darius II 2",
+			"display_name": "ARIo D²Sa",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Old Persian",
+			"period": "Achaemenid",
+			"pleiades_id": "912936",
+			"popular_name": "D²Sa",
+			"provenience": "Susa",
+			"ruler": "Darius II",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Darius II",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [48.257787,32.189217]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Darius II 3",
+			"id_composite": "Q007263",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007263/.",
+			"designation": "Darius II 3",
+			"display_name": "ARIo D²Sb",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Akkadian, Old Persian, Elamite",
+			"period": "Achaemenid",
+			"pleiades_id": "912936",
+			"popular_name": "D²Sb",
+			"provenience": "Susa",
+			"ruler": "Darius II",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Darius II",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [48.257787,32.189217]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Darius II 4",
+			"id_composite": "Q007264",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007264/.",
+			"designation": "Darius II 4",
+			"display_name": "ARIo D²Sc",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Old Persian",
+			"period": "Achaemenid",
+			"pleiades_id": "912936",
+			"popular_name": "D²Sc",
+			"provenience": "Susa",
+			"ruler": "Darius II",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Darius II",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [48.257787,32.189217]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Darius II 5",
+			"id_composite": "Q007265",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007265/.",
+			"designation": "Darius II 5",
+			"display_name": "ARIo SD²a",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Old Persian",
+			"period": "Achaemenid",
+			"pleiades_id": "922698",
+			"popular_name": "SD²a",
+			"provenience": "Persia",
+			"ruler": "Darius II",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Darius II",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [51.5,30.5]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Artaxerxes II 01",
+			"id_composite": "Q007266",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007266/.",
+			"designation": "Artaxerxes II 01",
+			"display_name": "ARIo A²B²a",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Elamite",
+			"period": "Achaemenid",
+			"pleiades_id": "893951",
+			"popular_name": "A²B²a",
+			"provenience": "Babylon",
+			"ruler": "Artaxerxes II",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Artaxerxes II",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [44.422236,32.543395]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Artaxerxes II 02",
+			"id_composite": "Q007267",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007267/.",
+			"designation": "Artaxerxes II 02",
+			"display_name": "ARIo A²B²b",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Elamite",
+			"period": "Achaemenid",
+			"pleiades_id": "893951",
+			"popular_name": "A²B²b",
+			"provenience": "Babylon",
+			"ruler": "Artaxerxes II",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Artaxerxes II",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [44.422236,32.543395]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Artaxerxes II 03",
+			"id_composite": "Q007268",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007268/.",
+			"designation": "Artaxerxes II 03",
+			"display_name": "ARIo A²B²c",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Elamite",
+			"period": "Achaemenid",
+			"pleiades_id": "893951",
+			"popular_name": "A²B²c",
+			"provenience": "Babylon",
+			"ruler": "Artaxerxes II",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Artaxerxes II",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [44.422236,32.543395]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Artaxerxes II 04",
+			"id_composite": "Q007269",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007269/.",
+			"designation": "Artaxerxes II 04",
+			"display_name": "ARIo A²B²d",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Old Persian",
+			"period": "Achaemenid",
+			"pleiades_id": "893951",
+			"popular_name": "A²B²d",
+			"provenience": "Babylon",
+			"ruler": "Artaxerxes II",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Artaxerxes II",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [44.422236,32.543395]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Artaxerxes II 05",
+			"id_composite": "Q007270",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007270/.",
+			"designation": "Artaxerxes II 05",
+			"display_name": "ARIo A²B²e",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Old Persian",
+			"period": "Achaemenid",
+			"pleiades_id": "893951",
+			"popular_name": "A²B²e",
+			"provenience": "Babylon",
+			"ruler": "Artaxerxes II",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Artaxerxes II",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [44.422236,32.543395]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Artaxerxes II 06",
+			"id_composite": "Q007271",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007271/.",
+			"designation": "Artaxerxes II 06",
+			"display_name": "ARIo A²Ha",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Akkadian, Old Persian, Elamite",
+			"period": "Achaemenid",
+			"pleiades_id": "903021",
+			"popular_name": "A²Ha",
+			"provenience": "Ecbatana",
+			"ruler": "Artaxerxes II",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Artaxerxes II",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [48.512209,34.799294]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Artaxerxes II 07",
+			"id_composite": "Q007272",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007272/.",
+			"designation": "Artaxerxes II 07",
+			"display_name": "ARIo A²Hb",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Old Persian",
+			"period": "Achaemenid",
+			"pleiades_id": "903021",
+			"popular_name": "A²Hb",
+			"provenience": "Ecbatana",
+			"ruler": "Artaxerxes II",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Artaxerxes II",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [48.512209,34.799294]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Artaxerxes II 08",
+			"id_composite": "Q007273",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007273/.",
+			"designation": "Artaxerxes II 08",
+			"display_name": "ARIo A²Hc",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Old Persian",
+			"period": "Achaemenid",
+			"pleiades_id": "903021",
+			"popular_name": "A²Hc",
+			"provenience": "Ecbatana",
+			"ruler": "Artaxerxes II",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Artaxerxes II",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [48.512209,34.799294]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Artaxerxes II 09",
+			"id_composite": "Q007274",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007274/.",
+			"designation": "Artaxerxes II 09",
+			"display_name": "ARIo A²Hd",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Old Persian",
+			"period": "Achaemenid",
+			"pleiades_id": "903021",
+			"popular_name": "A²Hd",
+			"provenience": "Ecbatana",
+			"ruler": "Artaxerxes II",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Artaxerxes II",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [48.512209,34.799294]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Artaxerxes II 10",
+			"id_composite": "Q007275",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007275/.",
+			"designation": "Artaxerxes II 10",
+			"display_name": "ARIo A²Sa",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Akkadian, Old Persian, Elamite",
+			"period": "Achaemenid",
+			"pleiades_id": "912936",
+			"popular_name": "A²Sa",
+			"provenience": "Susa",
+			"ruler": "Artaxerxes II",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Artaxerxes II",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [48.257787,32.189217]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Artaxerxes II 11",
+			"id_composite": "Q007276",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007276/.",
+			"designation": "Artaxerxes II 11",
+			"display_name": "ARIo A²Sb",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Akkadian, Old Persian, Elamite",
+			"period": "Achaemenid",
+			"pleiades_id": "912936",
+			"popular_name": "A²Sb",
+			"provenience": "Susa",
+			"ruler": "Artaxerxes II",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Artaxerxes II",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [48.257787,32.189217]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Artaxerxes II 12",
+			"id_composite": "Q007277",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007277/.",
+			"designation": "Artaxerxes II 12",
+			"display_name": "ARIo A²Sc",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Old Persian",
+			"period": "Achaemenid",
+			"pleiades_id": "912936",
+			"popular_name": "A²Sc",
+			"provenience": "Susa",
+			"ruler": "Artaxerxes II",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Artaxerxes II",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [48.257787,32.189217]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Artaxerxes II 13",
+			"id_composite": "Q007278",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007278/.",
+			"designation": "Artaxerxes II 13",
+			"display_name": "ARIo A²Sd",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Akkadian, Old Persian, Elamite",
+			"period": "Achaemenid",
+			"pleiades_id": "912936",
+			"popular_name": "A²Sd",
+			"provenience": "Susa",
+			"ruler": "Artaxerxes II",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Artaxerxes II",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [48.257787,32.189217]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Artaxerxes II 14",
+			"id_composite": "Q007279",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007279/.",
+			"designation": "Artaxerxes II 14",
+			"display_name": "ARIo A²Se",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Elamite",
+			"period": "Achaemenid",
+			"pleiades_id": "912936",
+			"popular_name": "A²Se",
+			"provenience": "Susa",
+			"ruler": "Artaxerxes II",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Artaxerxes II",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [48.257787,32.189217]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Artaxerxes II or III 1",
+			"id_composite": "Q007280",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007280/.",
+			"designation": "Artaxerxes II or III 1",
+			"display_name": "ARIo A²/³Pa",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Akkadian, Old Persian, Elamite",
+			"period": "Achaemenid",
+			"pleiades_id": "922695",
+			"popular_name": "A²/³Pa",
+			"provenience": "Persepolis",
+			"ruler": "Artaxerxes II or III",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Artaxerxes II or III",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [52.889437,29.9353403333]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Artaxerxes III  1",
+			"id_composite": "Q007281",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007281/.",
+			"designation": "Artaxerxes III  1",
+			"display_name": "ARIo A³Pa",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Old Persian",
+			"period": "Achaemenid",
+			"pleiades_id": "922695",
+			"popular_name": "A³Pa",
+			"provenience": "Persepolis",
+			"ruler": "Artaxerxes III",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Artaxerxes III",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [52.889437,29.9353403333]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Artaxerxes III  2",
+			"id_composite": "Q007282",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007282/.",
+			"designation": "Artaxerxes III  2",
+			"display_name": "ARIo A³Sa",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Akkadian",
+			"period": "Achaemenid",
+			"pleiades_id": "912936",
+			"popular_name": "A³Sa",
+			"provenience": "Susa",
+			"ruler": "Artaxerxes III",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Artaxerxes III",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [48.257787,32.189217]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"primary_publication": "Artaxerxes III  3",
+			"id_composite": "Q007283",
+			"credits": "Based on Rüdiger Schmitt, Die altpersischen Inschriften der Achaimeniden: Editio minor mit deutscher Übersetzung (2009). Digitized, lemmatized, and updated by Henry Heitmann-Gordon, 2016-19, for the Alexander von Humboldt Foundation-funded OIMEA Project at the Historisches Seminar - Abteilung Alte Geschichte of Ludwig-Maximilians-Universität München. The annotated edition is released under the Creative Commons Attribution Share-Alike license 3.0. Please cite this page as http://oracc.org/ario/Q007283/.",
+			"designation": "Artaxerxes III  3",
+			"display_name": "ARIo SA³a-b",
+			"dynastic_seat": "Persia",
+			"genre": "Royal Inscription",
+			"language": "Old Persian",
+			"period": "Achaemenid",
+			"pleiades_id": "922698",
+			"popular_name": "SA³a-b",
+			"provenience": "Persia",
+			"ruler": "Artaxerxes III",
+			"script": "Old Persian",
+			"script_remarks": "inscribed",
+			"script_type": "Cuneiform",
+			"subgenre": "Artaxerxes III",
+			"supergenre": "LIT"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [51.5,30.5]
+		}
+	}]
+}

@@ -1,0 +1,286 @@
+{
+  "type": "cdl",
+  "project": "ario",
+  "source": "http://oracc.org/ario",
+  "license": "This data is released under the CC0 license",
+  "license-url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "more-info": "http://oracc.org/doc/opendata/",
+  "UTC-timestamp": "2019-08-23T10:03:15",
+  "textid": "Q007180",
+  "cdl": [
+    {
+      "node": "c",
+      "type": "text",
+      "id": "Q007180.U0",
+      "cdl": [
+        {
+          "node": "d",
+          "type": "object",
+          "ref": ""
+        },
+        {
+          "node": "d",
+          "type": "surface",
+          "ref": ""
+        },
+        {
+          "node": "c",
+          "type": "discourse",
+          "subtype": "body",
+          "id": "Q007180.U1",
+          "cdl": [
+            {
+              "node": "c",
+              "type": "sentence",
+              "implicit": "yes",
+              "id": "Q007180.U2",
+              "label": "Persian 1 - Persian 3",
+              "cdl": [
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "Q007180.1",
+                  "n": "1",
+                  "label": "Persian 1"
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]",
+                  "id": "Q007180.l01ca3",
+                  "ref": "Q007180.1.1",
+                  "inst": "u",
+                  "f": {
+                    "lang": "peo",
+                    "form": "x",
+                    "delim": "",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "Q007180.1.1.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "Q007180.1.1.0"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "a",
+                  "id": "Q007180.l01ca4",
+                  "ref": "Q007180.1.2",
+                  "inst": "u",
+                  "f": {
+                    "lang": "peo",
+                    "form": "a",
+                    "delim": "",
+                    "gdl": [
+                      {
+                        "v": "a",
+                        "id": "Q007180.1.2.0"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]",
+                  "id": "Q007180.l01ca5",
+                  "ref": "Q007180.1.3",
+                  "inst": "u",
+                  "f": {
+                    "lang": "peo",
+                    "form": "x",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "Q007180.1.3.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "Q007180.1.3.0"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "Q007180.2",
+                  "n": "2",
+                  "label": "Persian 2"
+                },
+                {
+                  "node": "l",
+                  "frag": "[...",
+                  "id": "Q007180.l01ca6",
+                  "ref": "Q007180.2.1",
+                  "inst": "u",
+                  "f": {
+                    "lang": "peo",
+                    "form": "x",
+                    "delim": "",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "Q007180.2.1.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "["
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "d",
+                  "frag": ":]",
+                  "type": "punct",
+                  "ref": "Q007180.2.2",
+                  "lang": "peo",
+                  "delim": ""
+                },
+                {
+                  "node": "l",
+                  "frag": "XŠ-y-[m",
+                  "id": "Q007180.l01ca7",
+                  "ref": "Q007180.2.3",
+                  "inst": "xšāyaθiyam[king]N",
+                  "sig": "@ario%peo:XŠ-y-m=xšāyaθiya-[king//king]N'N$xšāyaθiyam",
+                  "f": {
+                    "lang": "peo",
+                    "form": "XŠ-y-m",
+                    "delim": "",
+                    "gdl": [
+                      {
+                        "gg": "logo",
+                        "gdl_type": "logo",
+                        "group": [
+                          {
+                            "s": "XŠ",
+                            "id": "Q007180.2.3.0",
+                            "role": "logo",
+                            "logolang": "peo",
+                            "delim": "-"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "y",
+                        "id": "Q007180.2.3.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "m",
+                        "id": "Q007180.2.3.2",
+                        "breakStart": "1",
+                        "o": "[",
+                        "break": "missing"
+                      }
+                    ],
+                    "cf": "xšāyaθiya-",
+                    "gw": "king",
+                    "sense": "king",
+                    "norm": "xšāyaθiyam",
+                    "pos": "N",
+                    "epos": "N"
+                  }
+                },
+                {
+                  "node": "d",
+                  "frag": ":",
+                  "type": "punct",
+                  "ref": "Q007180.2.4",
+                  "lang": "peo",
+                  "delim": ""
+                },
+                {
+                  "node": "l",
+                  "frag": "...]",
+                  "id": "Q007180.l01ca8",
+                  "ref": "Q007180.2.5",
+                  "inst": "u",
+                  "f": {
+                    "lang": "peo",
+                    "form": "x",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "Q007180.2.5.0",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "Q007180.2.3.2"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "Q007180.3",
+                  "n": "3",
+                  "label": "Persian 3"
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]-r-θ-r-m[...]",
+                  "id": "Q007180.l01ca9",
+                  "ref": "Q007180.3.1",
+                  "inst": "u",
+                  "f": {
+                    "lang": "peo",
+                    "form": "x-r-θ-r-m-x",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "Q007180.3.1.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "Q007180.3.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "r",
+                        "id": "Q007180.3.1.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "θ",
+                        "id": "Q007180.3.1.2",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "r",
+                        "id": "Q007180.3.1.3",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "m",
+                        "id": "Q007180.3.1.4"
+                      },
+                      {
+                        "x": "ellipsis",
+                        "id": "Q007180.3.1.5",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "Q007180.3.1.5"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

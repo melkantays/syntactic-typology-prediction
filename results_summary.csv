@@ -1,0 +1,4 @@
+Experiment,N_Languages,N_Features,N_Targets,Model_Hamming_Loss,Majority_Baseline,Improvement,Beats_Baseline
+Surface (3 statistics),31,3,7,0.2949,0.2488,-0.0461,False
+Embeddings (10 PCA),31,10,7,0.2995,0.2488,-0.0507,False
+Embeddings (20 PCA),31,20,7,0.2488,0.2488,0.0,False

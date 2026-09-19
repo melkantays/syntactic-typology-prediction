@@ -1,0 +1,130 @@
+{
+  "type": "cdl",
+  "project": "ario",
+  "source": "http://oracc.org/ario",
+  "license": "This data is released under the CC0 license",
+  "license-url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "more-info": "http://oracc.org/doc/opendata/",
+  "UTC-timestamp": "2019-08-23T10:03:26",
+  "textid": "Q007288",
+  "cdl": [
+    {
+      "node": "c",
+      "type": "text",
+      "id": "Q007288.U0",
+      "cdl": [
+        {
+          "node": "d",
+          "type": "object",
+          "ref": ""
+        },
+        {
+          "node": "d",
+          "type": "surface",
+          "ref": ""
+        },
+        {
+          "node": "c",
+          "type": "discourse",
+          "subtype": "body",
+          "id": "Q007288.U1",
+          "cdl": [
+            {
+              "node": "c",
+              "type": "sentence",
+              "implicit": "yes",
+              "id": "Q007288.U2",
+              "label": "Persian 1 - Persian 2",
+              "cdl": [
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "Q007288.1",
+                  "n": "1",
+                  "label": "Persian 1"
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]-k-[...]",
+                  "id": "Q007288.l01fc9",
+                  "ref": "Q007288.1.1",
+                  "inst": "%peo:x-k-x=",
+                  "f": {
+                    "lang": "peo",
+                    "form": "x-k-x",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "Q007288.1.1.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "Q007288.1.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "k",
+                        "id": "Q007288.1.1.1",
+                        "delim": "-"
+                      },
+                      {
+                        "x": "ellipsis",
+                        "id": "Q007288.1.1.2",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "Q007288.1.1.2"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "Q007288.2",
+                  "n": "2",
+                  "label": "Persian 2"
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]-a-[...]",
+                  "id": "Q007288.l01fca",
+                  "ref": "Q007288.2.1",
+                  "inst": "%peo:x-a-x=",
+                  "f": {
+                    "lang": "peo",
+                    "form": "x-a-x",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "Q007288.2.1.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "Q007288.2.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "a",
+                        "id": "Q007288.2.1.1",
+                        "delim": "-"
+                      },
+                      {
+                        "x": "ellipsis",
+                        "id": "Q007288.2.1.2",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "Q007288.2.1.2"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3750 @@
+{
+  "type": "cdl",
+  "project": "ario",
+  "source": "http://oracc.org/ario",
+  "license": "This data is released under the CC0 license",
+  "license-url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "more-info": "http://oracc.org/doc/opendata/",
+  "UTC-timestamp": "2019-08-23T10:03:24",
+  "textid": "Q007275",
+  "cdl": [
+    {
+      "node": "c",
+      "type": "text",
+      "id": "Q007275.U0",
+      "cdl": [
+        {
+          "node": "d",
+          "type": "object",
+          "ref": ""
+        },
+        {
+          "node": "d",
+          "type": "surface",
+          "ref": ""
+        },
+        {
+          "node": "c",
+          "type": "discourse",
+          "subtype": "body",
+          "id": "Q007275.U1",
+          "cdl": [
+            {
+              "node": "c",
+              "type": "sentence",
+              "implicit": "yes",
+              "id": "Q007275.U2",
+              "label": "Persian 1 - Persian 6",
+              "cdl": [
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "Q007275.1",
+                  "n": "1",
+                  "label": "Persian 1"
+                },
+                {
+                  "node": "l",
+                  "frag": "θ-a-t-i-y",
+                  "id": "Q007275.l001d7",
+                  "ref": "Q007275.1.1",
+                  "inst": "θāti[say, proclaim, communicate]V",
+                  "sig": "@ario%peo:θ-a-t-i-y=t'a[say//say, proclaim, communicate]V'V$θāti",
+                  "f": {
+                    "lang": "peo",
+                    "form": "θ-a-t-i-y",
+                    "delim": "",
+                    "gdl": [
+                      {
+                        "v": "θ",
+                        "id": "Q007275.1.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "a",
+                        "id": "Q007275.1.1.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "t",
+                        "id": "Q007275.1.1.2",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "i",
+                        "id": "Q007275.1.1.3",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "y",
+                        "id": "Q007275.1.1.4"
+                      }
+                    ],
+                    "cf": "t'a",
+                    "gw": "say",
+                    "sense": "say, proclaim, communicate",
+                    "norm": "θāti",
+                    "pos": "V",
+                    "epos": "V"
+                  }
+                },
+                {
+                  "node": "d",
+                  "frag": ":",
+                  "type": "punct",
+                  "ref": "Q007275.1.2",
+                  "lang": "peo",
+                  "delim": ""
+                },
+                {
+                  "node": "l",
+                  "frag": "a-r-t-x-š-ç-a",
+                  "id": "Q007275.l001d8",
+                  "ref": "Q007275.1.3",
+                  "inst": "Artaxšaça-_II[Artaxerxes II, king of Persia]RN$Ṛtaxšaçā",
+                  "sig": "@ario%peo:a-r-t-x-š-ç-a=Artaxšaça-_II[Artaxerxes II, king of Persia//Artaxerxes II, king of Persia]RN'RN$Ṛtaxšaçā",
+                  "f": {
+                    "lang": "peo",
+                    "form": "a-r-t-x-š-ç-a",
+                    "delim": "",
+                    "gdl": [
+                      {
+                        "v": "a",
+                        "id": "Q007275.1.3.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "r",
+                        "id": "Q007275.1.3.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "t",
+                        "id": "Q007275.1.3.2",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "x",
+                        "id": "Q007275.1.3.3",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "š",
+                        "id": "Q007275.1.3.4",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ç",
+                        "id": "Q007275.1.3.5",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "a",
+                        "id": "Q007275.1.3.6"
+                      }
+                    ],
+                    "cf": "Artaxšaça-_II",
+                    "gw": "Artaxerxes II, king of Persia",
+                    "sense": "Artaxerxes II, king of Persia",
+                    "norm": "Ṛtaxšaçā",
+                    "pos": "RN",
+                    "epos": "RN"
+                  }
+                },
+                {
+                  "node": "d",
+                  "frag": ":",
+                  "type": "punct",
+                  "ref": "Q007275.1.4",
+                  "lang": "peo",
+                  "delim": ""
+                },
+                {
+                  "node": "l",
+                  "frag": "XŠ",
+                  "id": "Q007275.l001d9",
+                  "ref": "Q007275.1.5",
+                  "inst": "xšāyaθiya[king]N",
+                  "sig": "@ario%peo:XŠ=xšāyaθiya-[king//king]N'N$xšāyaθiya",
+                  "f": {
+                    "lang": "peo",
+                    "form": "XŠ",
+                    "delim": "",
+                    "gdl": [
+                      {
+                        "gg": "logo",
+                        "gdl_type": "logo",
+                        "group": [
+                          {
+                            "s": "XŠ",
+                            "id": "Q007275.1.5.0",
+                            "role": "logo",
+                            "logolang": "peo"
+                          }
+                        ]
+                      }
+                    ],
+                    "cf": "xšāyaθiya-",
+                    "gw": "king",
+                    "sense": "king",
+                    "norm": "xšāyaθiya",
+                    "pos": "N",
+                    "epos": "N"
+                  }
+                },
+                {
+                  "node": "d",
+                  "frag": ":",
+                  "type": "punct",
+                  "ref": "Q007275.1.6",
+                  "lang": "peo",
+                  "delim": ""
+                },
+                {
+                  "node": "l",
+                  "frag": "v-z-r-k",
+                  "id": "Q007275.l001da",
+                  "ref": "Q007275.1.7",
+                  "inst": "vazṛka[great]AJ",
+                  "sig": "@ario%peo:v-z-r-k=vazṛka-[great//great]AJ'AJ$vazṛka",
+                  "f": {
+                    "lang": "peo",
+                    "form": "v-z-r-k",
+                    "delim": "",
+                    "gdl": [
+                      {
+                        "v": "v",
+                        "id": "Q007275.1.7.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "z",
+                        "id": "Q007275.1.7.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "r",
+                        "id": "Q007275.1.7.2",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "k",
+                        "id": "Q007275.1.7.3"
+                      }
+                    ],
+                    "cf": "vazṛka-",
+                    "gw": "great",
+                    "sense": "great",
+                    "norm": "vazṛka",
+                    "pos": "AJ",
+                    "epos": "AJ"
+                  }
+                },
+                {
+                  "node": "d",
+                  "frag": ":",
+                  "type": "punct",
+                  "ref": "Q007275.1.8",
+                  "lang": "peo",
+                  "delim": ""
+                },
+                {
+                  "node": "l",
+                  "frag": "XŠ",
+                  "id": "Q007275.l001db",
+                  "ref": "Q007275.1.9",
+                  "inst": "xšāyaθiya[king]N",
+                  "sig": "@ario%peo:XŠ=xšāyaθiya-[king//king]N'N$xšāyaθiya",
+                  "f": {
+                    "lang": "peo",
+                    "form": "XŠ",
+                    "delim": "",
+                    "gdl": [
+                      {
+                        "gg": "logo",
+                        "gdl_type": "logo",
+                        "group": [
+                          {
+                            "s": "XŠ",
+                            "id": "Q007275.1.9.0",
+                            "role": "logo",
+                            "logolang": "peo"
+                          }
+                        ]
+                      }
+                    ],
+                    "cf": "xšāyaθiya-",
+                    "gw": "king",
+                    "sense": "king",
+                    "norm": "xšāyaθiya",
+                    "pos": "N",
+                    "epos": "N"
+                  }
+                },
+                {
+                  "node": "d",
+                  "frag": ":",
+                  "type": "punct",
+                  "ref": "Q007275.1.10",
+                  "lang": "peo",
+                  "delim": ""
+                },
+                {
+                  "node": "l",
+                  "frag": "XŠ-y-a-n-a-m",
+                  "id": "Q007275.l001dc",
+                  "ref": "Q007275.1.11",
+                  "inst": "xšāyaθiyānām[king]N",
+                  "sig": "@ario%peo:XŠ-y-a-n-a-m=xšāyaθiya-[king//king]N'N$xšāyaθiyānām",
+                  "f": {
+                    "lang": "peo",
+                    "form": "XŠ-y-a-n-a-m",
+                    "delim": "",
+                    "gdl": [
+                      {
+                        "gg": "logo",
+                        "gdl_type": "logo",
+                        "group": [
+                          {
+                            "s": "XŠ",
+                            "id": "Q007275.1.11.0",
+                            "role": "logo",
+                            "logolang": "peo",
+                            "delim": "-"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "y",
+                        "id": "Q007275.1.11.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "a",
+                        "id": "Q007275.1.11.2",
+                        "delim": "-"
+                      },
+                      {
+                        "n": "n",
+                        "form": "n",
+                        "id": "Q007275.1.11.3",
+                        "delim": "-",
+                        "seq": [
+                          {
+                            "r": "n"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "a",
+                        "id": "Q007275.1.11.4",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "m",
+                        "id": "Q007275.1.11.5"
+                      }
+                    ],
+                    "cf": "xšāyaθiya-",
+                    "gw": "king",
+                    "sense": "king",
+                    "norm": "xšāyaθiyānām",
+                    "pos": "N",
+                    "epos": "N"
+                  }
+                },
+                {
+                  "node": "d",
+                  "frag": ":",
+                  "type": "punct",
+                  "ref": "Q007275.1.12",
+                  "lang": "peo",
+                  "delim": ""
+                },
+                {
+                  "node": "l",
+                  "frag": "XŠ",
+                  "id": "Q007275.l001dd",
+                  "ref": "Q007275.1.13",
+                  "inst": "xšāyaθiya[king]N",
+                  "sig": "@ario%peo:XŠ=xšāyaθiya-[king//king]N'N$xšāyaθiya",
+                  "f": {
+                    "lang": "peo",
+                    "form": "XŠ",
+                    "delim": "",
+                    "gdl": [
+                      {
+                        "gg": "logo",
+                        "gdl_type": "logo",
+                        "group": [
+                          {
+                            "s": "XŠ",
+                            "id": "Q007275.1.13.0",
+                            "role": "logo",
+                            "logolang": "peo"
+                          }
+                        ]
+                      }
+                    ],
+                    "cf": "xšāyaθiya-",
+                    "gw": "king",
+                    "sense": "king",
+                    "norm": "xšāyaθiya",
+                    "pos": "N",
+                    "epos": "N"
+                  }
+                },
+                {
+                  "node": "d",
+                  "frag": ":",
+                  "type": "punct",
+                  "ref": "Q007275.1.14",
+                  "lang": "peo",
+                  "delim": ""
+                },
+                {
+                  "node": "l",
+                  "frag": "DH-y-u-n-a-m",
+                  "id": "Q007275.l001de",
+                  "ref": "Q007275.1.15",
+                  "inst": "dahyunām[land]N",
+                  "sig": "@ario%peo:DH-y-u-n-a-m=dahyu-[land//land]N'N$dahyunām",
+                  "f": {
+                    "lang": "peo",
+                    "form": "DH-y-u-n-a-m",
+                    "delim": "",
+                    "gdl": [
+                      {
+                        "gg": "logo",
+                        "gdl_type": "logo",
+                        "group": [
+                          {
+                            "s": "DH",
+                            "id": "Q007275.1.15.0",
+                            "role": "logo",
+                            "logolang": "peo",
+                            "delim": "-"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "y",
+                        "id": "Q007275.1.15.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "u",
+                        "id": "Q007275.1.15.2",
+                        "delim": "-"
+                      },
+                      {
+                        "n": "n",
+                        "form": "n",
+                        "id": "Q007275.1.15.3",
+                        "delim": "-",
+                        "seq": [
+                          {
+                            "r": "n"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "a",
+                        "id": "Q007275.1.15.4",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "m",
+                        "id": "Q007275.1.15.5"
+                      }
+                    ],
+                    "cf": "dahyu-",
+                    "gw": "land",
+                    "sense": "land",
+                    "norm": "dahyunām",
+                    "pos": "N",
+                    "epos": "N"
+                  }
+                },
+                {
+                  "node": "d",
+                  "frag": ":",
+                  "type": "punct",
+                  "ref": "Q007275.1.16",
+                  "lang": "peo",
+                  "delim": ""
+                },
+                {
+                  "node": "l",
+                  "frag": "XŠ",
+                  "id": "Q007275.l001df",
+                  "ref": "Q007275.1.17",
+                  "inst": "xšāyaθiya[king]N",
+                  "sig": "@ario%peo:XŠ=xšāyaθiya-[king//king]N'N$xšāyaθiya",
+                  "f": {
+                    "lang": "peo",
+                    "form": "XŠ",
+                    "delim": "",
+                    "gdl": [
+                      {
+                        "gg": "logo",
+                        "gdl_type": "logo",
+                        "group": [
+                          {
+                            "s": "XŠ",
+                            "id": "Q007275.1.17.0",
+                            "role": "logo",
+                            "logolang": "peo"
+                          }
+                        ]
+                      }
+                    ],
+                    "cf": "xšāyaθiya-",
+                    "gw": "king",
+                    "sense": "king",
+                    "norm": "xšāyaθiya",
+                    "pos": "N",
+                    "epos": "N"
+                  }
+                },
+                {
+                  "node": "d",
+                  "frag": ":",
+                  "type": "punct",
+                  "ref": "Q007275.1.18",
+                  "lang": "peo",
+                  "delim": ""
+                },
+                {
+                  "node": "l",
+                  "frag": "a-h-y-a-y-a",
+                  "id": "Q007275.l001e0",
+                  "ref": "Q007275.1.19",
+                  "inst": "ahyāyā[this (here)]DP",
+                  "sig": "@ario%peo:a-h-y-a-y-a=a[this (here)//this (here)]DP'DP$ahyāyā",
+                  "f": {
+                    "lang": "peo",
+                    "form": "a-h-y-a-y-a",
+                    "delim": "",
+                    "gdl": [
+                      {
+                        "v": "a",
+                        "id": "Q007275.1.19.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "h",
+                        "id": "Q007275.1.19.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "y",
+                        "id": "Q007275.1.19.2",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "a",
+                        "id": "Q007275.1.19.3",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "y",
+                        "id": "Q007275.1.19.4",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "a",
+                        "id": "Q007275.1.19.5"
+                      }
+                    ],
+                    "cf": "a",
+                    "gw": "this (here)",
+                    "sense": "this (here)",
+                    "norm": "ahyāyā",
+                    "pos": "DP",
+                    "epos": "DP"
+                  }
+                },
+                {
+                  "node": "d",
+                  "frag": ":",
+                  "type": "punct",
+                  "ref": "Q007275.1.20",
+                  "lang": "peo",
+                  "delim": ""
+                },
+                {
+                  "node": "l",
+                  "frag": "BU-y-a",
+                  "id": "Q007275.l001e1",
+                  "ref": "Q007275.1.21",
+                  "inst": "būmiyā[earth]N",
+                  "sig": "@ario%peo:BU-y-a=būmī-[earth//earth]N'N$būmiyā",
+                  "f": {
+                    "lang": "peo",
+                    "form": "BU-y-a",
+                    "delim": "",
+                    "gdl": [
+                      {
+                        "gg": "logo",
+                        "gdl_type": "logo",
+                        "group": [
+                          {
+                            "s": "BU",
+                            "id": "Q007275.1.21.0",
+                            "role": "logo",
+                            "logolang": "peo",
+                            "delim": "-"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "y",
+                        "id": "Q007275.1.21.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "a",
+                        "id": "Q007275.1.21.2"
+                      }
+                    ],
+                    "cf": "būmī-",
+                    "gw": "earth",
+                    "sense": "earth",
+                    "norm": "būmiyā",
+                    "pos": "N",
+                    "epos": "N"
+                  }
+                },
+                {
+                  "node": "d",
+                  "frag": ":",
+                  "type": "punct",
+                  "ref": "Q007275.1.22",
+                  "lang": "peo",
+                  "delim": ""
+                },
+                {
+                  "node": "l",
+                  "frag": "d-a-r-y-v-u-š-h-y-a",
+                  "id": "Q007275.l001e2",
+                  "ref": "Q007275.1.23",
+                  "inst": "Dārayava.u-_II[Darius II, king of Persia]RN$Dārayava.ušahyā",
+                  "sig": "@ario%peo:d-a-r-y-v-u-š-h-y-a=Dārayava.u-_II[Darius II, king of Persia//Darius II, king of Persia]RN'RN$Dārayava.ušahyā",
+                  "f": {
+                    "lang": "peo",
+                    "form": "d-a-r-y-v-u-š-h-y-a",
+                    "delim": "",
+                    "gdl": [
+                      {
+                        "v": "d",
+                        "id": "Q007275.1.23.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "a",
+                        "id": "Q007275.1.23.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "r",
+                        "id": "Q007275.1.23.2",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "y",
+                        "id": "Q007275.1.23.3",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "v",
+                        "id": "Q007275.1.23.4",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "u",
+                        "id": "Q007275.1.23.5",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "š",
+                        "id": "Q007275.1.23.6",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "h",
+                        "id": "Q007275.1.23.7",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "y",
+                        "id": "Q007275.1.23.8",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "a",
+                        "id": "Q007275.1.23.9"
+                      }
+                    ],
+                    "cf": "Dārayava.u-_II",
+                    "gw": "Darius II, king of Persia",
+                    "sense": "Darius II, king of Persia",
+                    "norm": "Dārayava.ušahyā",
+                    "pos": "RN",
+                    "epos": "RN"
+                  }
+                },
+                {
+                  "node": "d",
+                  "frag": ":",
+                  "type": "punct",
+                  "ref": "Q007275.1.24",
+                  "lang": "peo",
+                  "delim": ""
+                },
+                {
+                  "node": "l",
+                  "frag": "XŠ-;",
+                  "id": "Q007275.l001e3",
+                  "ref": "Q007275.1.25",
+                  "inst": "xšāyaθiyahyā[king]N",
+                  "sig": "@ario%peo:XŠ-h-y-a=xšāyaθiya-[king//king]N'N$xšāyaθiyahyā",
+                  "f": {
+                    "lang": "peo",
+                    "form": "XŠ-h-y-a",
+                    "headform": "XŠ",
+                    "contrefs": "Q007275.1.25 Q007275.2.1",
+                    "gdl": [
+                      {
+                        "gg": "logo",
+                        "gdl_type": "logo",
+                        "group": [
+                          {
+                            "s": "XŠ",
+                            "id": "Q007275.1.25.0",
+                            "role": "logo",
+                            "logolang": "peo",
+                            "delim": "-"
+                          }
+                        ]
+                      }
+                    ],
+                    "cf": "xšāyaθiya-",
+                    "gw": "king",
+                    "sense": "king",
+                    "norm": "xšāyaθiyahyā",
+                    "pos": "N",
+                    "epos": "N"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "Q007275.2",
+                  "n": "2",
+                  "label": "Persian 2"
+                },
+                {
+                  "node": "d",
+                  "frag": ":",
+                  "type": "punct",
+                  "ref": "Q007275.2.2",
+                  "lang": "peo",
+                  "delim": ""
+                },
+                {
+                  "node": "l",
+                  "frag": "p-u-ç",
+                  "id": "Q007275.l001e4",
+                  "ref": "Q007275.2.3",
+                  "inst": "puça[son]N",
+                  "sig": "@ario%peo:p-u-ç=puça-[son//son]N'N$puça",
+                  "f": {
+                    "lang": "peo",
+                    "form": "p-u-ç",
+                    "delim": "",
+                    "gdl": [
+                      {
+                        "v": "p",
+                        "id": "Q007275.2.3.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "u",
+                        "id": "Q007275.2.3.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ç",
+                        "id": "Q007275.2.3.2"
+                      }
+                    ],
+                    "cf": "puça-",
+                    "gw": "son",
+                    "sense": "son",
+                    "norm": "puça",
+                    "pos": "N",
+                    "epos": "N"
+                  }
+                },
+                {
+                  "node": "d",
+                  "frag": ":",
+                  "type": "punct",
+                  "ref": "Q007275.2.4",
+                  "lang": "peo",
+                  "delim": ""
+                },
+                {
+                  "node": "l",
+                  "frag": "d-a-r-y-v-u-š-h-y-a",
+                  "id": "Q007275.l001e5",
+                  "ref": "Q007275.2.5",
+                  "inst": "Dārayava.u-_II[Darius II, king of Persia]RN$Dārayava.ušahyā",
+                  "sig": "@ario%peo:d-a-r-y-v-u-š-h-y-a=Dārayava.u-_II[Darius II, king of Persia//Darius II, king of Persia]RN'RN$Dārayava.ušahyā",
+                  "f": {
+                    "lang": "peo",
+                    "form": "d-a-r-y-v-u-š-h-y-a",
+                    "delim": "",
+                    "gdl": [
+                      {
+                        "v": "d",
+                        "id": "Q007275.2.5.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "a",
+                        "id": "Q007275.2.5.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "r",
+                        "id": "Q007275.2.5.2",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "y",
+                        "id": "Q007275.2.5.3",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "v",
+                        "id": "Q007275.2.5.4",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "u",
+                        "id": "Q007275.2.5.5",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "š",
+                        "id": "Q007275.2.5.6",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "h",
+                        "id": "Q007275.2.5.7",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "y",
+                        "id": "Q007275.2.5.8",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "a",
+                        "id": "Q007275.2.5.9"
+                      }
+                    ],
+                    "cf": "Dārayava.u-_II",
+                    "gw": "Darius II, king of Persia",
+                    "sense": "Darius II, king of Persia",
+                    "norm": "Dārayava.ušahyā",
+                    "pos": "RN",
+                    "epos": "RN"
+                  }
+                },
+                {
+                  "node": "d",
+                  "frag": ":",
+                  "type": "punct",
+                  "ref": "Q007275.2.6",
+                  "lang": "peo",
+                  "delim": ""
+                },
+                {
+                  "node": "l",
+                  "frag": "a-r-t-x-š-ç-a-h-y-a",
+                  "id": "Q007275.l001e6",
+                  "ref": "Q007275.2.7",
+                  "inst": "Artaxšaça-_I[Artaxerxes I, king of Persia]RN$Ṛtaxšaçāhyā",
+                  "sig": "@ario%peo:a-r-t-x-š-ç-a-h-y-a=Artaxšaça-_I[Artaxerxes I, king of Persia//Artaxerxes I, king of Persia]RN'RN$Ṛtaxšaçāhyā",
+                  "f": {
+                    "lang": "peo",
+                    "form": "a-r-t-x-š-ç-a-h-y-a",
+                    "delim": "",
+                    "gdl": [
+                      {
+                        "v": "a",
+                        "id": "Q007275.2.7.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "r",
+                        "id": "Q007275.2.7.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "t",
+                        "id": "Q007275.2.7.2",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "x",
+                        "id": "Q007275.2.7.3",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "š",
+                        "id": "Q007275.2.7.4",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ç",
+                        "id": "Q007275.2.7.5",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "a",
+                        "id": "Q007275.2.7.6",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "h",
+                        "id": "Q007275.2.7.7",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "y",
+                        "id": "Q007275.2.7.8",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "a",
+                        "id": "Q007275.2.7.9"
+                      }
+                    ],
+                    "cf": "Artaxšaça-_I",
+                    "gw": "Artaxerxes I, king of Persia",
+                    "sense": "Artaxerxes I, king of Persia",
+                    "norm": "Ṛtaxšaçāhyā",
+                    "pos": "RN",
+                    "epos": "RN"
+                  }
+                },
+                {
+                  "node": "d",
+                  "frag": ":",
+                  "type": "punct",
+                  "ref": "Q007275.2.8",
+                  "lang": "peo",
+                  "delim": ""
+                },
+                {
+                  "node": "l",
+                  "frag": "XŠ-h-y-a",
+                  "id": "Q007275.l001e7",
+                  "ref": "Q007275.2.9",
+                  "inst": "xšāyaθiyahyā[king]N",
+                  "sig": "@ario%peo:XŠ-h-y-a=xšāyaθiya-[king//king]N'N$xšāyaθiyahyā",
+                  "f": {
+                    "lang": "peo",
+                    "form": "XŠ-h-y-a",
+                    "delim": "",
+                    "gdl": [
+                      {
+                        "gg": "logo",
+                        "gdl_type": "logo",
+                        "group": [
+                          {
+                            "s": "XŠ",
+                            "id": "Q007275.2.9.0",
+                            "role": "logo",
+                            "logolang": "peo",
+                            "delim": "-"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "h",
+                        "id": "Q007275.2.9.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "y",
+                        "id": "Q007275.2.9.2",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "a",
+                        "id": "Q007275.2.9.3"
+                      }
+                    ],
+                    "cf": "xšāyaθiya-",
+                    "gw": "king",
+                    "sense": "king",
+                    "norm": "xšāyaθiyahyā",
+                    "pos": "N",
+                    "epos": "N"
+                  }
+                },
+                {
+                  "node": "d",
+                  "frag": ":",
+                  "type": "punct",
+                  "ref": "Q007275.2.10",
+                  "lang": "peo",
+                  "delim": ""
+                },
+                {
+                  "node": "l",
+                  "frag": "p-u-ç",
+                  "id": "Q007275.l001e8",
+                  "ref": "Q007275.2.11",
+                  "inst": "puça[son]N",
+                  "sig": "@ario%peo:p-u-ç=puça-[son//son]N'N$puça",
+                  "f": {
+                    "lang": "peo",
+                    "form": "p-u-ç",
+                    "delim": "",
+                    "gdl": [
+                      {
+                        "v": "p",
+                        "id": "Q007275.2.11.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "u",
+                        "id": "Q007275.2.11.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ç",
+                        "id": "Q007275.2.11.2"
+                      }
+                    ],
+                    "cf": "puça-",
+                    "gw": "son",
+                    "sense": "son",
+                    "norm": "puça",
+                    "pos": "N",
+                    "epos": "N"
+                  }
+                },
+                {
+                  "node": "d",
+                  "frag": ":",
+                  "type": "punct",
+                  "ref": "Q007275.2.12",
+                  "lang": "peo",
+                  "delim": ""
+                },
+                {
+                  "node": "l",
+                  "frag": "a-r-t-x-š-ç-a-h-y-a",
+                  "id": "Q007275.l001e9",
+                  "ref": "Q007275.2.13",
+                  "inst": "Artaxšaça-_I[Artaxerxes I, king of Persia]RN$Ṛtaxšaçāhyā",
+                  "sig": "@ario%peo:a-r-t-x-š-ç-a-h-y-a=Artaxšaça-_I[Artaxerxes I, king of Persia//Artaxerxes I, king of Persia]RN'RN$Ṛtaxšaçāhyā",
+                  "f": {
+                    "lang": "peo",
+                    "form": "a-r-t-x-š-ç-a-h-y-a",
+                    "delim": "",
+                    "gdl": [
+                      {
+                        "v": "a",
+                        "id": "Q007275.2.13.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "r",
+                        "id": "Q007275.2.13.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "t",
+                        "id": "Q007275.2.13.2",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "x",
+                        "id": "Q007275.2.13.3",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "š",
+                        "id": "Q007275.2.13.4",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ç",
+                        "id": "Q007275.2.13.5",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "a",
+                        "id": "Q007275.2.13.6",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "h",
+                        "id": "Q007275.2.13.7",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "y",
+                        "id": "Q007275.2.13.8",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "a",
+                        "id": "Q007275.2.13.9"
+                      }
+                    ],
+                    "cf": "Artaxšaça-_I",
+                    "gw": "Artaxerxes I, king of Persia",
+                    "sense": "Artaxerxes I, king of Persia",
+                    "norm": "Ṛtaxšaçāhyā",
+                    "pos": "RN",
+                    "epos": "RN"
+                  }
+                },
+                {
+                  "node": "d",
+                  "frag": ":",
+                  "type": "punct",
+                  "ref": "Q007275.2.14",
+                  "lang": "peo",
+                  "delim": ""
+                },
+                {
+                  "node": "l",
+                  "frag": "x-š-y-a-r-c-h-y-a",
+                  "id": "Q007275.l001ea",
+                  "ref": "Q007275.2.15",
+                  "inst": "Xšayaṛcahyā[Xerxes I, king of Persia]RN",
+                  "sig": "@ario%peo:x-š-y-a-r-c-h-y-a=Xšayaṛsan-[Xerxes I, king of Persia//Xerxes I, king of Persia]RN'RN$Xšayaṛcahyā",
+                  "f": {
+                    "lang": "peo",
+                    "form": "x-š-y-a-r-c-h-y-a",
+                    "delim": "",
+                    "gdl": [
+                      {
+                        "v": "x",
+                        "id": "Q007275.2.15.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "š",
+                        "id": "Q007275.2.15.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "y",
+                        "id": "Q007275.2.15.2",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "a",
+                        "id": "Q007275.2.15.3",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "r",
+                        "id": "Q007275.2.15.4",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "c",
+                        "id": "Q007275.2.15.5",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "h",
+                        "id": "Q007275.2.15.6",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "y",
+                        "id": "Q007275.2.15.7",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "a",
+                        "id": "Q007275.2.15.8"
+                      }
+                    ],
+                    "cf": "Xšayaṛsan-",
+                    "gw": "Xerxes I, king of Persia",
+                    "sense": "Xerxes I, king of Persia",
+                    "norm": "Xšayaṛcahyā",
+                    "pos": "RN",
+                    "epos": "RN"
+                  }
+                },
+                {
+                  "node": "d",
+                  "frag": ":",
+                  "type": "punct",
+                  "ref": "Q007275.2.16",
+                  "lang": "peo",
+                  "delim": ""
+                },
+                {
+                  "node": "l",
+                  "frag": "XŠ-h-;",
+                  "id": "Q007275.l001eb",
+                  "ref": "Q007275.2.17",
+                  "inst": "xšāyaθiyahyā[king]N",
+                  "sig": "@ario%peo:XŠ-h-y-a=xšāyaθiya-[king//king]N'N$xšāyaθiyahyā",
+                  "f": {
+                    "lang": "peo",
+                    "form": "XŠ-h-y-a",
+                    "headform": "XŠ-h",
+                    "contrefs": "Q007275.2.17 Q007275.3.1",
+                    "gdl": [
+                      {
+                        "gg": "logo",
+                        "gdl_type": "logo",
+                        "group": [
+                          {
+                            "s": "XŠ",
+                            "id": "Q007275.2.17.0",
+                            "role": "logo",
+                            "logolang": "peo",
+                            "delim": "-"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "h",
+                        "id": "Q007275.2.17.1",
+                        "delim": "-"
+                      }
+                    ],
+                    "cf": "xšāyaθiya-",
+                    "gw": "king",
+                    "sense": "king",
+                    "norm": "xšāyaθiyahyā",
+                    "pos": "N",
+                    "epos": "N"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "Q007275.3",
+                  "n": "3",
+                  "label": "Persian 3"
+                },
+                {
+                  "node": "d",
+                  "frag": ":",
+                  "type": "punct",
+                  "ref": "Q007275.3.2",
+                  "lang": "peo",
+                  "delim": ""
+                },
+                {
+                  "node": "l",
+                  "frag": "p-u-ç",
+                  "id": "Q007275.l001ec",
+                  "ref": "Q007275.3.3",
+                  "inst": "puça[son]N",
+                  "sig": "@ario%peo:p-u-ç=puça-[son//son]N'N$puça",
+                  "f": {
+                    "lang": "peo",
+                    "form": "p-u-ç",
+                    "delim": "",
+                    "gdl": [
+                      {
+                        "v": "p",
+                        "id": "Q007275.3.3.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "u",
+                        "id": "Q007275.3.3.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ç",
+                        "id": "Q007275.3.3.2"
+                      }
+                    ],
+                    "cf": "puça-",
+                    "gw": "son",
+                    "sense": "son",
+                    "norm": "puça",
+                    "pos": "N",
+                    "epos": "N"
+                  }
+                },
+                {
+                  "node": "d",
+                  "frag": ":",
+                  "type": "punct",
+                  "ref": "Q007275.3.4",
+                  "lang": "peo",
+                  "delim": ""
+                },
+                {
+                  "node": "l",
+                  "frag": "x-š-y-a-r-c-h-y-a",
+                  "id": "Q007275.l001ed",
+                  "ref": "Q007275.3.5",
+                  "inst": "Xšayaṛcahyā[Xerxes I, king of Persia]RN",
+                  "sig": "@ario%peo:x-š-y-a-r-c-h-y-a=Xšayaṛsan-[Xerxes I, king of Persia//Xerxes I, king of Persia]RN'RN$Xšayaṛcahyā",
+                  "f": {
+                    "lang": "peo",
+                    "form": "x-š-y-a-r-c-h-y-a",
+                    "delim": "",
+                    "gdl": [
+                      {
+                        "v": "x",
+                        "id": "Q007275.3.5.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "š",
+                        "id": "Q007275.3.5.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "y",
+                        "id": "Q007275.3.5.2",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "a",
+                        "id": "Q007275.3.5.3",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "r",
+                        "id": "Q007275.3.5.4",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "c",
+                        "id": "Q007275.3.5.5",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "h",
+                        "id": "Q007275.3.5.6",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "y",
+                        "id": "Q007275.3.5.7",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "a",
+                        "id": "Q007275.3.5.8"
+                      }
+                    ],
+                    "cf": "Xšayaṛsan-",
+                    "gw": "Xerxes I, king of Persia",
+                    "sense": "Xerxes I, king of Persia",
+                    "norm": "Xšayaṛcahyā",
+                    "pos": "RN",
+                    "epos": "RN"
+                  }
+                },
+                {
+                  "node": "d",
+                  "frag": ":",
+                  "type": "punct",
+                  "ref": "Q007275.3.6",
+                  "lang": "peo",
+                  "delim": ""
+                },
+                {
+                  "node": "l",
+                  "frag": "d-a-r-y-v-u-š-h-y-a",
+                  "id": "Q007275.l001ee",
+                  "ref": "Q007275.3.7",
+                  "inst": "Dārayava.u-_I[Darius I, king of Persia]RN$Dārayava.ušahyā",
+                  "sig": "@ario%peo:d-a-r-y-v-u-š-h-y-a=Dārayava.u-_I[Darius I, king of Persia//Darius I, king of Persia]RN'RN$Dārayava.ušahyā",
+                  "f": {
+                    "lang": "peo",
+                    "form": "d-a-r-y-v-u-š-h-y-a",
+                    "delim": "",
+                    "gdl": [
+                      {
+                        "v": "d",
+                        "id": "Q007275.3.7.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "a",
+                        "id": "Q007275.3.7.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "r",
+                        "id": "Q007275.3.7.2",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "y",
+                        "id": "Q007275.3.7.3",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "v",
+                        "id": "Q007275.3.7.4",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "u",
+                        "id": "Q007275.3.7.5",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "š",
+                        "id": "Q007275.3.7.6",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "h",
+                        "id": "Q007275.3.7.7",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "y",
+                        "id": "Q007275.3.7.8",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "a",
+                        "id": "Q007275.3.7.9"
+                      }
+                    ],
+                    "cf": "Dārayava.u-_I",
+                    "gw": "Darius I, king of Persia",
+                    "sense": "Darius I, king of Persia",
+                    "norm": "Dārayava.ušahyā",
+                    "pos": "RN",
+                    "epos": "RN"
+                  }
+                },
+                {
+                  "node": "d",
+                  "frag": ":",
+                  "type": "punct",
+                  "ref": "Q007275.3.8",
+                  "lang": "peo",
+                  "delim": ""
+                },
+                {
+                  "node": "l",
+                  "frag": "XŠ-h-y-a",
+                  "id": "Q007275.l001ef",
+                  "ref": "Q007275.3.9",
+                  "inst": "xšāyaθiyahyā[king]N",
+                  "sig": "@ario%peo:XŠ-h-y-a=xšāyaθiya-[king//king]N'N$xšāyaθiyahyā",
+                  "f": {
+                    "lang": "peo",
+                    "form": "XŠ-h-y-a",
+                    "delim": "",
+                    "gdl": [
+                      {
+                        "gg": "logo",
+                        "gdl_type": "logo",
+                        "group": [
+                          {
+                            "s": "XŠ",
+                            "id": "Q007275.3.9.0",
+                            "role": "logo",
+                            "logolang": "peo",
+                            "delim": "-"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "h",
+                        "id": "Q007275.3.9.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "y",
+                        "id": "Q007275.3.9.2",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "a",
+                        "id": "Q007275.3.9.3"
+                      }
+                    ],
+                    "cf": "xšāyaθiya-",
+                    "gw": "king",
+                    "sense": "king",
+                    "norm": "xšāyaθiyahyā",
+                    "pos": "N",
+                    "epos": "N"
+                  }
+                },
+                {
+                  "node": "d",
+                  "frag": ":",
+                  "type": "punct",
+                  "ref": "Q007275.3.10",
+                  "lang": "peo",
+                  "delim": ""
+                },
+                {
+                  "node": "l",
+                  "frag": "p-u-ç",
+                  "id": "Q007275.l001f0",
+                  "ref": "Q007275.3.11",
+                  "inst": "puça[son]N",
+                  "sig": "@ario%peo:p-u-ç=puça-[son//son]N'N$puça",
+                  "f": {
+                    "lang": "peo",
+                    "form": "p-u-ç",
+                    "delim": "",
+                    "gdl": [
+                      {
+                        "v": "p",
+                        "id": "Q007275.3.11.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "u",
+                        "id": "Q007275.3.11.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ç",
+                        "id": "Q007275.3.11.2"
+                      }
+                    ],
+                    "cf": "puça-",
+                    "gw": "son",
+                    "sense": "son",
+                    "norm": "puça",
+                    "pos": "N",
+                    "epos": "N"
+                  }
+                },
+                {
+                  "node": "d",
+                  "frag": ":",
+                  "type": "punct",
+                  "ref": "Q007275.3.12",
+                  "lang": "peo",
+                  "delim": ""
+                },
+                {
+                  "node": "l",
+                  "frag": "d-a-r-y-v-u-š-h-y-a",
+                  "id": "Q007275.l001f1",
+                  "ref": "Q007275.3.13",
+                  "inst": "Dārayava.u-_I[Darius I, king of Persia//Darius I, king of Persia]RN$Dārayava.ušahyā",
+                  "sig": "@ario%peo:d-a-r-y-v-u-š-h-y-a=Dārayava.u-_I[Darius I, king of Persia//Darius I, king of Persia]RN'RN$Dārayava.ušahyā",
+                  "f": {
+                    "lang": "peo",
+                    "form": "d-a-r-y-v-u-š-h-y-a",
+                    "delim": "",
+                    "gdl": [
+                      {
+                        "v": "d",
+                        "id": "Q007275.3.13.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "a",
+                        "id": "Q007275.3.13.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "r",
+                        "id": "Q007275.3.13.2",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "y",
+                        "id": "Q007275.3.13.3",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "v",
+                        "id": "Q007275.3.13.4",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "u",
+                        "id": "Q007275.3.13.5",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "š",
+                        "id": "Q007275.3.13.6",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "h",
+                        "id": "Q007275.3.13.7",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "y",
+                        "id": "Q007275.3.13.8",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "a",
+                        "id": "Q007275.3.13.9"
+                      }
+                    ],
+                    "cf": "Dārayava.u-_I",
+                    "gw": "Darius I, king of Persia",
+                    "sense": "Darius I, king of Persia",
+                    "norm": "Dārayava.ušahyā",
+                    "pos": "RN",
+                    "epos": "RN"
+                  }
+                },
+                {
+                  "node": "d",
+                  "frag": ":",
+                  "type": "punct",
+                  "ref": "Q007275.3.14",
+                  "lang": "peo",
+                  "delim": ""
+                },
+                {
+                  "node": "l",
+                  "frag": "vi-i-š-t-a-s-p-h-y-a",
+                  "id": "Q007275.l001f2",
+                  "ref": "Q007275.3.15",
+                  "inst": "Vištāspahyā[Hystaspes, father of Darius I]PN",
+                  "sig": "@ario%peo:vi-i-š-t-a-s-p-h-y-a=Vištāspa-[Hystaspes, father of Darius I//Hystaspes, father of Darius I]PN'PN$Vištāspahyā",
+                  "f": {
+                    "lang": "peo",
+                    "form": "vi-i-š-t-a-s-p-h-y-a",
+                    "delim": "",
+                    "gdl": [
+                      {
+                        "v": "vi",
+                        "id": "Q007275.3.15.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "i",
+                        "id": "Q007275.3.15.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "š",
+                        "id": "Q007275.3.15.2",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "t",
+                        "id": "Q007275.3.15.3",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "a",
+                        "id": "Q007275.3.15.4",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "s",
+                        "id": "Q007275.3.15.5",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "p",
+                        "id": "Q007275.3.15.6",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "h",
+                        "id": "Q007275.3.15.7",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "y",
+                        "id": "Q007275.3.15.8",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "a",
+                        "id": "Q007275.3.15.9"
+                      }
+                    ],
+                    "cf": "Vištāspa-",
+                    "gw": "Hystaspes, father of Darius I",
+                    "sense": "Hystaspes, father of Darius I",
+                    "norm": "Vištāspahyā",
+                    "pos": "PN",
+                    "epos": "PN"
+                  }
+                },
+                {
+                  "node": "d",
+                  "frag": ":",
+                  "type": "punct",
+                  "ref": "Q007275.3.16",
+                  "lang": "peo",
+                  "delim": ""
+                },
+                {
+                  "node": "l",
+                  "frag": "p-u-ç",
+                  "id": "Q007275.l001f3",
+                  "ref": "Q007275.3.17",
+                  "inst": "puça[son]N",
+                  "sig": "@ario%peo:p-u-ç=puça-[son//son]N'N$puça",
+                  "f": {
+                    "lang": "peo",
+                    "form": "p-u-ç",
+                    "delim": "",
+                    "gdl": [
+                      {
+                        "v": "p",
+                        "id": "Q007275.3.17.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "u",
+                        "id": "Q007275.3.17.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ç",
+                        "id": "Q007275.3.17.2"
+                      }
+                    ],
+                    "cf": "puça-",
+                    "gw": "son",
+                    "sense": "son",
+                    "norm": "puça",
+                    "pos": "N",
+                    "epos": "N"
+                  }
+                },
+                {
+                  "node": "d",
+                  "frag": ":",
+                  "type": "punct",
+                  "ref": "Q007275.3.18",
+                  "lang": "peo",
+                  "delim": ""
+                },
+                {
+                  "node": "l",
+                  "frag": "h-x-m-;",
+                  "id": "Q007275.l001f4",
+                  "ref": "Q007275.3.19",
+                  "inst": "Haxāmanišiya[Achaemenid]'AJ",
+                  "sig": "@ario%peo:h-x-m-a-n-š-i-y=Haxāmanišiya-[Achaemenid//Achaemenid]EN'AJ$Haxāmanišiya",
+                  "f": {
+                    "lang": "peo",
+                    "form": "h-x-m-a-n-š-i-y",
+                    "headform": "h-x-m",
+                    "contrefs": "Q007275.3.19 Q007275.4.1",
+                    "gdl": [
+                      {
+                        "v": "h",
+                        "id": "Q007275.3.19.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "x",
+                        "id": "Q007275.3.19.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "m",
+                        "id": "Q007275.3.19.2",
+                        "delim": "-"
+                      }
+                    ],
+                    "cf": "Haxāmanišiya-",
+                    "gw": "Achaemenid",
+                    "sense": "Achaemenid",
+                    "norm": "Haxāmanišiya",
+                    "pos": "EN",
+                    "epos": "AJ"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "Q007275.4",
+                  "n": "4",
+                  "label": "Persian 4"
+                },
+                {
+                  "node": "d",
+                  "frag": ":",
+                  "type": "punct",
+                  "ref": "Q007275.4.2",
+                  "lang": "peo",
+                  "delim": ""
+                },
+                {
+                  "node": "l",
+                  "frag": "i-m-m",
+                  "id": "Q007275.l001f5",
+                  "ref": "Q007275.4.3",
+                  "inst": "imam[this]DP",
+                  "sig": "@ario%peo:i-m-m=i-/ima-[this (here)//this]DP'DP$imam",
+                  "f": {
+                    "lang": "peo",
+                    "form": "i-m-m",
+                    "delim": "",
+                    "gdl": [
+                      {
+                        "v": "i",
+                        "id": "Q007275.4.3.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "m",
+                        "id": "Q007275.4.3.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "m",
+                        "id": "Q007275.4.3.2"
+                      }
+                    ],
+                    "cf": "i-/ima-",
+                    "gw": "this (here)",
+                    "sense": "this",
+                    "norm": "imam",
+                    "pos": "DP",
+                    "epos": "DP"
+                  }
+                },
+                {
+                  "node": "d",
+                  "frag": ":",
+                  "type": "punct",
+                  "ref": "Q007275.4.4",
+                  "lang": "peo",
+                  "delim": ""
+                },
+                {
+                  "node": "l",
+                  "frag": "a-p-d-a-n",
+                  "id": "Q007275.l001f6",
+                  "ref": "Q007275.4.5",
+                  "inst": "apadānam[palace]N",
+                  "sig": "@ario%peo:a-p-d-a-n=apadāna-[palace//palace]N'N$apadānam",
+                  "f": {
+                    "lang": "peo",
+                    "form": "a-p-d-a-n",
+                    "delim": "",
+                    "gdl": [
+                      {
+                        "v": "a",
+                        "id": "Q007275.4.5.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "p",
+                        "id": "Q007275.4.5.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "d",
+                        "id": "Q007275.4.5.2",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "a",
+                        "id": "Q007275.4.5.3",
+                        "delim": "-"
+                      },
+                      {
+                        "n": "n",
+                        "form": "n",
+                        "id": "Q007275.4.5.4",
+                        "seq": [
+                          {
+                            "r": "n"
+                          }
+                        ]
+                      }
+                    ],
+                    "cf": "apadāna-",
+                    "gw": "palace",
+                    "sense": "palace",
+                    "norm": "apadānam",
+                    "pos": "N",
+                    "epos": "N"
+                  }
+                },
+                {
+                  "node": "d",
+                  "frag": ":",
+                  "type": "punct",
+                  "ref": "Q007275.4.6",
+                  "lang": "peo",
+                  "delim": ""
+                },
+                {
+                  "node": "l",
+                  "frag": "d-a-r-y-v-u-š",
+                  "id": "Q007275.l001f7",
+                  "ref": "Q007275.4.7",
+                  "inst": "Dārayava.u-_I[Darius I, king of Persia//Darius I, king of Persia]RN$Dārayava.uš",
+                  "sig": "@ario%peo:d-a-r-y-v-u-š=Dārayava.u-_I[Darius I, king of Persia//Darius I, king of Persia]RN'RN$Dārayava.uš",
+                  "f": {
+                    "lang": "peo",
+                    "form": "d-a-r-y-v-u-š",
+                    "delim": "",
+                    "gdl": [
+                      {
+                        "v": "d",
+                        "id": "Q007275.4.7.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "a",
+                        "id": "Q007275.4.7.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "r",
+                        "id": "Q007275.4.7.2",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "y",
+                        "id": "Q007275.4.7.3",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "v",
+                        "id": "Q007275.4.7.4",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "u",
+                        "id": "Q007275.4.7.5",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "š",
+                        "id": "Q007275.4.7.6"
+                      }
+                    ],
+                    "cf": "Dārayava.u-_I",
+                    "gw": "Darius I, king of Persia",
+                    "sense": "Darius I, king of Persia",
+                    "norm": "Dārayava.uš",
+                    "pos": "RN",
+                    "epos": "RN"
+                  }
+                },
+                {
+                  "node": "d",
+                  "frag": ":",
+                  "type": "punct",
+                  "ref": "Q007275.4.8",
+                  "lang": "peo",
+                  "delim": ""
+                },
+                {
+                  "node": "l",
+                  "frag": "a-p-n-y-a-k-m",
+                  "id": "Q007275.l001f8",
+                  "ref": "Q007275.4.9",
+                  "inst": "apaniyākamai̯[great-grandfather]N",
+                  "sig": "@ario%peo:a-p-n-y-a-k-m=apaniyāka-[great-grandfather//great-grandfather]N'N$apaniyākamai̯",
+                  "f": {
+                    "lang": "peo",
+                    "form": "a-p-n-y-a-k-m",
+                    "delim": "",
+                    "gdl": [
+                      {
+                        "v": "a",
+                        "id": "Q007275.4.9.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "p",
+                        "id": "Q007275.4.9.1",
+                        "delim": "-"
+                      },
+                      {
+                        "n": "n",
+                        "form": "n",
+                        "id": "Q007275.4.9.2",
+                        "delim": "-",
+                        "seq": [
+                          {
+                            "r": "n"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "y",
+                        "id": "Q007275.4.9.3",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "a",
+                        "id": "Q007275.4.9.4",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "k",
+                        "id": "Q007275.4.9.5",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "m",
+                        "id": "Q007275.4.9.6"
+                      }
+                    ],
+                    "cf": "apaniyāka-",
+                    "gw": "great-grandfather",
+                    "sense": "great-grandfather",
+                    "norm": "apaniyākamai̯",
+                    "pos": "N",
+                    "epos": "N"
+                  }
+                },
+                {
+                  "node": "d",
+                  "frag": ":",
+                  "type": "punct",
+                  "ref": "Q007275.4.10",
+                  "lang": "peo",
+                  "delim": ""
+                },
+                {
+                  "node": "l",
+                  "frag": "a-ku-u-n-<u>-š",
+                  "id": "Q007275.l001f9",
+                  "ref": "Q007275.4.11",
+                  "inst": "akunau̯š[build]V",
+                  "sig": "@ario%peo:a-ku-u-n-u-š=kar[do//build]V'V$akunau̯š",
+                  "f": {
+                    "lang": "peo",
+                    "form": "a-ku-u-n-u-š",
+                    "delim": "",
+                    "gdl": [
+                      {
+                        "v": "a",
+                        "id": "Q007275.4.11.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ku",
+                        "id": "Q007275.4.11.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "u",
+                        "id": "Q007275.4.11.2",
+                        "delim": "-"
+                      },
+                      {
+                        "n": "n",
+                        "form": "n",
+                        "id": "Q007275.4.11.3",
+                        "delim": "-",
+                        "seq": [
+                          {
+                            "r": "n"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "u",
+                        "id": "Q007275.4.11.4",
+                        "statusStart": "Q007275.4.11.4",
+                        "o": ">",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "š",
+                        "id": "Q007275.4.11.5"
+                      }
+                    ],
+                    "cf": "kar",
+                    "gw": "do",
+                    "sense": "build",
+                    "norm": "akunau̯š",
+                    "pos": "V",
+                    "epos": "V"
+                  }
+                },
+                {
+                  "node": "d",
+                  "frag": ":",
+                  "type": "punct",
+                  "ref": "Q007275.4.12",
+                  "lang": "peo",
+                  "delim": ""
+                },
+                {
+                  "node": "l",
+                  "frag": "a-b-y-p-r",
+                  "id": "Q007275.l001fa",
+                  "ref": "Q007275.4.13",
+                  "inst": "abiyaparam[later]AV",
+                  "sig": "@ario%peo:a-b-y-p-r=aparam[later//later]AV'AV$abiyaparam",
+                  "f": {
+                    "lang": "peo",
+                    "form": "a-b-y-p-r",
+                    "delim": "",
+                    "gdl": [
+                      {
+                        "v": "a",
+                        "id": "Q007275.4.13.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "b",
+                        "id": "Q007275.4.13.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "y",
+                        "id": "Q007275.4.13.2",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "p",
+                        "id": "Q007275.4.13.3",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "r",
+                        "id": "Q007275.4.13.4"
+                      }
+                    ],
+                    "cf": "aparam",
+                    "gw": "later",
+                    "sense": "later",
+                    "norm": "abiyaparam",
+                    "pos": "AV",
+                    "epos": "AV"
+                  }
+                },
+                {
+                  "node": "d",
+                  "frag": ":",
+                  "type": "punct",
+                  "ref": "Q007275.4.14",
+                  "lang": "peo",
+                  "delim": ""
+                },
+                {
+                  "node": "l",
+                  "frag": "u-p-a",
+                  "id": "Q007275.l001fb",
+                  "ref": "Q007275.4.15",
+                  "inst": "upā[under]PRP",
+                  "sig": "@ario%peo:u-p-a=upā[under//under]PRP'PRP$upā",
+                  "f": {
+                    "lang": "peo",
+                    "form": "u-p-a",
+                    "delim": "",
+                    "gdl": [
+                      {
+                        "v": "u",
+                        "id": "Q007275.4.15.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "p",
+                        "id": "Q007275.4.15.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "a",
+                        "id": "Q007275.4.15.2"
+                      }
+                    ],
+                    "cf": "upā",
+                    "gw": "under",
+                    "sense": "under",
+                    "norm": "upā",
+                    "pos": "PRP",
+                    "epos": "PRP"
+                  }
+                },
+                {
+                  "node": "d",
+                  "frag": ":",
+                  "type": "punct",
+                  "ref": "Q007275.4.16",
+                  "lang": "peo",
+                  "delim": ""
+                },
+                {
+                  "node": "l",
+                  "frag": "a-r-t-x-š-ç-a",
+                  "id": "Q007275.l001fc",
+                  "ref": "Q007275.4.17",
+                  "inst": "Artaxšaça-_I[Artaxerxes I, king of Persia]RN$Ṛtaxšaçā",
+                  "sig": "@ario%peo:a-r-t-x-š-ç-a=Artaxšaça-_I[Artaxerxes I, king of Persia//Artaxerxes I, king of Persia]RN'RN$Ṛtaxšaçā",
+                  "f": {
+                    "lang": "peo",
+                    "form": "a-r-t-x-š-ç-a",
+                    "delim": "",
+                    "gdl": [
+                      {
+                        "v": "a",
+                        "id": "Q007275.4.17.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "r",
+                        "id": "Q007275.4.17.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "t",
+                        "id": "Q007275.4.17.2",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "x",
+                        "id": "Q007275.4.17.3",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "š",
+                        "id": "Q007275.4.17.4",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ç",
+                        "id": "Q007275.4.17.5",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "a",
+                        "id": "Q007275.4.17.6"
+                      }
+                    ],
+                    "cf": "Artaxšaça-_I",
+                    "gw": "Artaxerxes I, king of Persia",
+                    "sense": "Artaxerxes I, king of Persia",
+                    "norm": "Ṛtaxšaçā",
+                    "pos": "RN",
+                    "epos": "RN"
+                  }
+                },
+                {
+                  "node": "d",
+                  "frag": ":",
+                  "type": "punct",
+                  "ref": "Q007275.4.18",
+                  "lang": "peo",
+                  "delim": ""
+                },
+                {
+                  "node": "l",
+                  "frag": "n-y-k-m",
+                  "id": "Q007275.l001fd",
+                  "ref": "Q007275.4.19",
+                  "inst": "niyākammai̯[grandfather]N",
+                  "sig": "@ario%peo:n-y-k-m=niyāka-[grandfather//grandfather]N'N$niyākammai̯",
+                  "f": {
+                    "lang": "peo",
+                    "form": "n-y-k-m",
+                    "delim": "",
+                    "gdl": [
+                      {
+                        "n": "n",
+                        "form": "n",
+                        "id": "Q007275.4.19.0",
+                        "delim": "-",
+                        "seq": [
+                          {
+                            "r": "n"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "y",
+                        "id": "Q007275.4.19.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "k",
+                        "id": "Q007275.4.19.2",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "m",
+                        "id": "Q007275.4.19.3"
+                      }
+                    ],
+                    "cf": "niyāka-",
+                    "gw": "grandfather",
+                    "sense": "grandfather",
+                    "norm": "niyākammai̯",
+                    "pos": "N",
+                    "epos": "N"
+                  }
+                },
+                {
+                  "node": "d",
+                  "frag": ":",
+                  "type": "punct",
+                  "ref": "Q007275.4.20",
+                  "lang": "peo",
+                  "delim": ""
+                },
+                {
+                  "node": "l",
+                  "frag": "a-θ-v-a",
+                  "id": "Q007275.l001fe",
+                  "ref": "Q007275.4.21",
+                  "inst": "aθau̯ca[burn]V",
+                  "sig": "@ario%peo:a-θ-v-a=t'au̯k[burn//burn]V'V$aθau̯ca",
+                  "f": {
+                    "lang": "peo",
+                    "form": "a-θ-v-a",
+                    "gdl": [
+                      {
+                        "v": "a",
+                        "id": "Q007275.4.21.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "θ",
+                        "id": "Q007275.4.21.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "v",
+                        "id": "Q007275.4.21.2",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "a",
+                        "id": "Q007275.4.21.3"
+                      }
+                    ],
+                    "cf": "t'au̯k",
+                    "gw": "burn",
+                    "sense": "burn",
+                    "norm": "aθau̯ca",
+                    "pos": "V",
+                    "epos": "V"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "Q007275.5",
+                  "n": "5",
+                  "label": "Persian 5"
+                },
+                {
+                  "node": "d",
+                  "frag": "[:",
+                  "type": "punct",
+                  "ref": "Q007275.5.1",
+                  "lang": "peo",
+                  "delim": ""
+                },
+                {
+                  "node": "l",
+                  "frag": "v]-š-n-a",
+                  "id": "Q007275.l001ff",
+                  "ref": "Q007275.5.2",
+                  "inst": "vašnā[will]N",
+                  "sig": "@ario%peo:v-š-n-a=vašnā-[will//will]N'N$vašnā",
+                  "f": {
+                    "lang": "peo",
+                    "form": "v-š-n-a",
+                    "delim": "",
+                    "gdl": [
+                      {
+                        "v": "v",
+                        "id": "Q007275.5.2.0",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "Q007275.5.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "š",
+                        "id": "Q007275.5.2.1",
+                        "delim": "-"
+                      },
+                      {
+                        "n": "n",
+                        "form": "n",
+                        "id": "Q007275.5.2.2",
+                        "delim": "-",
+                        "seq": [
+                          {
+                            "r": "n"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "a",
+                        "id": "Q007275.5.2.3"
+                      }
+                    ],
+                    "cf": "vašnā-",
+                    "gw": "will",
+                    "sense": "will",
+                    "norm": "vašnā",
+                    "pos": "N",
+                    "epos": "N"
+                  }
+                },
+                {
+                  "node": "d",
+                  "frag": ":",
+                  "type": "punct",
+                  "ref": "Q007275.5.3",
+                  "lang": "peo",
+                  "delim": ""
+                },
+                {
+                  "node": "l",
+                  "frag": "AM",
+                  "id": "Q007275.l00200",
+                  "ref": "Q007275.5.4",
+                  "inst": "A.uramazdā[Ahuramazdā]DN",
+                  "sig": "@ario%peo:AM=A.uramazdā-[Ahuramazdā//Ahuramazdā]DN'DN$A.uramazdā",
+                  "f": {
+                    "lang": "peo",
+                    "form": "AM",
+                    "delim": "",
+                    "gdl": [
+                      {
+                        "gg": "logo",
+                        "gdl_type": "logo",
+                        "group": [
+                          {
+                            "s": "AM",
+                            "id": "Q007275.5.4.0",
+                            "role": "logo",
+                            "logolang": "peo"
+                          }
+                        ]
+                      }
+                    ],
+                    "cf": "A.uramazdā-",
+                    "gw": "Ahuramazdā",
+                    "sense": "Ahuramazdā",
+                    "norm": "A.uramazdā",
+                    "pos": "DN",
+                    "epos": "DN"
+                  }
+                },
+                {
+                  "node": "d",
+                  "frag": "[:",
+                  "type": "punct",
+                  "ref": "Q007275.5.5",
+                  "lang": "peo",
+                  "delim": ""
+                },
+                {
+                  "node": "l",
+                  "frag": "a-n-h]-t",
+                  "id": "Q007275.l00201",
+                  "ref": "Q007275.5.6",
+                  "inst": "Anāhitā[Iranian goddess]DN",
+                  "sig": "@ario%peo:a-n-h-t=Anāhitā-[Iranian goddess//Iranian goddess]DN'DN$Anāhitā",
+                  "f": {
+                    "lang": "peo",
+                    "form": "a-n-h-t",
+                    "delim": "",
+                    "gdl": [
+                      {
+                        "v": "a",
+                        "id": "Q007275.5.6.0",
+                        "break": "missing",
+                        "delim": "-"
+                      },
+                      {
+                        "n": "n",
+                        "form": "n",
+                        "id": "Q007275.5.6.1",
+                        "break": "missing",
+                        "delim": "-",
+                        "seq": [
+                          {
+                            "r": "n"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "h",
+                        "id": "Q007275.5.6.2",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "Q007275.5.5.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "t",
+                        "id": "Q007275.5.6.3"
+                      }
+                    ],
+                    "cf": "Anāhitā-",
+                    "gw": "Iranian goddess",
+                    "sense": "Iranian goddess",
+                    "norm": "Anāhitā",
+                    "pos": "DN",
+                    "epos": "DN"
+                  }
+                },
+                {
+                  "node": "d",
+                  "frag": ":",
+                  "type": "punct",
+                  "ref": "Q007275.5.7",
+                  "lang": "peo",
+                  "delim": ""
+                },
+                {
+                  "node": "l",
+                  "frag": "u-t-a",
+                  "id": "Q007275.l00202",
+                  "ref": "Q007275.5.8",
+                  "inst": "utā[and]CNJ",
+                  "sig": "@ario%peo:u-t-a=utā[and//and]CNJ'CNJ$utā",
+                  "f": {
+                    "lang": "peo",
+                    "form": "u-t-a",
+                    "delim": "",
+                    "gdl": [
+                      {
+                        "v": "u",
+                        "id": "Q007275.5.8.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "t",
+                        "id": "Q007275.5.8.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "a",
+                        "id": "Q007275.5.8.2"
+                      }
+                    ],
+                    "cf": "utā",
+                    "gw": "and",
+                    "sense": "and",
+                    "norm": "utā",
+                    "pos": "CNJ",
+                    "epos": "CNJ"
+                  }
+                },
+                {
+                  "node": "d",
+                  "frag": ":",
+                  "type": "punct",
+                  "ref": "Q007275.5.9",
+                  "lang": "peo",
+                  "delim": ""
+                },
+                {
+                  "node": "l",
+                  "frag": "mi-θ-r",
+                  "id": "Q007275.l00203",
+                  "ref": "Q007275.5.10",
+                  "inst": "Miθra[Iranian god]DN",
+                  "sig": "@ario%peo:mi-θ-r=Miθra-[Iranian god//Iranian god]DN'DN$Miθra",
+                  "f": {
+                    "lang": "peo",
+                    "form": "mi-θ-r",
+                    "delim": "",
+                    "gdl": [
+                      {
+                        "v": "mi",
+                        "id": "Q007275.5.10.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "θ",
+                        "id": "Q007275.5.10.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "r",
+                        "id": "Q007275.5.10.2"
+                      }
+                    ],
+                    "cf": "Miθra-",
+                    "gw": "Iranian god",
+                    "sense": "Iranian god",
+                    "norm": "Miθra",
+                    "pos": "DN",
+                    "epos": "DN"
+                  }
+                },
+                {
+                  "node": "d",
+                  "frag": ":",
+                  "type": "punct",
+                  "ref": "Q007275.5.11",
+                  "lang": "peo",
+                  "delim": ""
+                },
+                {
+                  "node": "l",
+                  "frag": "a-d-m",
+                  "id": "Q007275.l00204",
+                  "ref": "Q007275.5.12",
+                  "inst": "adam[I]IP",
+                  "sig": "@ario%peo:a-d-m=adam[I//I]IP'IP$adam",
+                  "f": {
+                    "lang": "peo",
+                    "form": "a-d-m",
+                    "delim": "",
+                    "gdl": [
+                      {
+                        "v": "a",
+                        "id": "Q007275.5.12.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "d",
+                        "id": "Q007275.5.12.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "m",
+                        "id": "Q007275.5.12.2"
+                      }
+                    ],
+                    "cf": "adam",
+                    "gw": "I",
+                    "sense": "I",
+                    "norm": "adam",
+                    "pos": "IP",
+                    "epos": "IP"
+                  }
+                },
+                {
+                  "node": "d",
+                  "frag": ":",
+                  "type": "punct",
+                  "ref": "Q007275.5.13",
+                  "lang": "peo",
+                  "delim": ""
+                },
+                {
+                  "node": "l",
+                  "frag": "n-s-t-a-y",
+                  "id": "Q007275.l00205",
+                  "ref": "Q007275.5.14",
+                  "inst": "niyastāyam[order, direct]V",
+                  "sig": "@ario%peo:n-s-t-a-y=ni-stā[order//order, direct]V'V$niyastāyam",
+                  "f": {
+                    "lang": "peo",
+                    "form": "n-s-t-a-y",
+                    "delim": "",
+                    "gdl": [
+                      {
+                        "n": "n",
+                        "form": "n",
+                        "id": "Q007275.5.14.0",
+                        "delim": "-",
+                        "seq": [
+                          {
+                            "r": "n"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "s",
+                        "id": "Q007275.5.14.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "t",
+                        "id": "Q007275.5.14.2",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "a",
+                        "id": "Q007275.5.14.3",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "y",
+                        "id": "Q007275.5.14.4"
+                      }
+                    ],
+                    "cf": "ni-stā",
+                    "gw": "order",
+                    "sense": "order, direct",
+                    "norm": "niyastāyam",
+                    "pos": "V",
+                    "epos": "V"
+                  }
+                },
+                {
+                  "node": "d",
+                  "frag": ":",
+                  "type": "punct",
+                  "ref": "Q007275.5.15",
+                  "lang": "peo",
+                  "delim": ""
+                },
+                {
+                  "node": "l",
+                  "frag": "a-p-d-a-n-a",
+                  "id": "Q007275.l00206",
+                  "ref": "Q007275.5.16",
+                  "inst": "apadānam[palace]N",
+                  "sig": "@ario%peo:a-p-d-a-n-a=apadāna-[palace//palace]N'N$apadānam",
+                  "f": {
+                    "lang": "peo",
+                    "form": "a-p-d-a-n-a",
+                    "delim": "",
+                    "gdl": [
+                      {
+                        "v": "a",
+                        "id": "Q007275.5.16.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "p",
+                        "id": "Q007275.5.16.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "d",
+                        "id": "Q007275.5.16.2",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "a",
+                        "id": "Q007275.5.16.3",
+                        "delim": "-"
+                      },
+                      {
+                        "n": "n",
+                        "form": "n",
+                        "id": "Q007275.5.16.4",
+                        "delim": "-",
+                        "seq": [
+                          {
+                            "r": "n"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "a",
+                        "id": "Q007275.5.16.5"
+                      }
+                    ],
+                    "cf": "apadāna-",
+                    "gw": "palace",
+                    "sense": "palace",
+                    "norm": "apadānam",
+                    "pos": "N",
+                    "epos": "N"
+                  }
+                },
+                {
+                  "node": "d",
+                  "frag": ":",
+                  "type": "punct",
+                  "ref": "Q007275.5.17",
+                  "lang": "peo",
+                  "delim": ""
+                },
+                {
+                  "node": "l",
+                  "frag": "i-m-m",
+                  "id": "Q007275.l00207",
+                  "ref": "Q007275.5.18",
+                  "inst": "imam[this]DP",
+                  "sig": "@ario%peo:i-m-m=i-/ima-[this (here)//this]DP'DP$imam",
+                  "f": {
+                    "lang": "peo",
+                    "form": "i-m-m",
+                    "delim": "",
+                    "gdl": [
+                      {
+                        "v": "i",
+                        "id": "Q007275.5.18.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "m",
+                        "id": "Q007275.5.18.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "m",
+                        "id": "Q007275.5.18.2"
+                      }
+                    ],
+                    "cf": "i-/ima-",
+                    "gw": "this (here)",
+                    "sense": "this",
+                    "norm": "imam",
+                    "pos": "DP",
+                    "epos": "DP"
+                  }
+                },
+                {
+                  "node": "d",
+                  "frag": ":",
+                  "type": "punct",
+                  "ref": "Q007275.5.19",
+                  "lang": "peo",
+                  "delim": ""
+                },
+                {
+                  "node": "l",
+                  "frag": "a-ku-u-n-i-y",
+                  "id": "Q007275.l00208",
+                  "ref": "Q007275.5.20",
+                  "inst": "akunai̯[build]V",
+                  "sig": "@ario%peo:a-ku-u-n-i-y=kar[do//build]V'V$akunai̯",
+                  "f": {
+                    "lang": "peo",
+                    "form": "a-ku-u-n-i-y",
+                    "delim": "",
+                    "gdl": [
+                      {
+                        "v": "a",
+                        "id": "Q007275.5.20.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ku",
+                        "id": "Q007275.5.20.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "u",
+                        "id": "Q007275.5.20.2",
+                        "delim": "-"
+                      },
+                      {
+                        "n": "n",
+                        "form": "n",
+                        "id": "Q007275.5.20.3",
+                        "delim": "-",
+                        "seq": [
+                          {
+                            "r": "n"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "i",
+                        "id": "Q007275.5.20.4",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "y",
+                        "id": "Q007275.5.20.5"
+                      }
+                    ],
+                    "cf": "kar",
+                    "gw": "do",
+                    "sense": "build",
+                    "norm": "akunai̯",
+                    "pos": "V",
+                    "epos": "V"
+                  }
+                },
+                {
+                  "node": "d",
+                  "frag": ":",
+                  "type": "punct",
+                  "ref": "Q007275.5.21",
+                  "lang": "peo",
+                  "delim": ""
+                },
+                {
+                  "node": "l",
+                  "frag": "AM",
+                  "id": "Q007275.l00209",
+                  "ref": "Q007275.5.22",
+                  "inst": "A.uramazdā[Ahuramazdā]DN",
+                  "sig": "@ario%peo:AM=A.uramazdā-[Ahuramazdā//Ahuramazdā]DN'DN$A.uramazdā",
+                  "f": {
+                    "lang": "peo",
+                    "form": "AM",
+                    "delim": "",
+                    "gdl": [
+                      {
+                        "gg": "logo",
+                        "gdl_type": "logo",
+                        "group": [
+                          {
+                            "s": "AM",
+                            "id": "Q007275.5.22.0",
+                            "role": "logo",
+                            "logolang": "peo"
+                          }
+                        ]
+                      }
+                    ],
+                    "cf": "A.uramazdā-",
+                    "gw": "Ahuramazdā",
+                    "sense": "Ahuramazdā",
+                    "norm": "A.uramazdā",
+                    "pos": "DN",
+                    "epos": "DN"
+                  }
+                },
+                {
+                  "node": "d",
+                  "frag": ":",
+                  "type": "punct",
+                  "ref": "Q007275.5.23",
+                  "lang": "peo",
+                  "delim": ""
+                },
+                {
+                  "node": "l",
+                  "frag": "a-n-h-t",
+                  "id": "Q007275.l0020a",
+                  "ref": "Q007275.5.24",
+                  "inst": "Anāhitā[Iranian goddess]DN",
+                  "sig": "@ario%peo:a-n-h-t=Anāhitā-[Iranian goddess//Iranian goddess]DN'DN$Anāhitā",
+                  "f": {
+                    "lang": "peo",
+                    "form": "a-n-h-t",
+                    "delim": "",
+                    "gdl": [
+                      {
+                        "v": "a",
+                        "id": "Q007275.5.24.0",
+                        "delim": "-"
+                      },
+                      {
+                        "n": "n",
+                        "form": "n",
+                        "id": "Q007275.5.24.1",
+                        "delim": "-",
+                        "seq": [
+                          {
+                            "r": "n"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "h",
+                        "id": "Q007275.5.24.2",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "t",
+                        "id": "Q007275.5.24.3"
+                      }
+                    ],
+                    "cf": "Anāhitā-",
+                    "gw": "Iranian goddess",
+                    "sense": "Iranian goddess",
+                    "norm": "Anāhitā",
+                    "pos": "DN",
+                    "epos": "DN"
+                  }
+                },
+                {
+                  "node": "d",
+                  "frag": ":",
+                  "type": "punct",
+                  "ref": "Q007275.5.25",
+                  "lang": "peo",
+                  "delim": ""
+                },
+                {
+                  "node": "l",
+                  "frag": "u-t-<a>",
+                  "id": "Q007275.l0020b",
+                  "ref": "Q007275.5.26",
+                  "inst": "utā[and]CNJ",
+                  "sig": "@ario%peo:u-t-a=utā[and//and]CNJ'CNJ$utā",
+                  "f": {
+                    "lang": "peo",
+                    "form": "u-t-a",
+                    "delim": "",
+                    "gdl": [
+                      {
+                        "v": "u",
+                        "id": "Q007275.5.26.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "t",
+                        "id": "Q007275.5.26.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "a",
+                        "id": "Q007275.5.26.2",
+                        "statusStart": "Q007275.5.26.2",
+                        "o": ">"
+                      }
+                    ],
+                    "cf": "utā",
+                    "gw": "and",
+                    "sense": "and",
+                    "norm": "utā",
+                    "pos": "CNJ",
+                    "epos": "CNJ"
+                  }
+                },
+                {
+                  "node": "d",
+                  "frag": ":",
+                  "type": "punct",
+                  "ref": "Q007275.5.27",
+                  "lang": "peo",
+                  "delim": ""
+                },
+                {
+                  "node": "l",
+                  "frag": "mi-θ-r",
+                  "id": "Q007275.l0020c",
+                  "ref": "Q007275.5.28",
+                  "inst": "Miθra[Iranian god]DN",
+                  "sig": "@ario%peo:mi-θ-r=Miθra-[Iranian god//Iranian god]DN'DN$Miθra",
+                  "f": {
+                    "lang": "peo",
+                    "form": "mi-θ-r",
+                    "delim": "",
+                    "gdl": [
+                      {
+                        "v": "mi",
+                        "id": "Q007275.5.28.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "θ",
+                        "id": "Q007275.5.28.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "r",
+                        "id": "Q007275.5.28.2"
+                      }
+                    ],
+                    "cf": "Miθra-",
+                    "gw": "Iranian god",
+                    "sense": "Iranian god",
+                    "norm": "Miθra",
+                    "pos": "DN",
+                    "epos": "DN"
+                  }
+                },
+                {
+                  "node": "d",
+                  "frag": ":",
+                  "type": "punct",
+                  "ref": "Q007275.5.29",
+                  "lang": "peo",
+                  "delim": ""
+                },
+                {
+                  "node": "l",
+                  "frag": "m-a-;",
+                  "id": "Q007275.l0020d",
+                  "ref": "Q007275.5.30",
+                  "inst": "mām[me]PP",
+                  "sig": "@ario%peo:m-a-m=ma-[me, mine//me]PP'PP$mām",
+                  "f": {
+                    "lang": "peo",
+                    "form": "m-a-m",
+                    "headform": "m-a",
+                    "contrefs": "Q007275.5.30 Q007275.6.1",
+                    "gdl": [
+                      {
+                        "v": "m",
+                        "id": "Q007275.5.30.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "a",
+                        "id": "Q007275.5.30.1",
+                        "delim": "-"
+                      }
+                    ],
+                    "cf": "ma-",
+                    "gw": "me, mine",
+                    "sense": "me",
+                    "norm": "mām",
+                    "pos": "PP",
+                    "epos": "PP"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "Q007275.6",
+                  "n": "6",
+                  "label": "Persian 6"
+                },
+                {
+                  "node": "d",
+                  "frag": ":",
+                  "type": "punct",
+                  "ref": "Q007275.6.2",
+                  "lang": "peo",
+                  "delim": ""
+                },
+                {
+                  "node": "l",
+                  "frag": "p-a-tu-u]-v",
+                  "id": "Q007275.l0020e",
+                  "ref": "Q007275.6.3",
+                  "inst": "pātu[protect]V",
+                  "sig": "@ario%peo:p-a-tu-u-v=pā[protect//protect]V'V$pātu",
+                  "f": {
+                    "lang": "peo",
+                    "form": "p-a-tu-u-v",
+                    "delim": "",
+                    "gdl": [
+                      {
+                        "v": "p",
+                        "id": "Q007275.6.3.0",
+                        "break": "missing",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "a",
+                        "id": "Q007275.6.3.1",
+                        "break": "missing",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "tu",
+                        "id": "Q007275.6.3.2",
+                        "break": "missing",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "u",
+                        "id": "Q007275.6.3.3",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "Q007275.6.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "v",
+                        "id": "Q007275.6.3.4"
+                      }
+                    ],
+                    "cf": "pā",
+                    "gw": "protect",
+                    "sense": "protect",
+                    "norm": "pātu",
+                    "pos": "V",
+                    "epos": "V"
+                  }
+                },
+                {
+                  "node": "d",
+                  "frag": "[:",
+                  "type": "punct",
+                  "ref": "Q007275.6.4",
+                  "lang": "peo",
+                  "delim": ""
+                },
+                {
+                  "node": "l",
+                  "frag": "h-c-a]",
+                  "id": "Q007275.l0020f",
+                  "ref": "Q007275.6.5",
+                  "inst": "hacā[from]PRP",
+                  "sig": "@ario%peo:h-c-a=hacā[from//from]PRP'PRP$hacā",
+                  "f": {
+                    "lang": "peo",
+                    "form": "h-c-a",
+                    "delim": "",
+                    "gdl": [
+                      {
+                        "v": "h",
+                        "id": "Q007275.6.5.0",
+                        "break": "missing",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "c",
+                        "id": "Q007275.6.5.1",
+                        "break": "missing",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "a",
+                        "id": "Q007275.6.5.2",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "Q007275.6.4.0"
+                      }
+                    ],
+                    "cf": "hacā",
+                    "gw": "from",
+                    "sense": "from",
+                    "norm": "hacā",
+                    "pos": "PRP",
+                    "epos": "PRP"
+                  }
+                },
+                {
+                  "node": "d",
+                  "frag": ":",
+                  "type": "punct",
+                  "ref": "Q007275.6.6",
+                  "lang": "peo",
+                  "delim": ""
+                },
+                {
+                  "node": "l",
+                  "frag": "vi-[s-p]-a",
+                  "id": "Q007275.l00210",
+                  "ref": "Q007275.6.7",
+                  "inst": "vispā[all]AJ",
+                  "sig": "@ario%peo:vi-s-p-a=vispa-[all//all]AJ'AJ$vispā",
+                  "f": {
+                    "lang": "peo",
+                    "form": "vi-s-p-a",
+                    "delim": "",
+                    "gdl": [
+                      {
+                        "v": "vi",
+                        "id": "Q007275.6.7.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "s",
+                        "id": "Q007275.6.7.1",
+                        "breakStart": "1",
+                        "o": "[",
+                        "break": "missing",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "p",
+                        "id": "Q007275.6.7.2",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "Q007275.6.7.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "a",
+                        "id": "Q007275.6.7.3"
+                      }
+                    ],
+                    "cf": "vispa-",
+                    "gw": "all",
+                    "sense": "all",
+                    "norm": "vispā",
+                    "pos": "AJ",
+                    "epos": "AJ"
+                  }
+                },
+                {
+                  "node": "d",
+                  "frag": ":",
+                  "type": "punct",
+                  "ref": "Q007275.6.8",
+                  "lang": "peo",
+                  "delim": ""
+                },
+                {
+                  "node": "l",
+                  "frag": "g-s-t-a",
+                  "id": "Q007275.l00211",
+                  "ref": "Q007275.6.9",
+                  "inst": "gastā[evil]AJ",
+                  "sig": "@ario%peo:g-s-t-a=gasta-[evil//evil]AJ'AJ$gastā",
+                  "f": {
+                    "lang": "peo",
+                    "form": "g-s-t-a",
+                    "delim": "",
+                    "gdl": [
+                      {
+                        "v": "g",
+                        "id": "Q007275.6.9.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "s",
+                        "id": "Q007275.6.9.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "t",
+                        "id": "Q007275.6.9.2",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "a",
+                        "id": "Q007275.6.9.3"
+                      }
+                    ],
+                    "cf": "gasta-",
+                    "gw": "evil",
+                    "sense": "evil",
+                    "norm": "gastā",
+                    "pos": "AJ",
+                    "epos": "AJ"
+                  }
+                },
+                {
+                  "node": "d",
+                  "frag": ":",
+                  "type": "punct",
+                  "ref": "Q007275.6.10",
+                  "lang": "peo",
+                  "delim": ""
+                },
+                {
+                  "node": "l",
+                  "frag": "u-t-a",
+                  "id": "Q007275.l00212",
+                  "ref": "Q007275.6.11",
+                  "inst": "utā[and]CNJ",
+                  "sig": "@ario%peo:u-t-a=utā[and//and]CNJ'CNJ$utā",
+                  "f": {
+                    "lang": "peo",
+                    "form": "u-t-a",
+                    "delim": "",
+                    "gdl": [
+                      {
+                        "v": "u",
+                        "id": "Q007275.6.11.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "t",
+                        "id": "Q007275.6.11.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "a",
+                        "id": "Q007275.6.11.2"
+                      }
+                    ],
+                    "cf": "utā",
+                    "gw": "and",
+                    "sense": "and",
+                    "norm": "utā",
+                    "pos": "CNJ",
+                    "epos": "CNJ"
+                  }
+                },
+                {
+                  "node": "d",
+                  "frag": ":",
+                  "type": "punct",
+                  "ref": "Q007275.6.12",
+                  "lang": "peo",
+                  "delim": ""
+                },
+                {
+                  "node": "l",
+                  "frag": "i-m-m",
+                  "id": "Q007275.l00213",
+                  "ref": "Q007275.6.13",
+                  "inst": "imam[this]DP",
+                  "sig": "@ario%peo:i-m-m=i-/ima-[this (here)//this]DP'DP$imam",
+                  "f": {
+                    "lang": "peo",
+                    "form": "i-m-m",
+                    "delim": "",
+                    "gdl": [
+                      {
+                        "v": "i",
+                        "id": "Q007275.6.13.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "m",
+                        "id": "Q007275.6.13.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "m",
+                        "id": "Q007275.6.13.2"
+                      }
+                    ],
+                    "cf": "i-/ima-",
+                    "gw": "this (here)",
+                    "sense": "this",
+                    "norm": "imam",
+                    "pos": "DP",
+                    "epos": "DP"
+                  }
+                },
+                {
+                  "node": "d",
+                  "frag": ":",
+                  "type": "punct",
+                  "ref": "Q007275.6.14",
+                  "lang": "peo",
+                  "delim": ""
+                },
+                {
+                  "node": "l",
+                  "frag": "t-y",
+                  "id": "Q007275.l00214",
+                  "ref": "Q007275.6.15",
+                  "inst": "taya[which]REL",
+                  "sig": "@ario%peo:t-y=haya/taya-[who//which]REL'REL$taya",
+                  "f": {
+                    "lang": "peo",
+                    "form": "t-y",
+                    "delim": "",
+                    "gdl": [
+                      {
+                        "v": "t",
+                        "id": "Q007275.6.15.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "y",
+                        "id": "Q007275.6.15.1"
+                      }
+                    ],
+                    "cf": "haya/taya-",
+                    "gw": "who",
+                    "sense": "which",
+                    "norm": "taya",
+                    "pos": "REL",
+                    "epos": "REL"
+                  }
+                },
+                {
+                  "node": "d",
+                  "frag": ":",
+                  "type": "punct",
+                  "ref": "Q007275.6.16",
+                  "lang": "peo",
+                  "delim": ""
+                },
+                {
+                  "node": "l",
+                  "frag": "a-ku-u-n-a",
+                  "id": "Q007275.l00215",
+                  "ref": "Q007275.6.17",
+                  "inst": "akunā[build]V",
+                  "sig": "@ario%peo:a-ku-u-n-a=kar[do//build]V'V$akunā",
+                  "f": {
+                    "lang": "peo",
+                    "form": "a-ku-u-n-a",
+                    "delim": "",
+                    "gdl": [
+                      {
+                        "v": "a",
+                        "id": "Q007275.6.17.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ku",
+                        "id": "Q007275.6.17.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "u",
+                        "id": "Q007275.6.17.2",
+                        "delim": "-"
+                      },
+                      {
+                        "n": "n",
+                        "form": "n",
+                        "id": "Q007275.6.17.3",
+                        "delim": "-",
+                        "seq": [
+                          {
+                            "r": "n"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "a",
+                        "id": "Q007275.6.17.4"
+                      }
+                    ],
+                    "cf": "kar",
+                    "gw": "do",
+                    "sense": "build",
+                    "norm": "akunā",
+                    "pos": "V",
+                    "epos": "V"
+                  }
+                },
+                {
+                  "node": "d",
+                  "frag": ":",
+                  "type": "punct",
+                  "ref": "Q007275.6.18",
+                  "lang": "peo",
+                  "delim": ""
+                },
+                {
+                  "node": "l",
+                  "frag": "m-a",
+                  "id": "Q007275.l00216",
+                  "ref": "Q007275.6.19",
+                  "inst": "mā[not]MOD",
+                  "sig": "@ario%peo:m-a=mā[not//not]MOD'MOD$mā",
+                  "f": {
+                    "lang": "peo",
+                    "form": "m-a",
+                    "delim": "",
+                    "gdl": [
+                      {
+                        "v": "m",
+                        "id": "Q007275.6.19.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "a",
+                        "id": "Q007275.6.19.1"
+                      }
+                    ],
+                    "cf": "mā",
+                    "gw": "not",
+                    "sense": "not",
+                    "norm": "mā",
+                    "pos": "MOD",
+                    "epos": "MOD"
+                  }
+                },
+                {
+                  "node": "d",
+                  "frag": ":",
+                  "type": "punct",
+                  "ref": "Q007275.6.20",
+                  "lang": "peo",
+                  "delim": ""
+                },
+                {
+                  "node": "l",
+                  "frag": "y-a-tu-u-m",
+                  "id": "Q007275.l00217",
+                  "ref": "Q007275.6.21",
+                  "inst": "yātum[X]X",
+                  "sig": "@ario%peo:y-a-tu-u-m=yātum[X//X]X'X$yātum",
+                  "f": {
+                    "lang": "peo",
+                    "form": "y-a-tu-u-m",
+                    "delim": "",
+                    "gdl": [
+                      {
+                        "v": "y",
+                        "id": "Q007275.6.21.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "a",
+                        "id": "Q007275.6.21.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "tu",
+                        "id": "Q007275.6.21.2",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "u",
+                        "id": "Q007275.6.21.3",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "m",
+                        "id": "Q007275.6.21.4"
+                      }
+                    ],
+                    "cf": "yātum",
+                    "gw": "X",
+                    "sense": "X",
+                    "norm": "yātum",
+                    "pos": "X",
+                    "epos": "X"
+                  }
+                },
+                {
+                  "node": "d",
+                  "frag": ":",
+                  "type": "punct",
+                  "ref": "Q007275.6.22",
+                  "lang": "peo",
+                  "delim": ""
+                },
+                {
+                  "node": "l",
+                  "frag": "m-a",
+                  "id": "Q007275.l00218",
+                  "ref": "Q007275.6.23",
+                  "inst": "mā[not]MOD",
+                  "sig": "@ario%peo:m-a=mā[not//not]MOD'MOD$mā",
+                  "f": {
+                    "lang": "peo",
+                    "form": "m-a",
+                    "delim": "",
+                    "gdl": [
+                      {
+                        "v": "m",
+                        "id": "Q007275.6.23.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "a",
+                        "id": "Q007275.6.23.1"
+                      }
+                    ],
+                    "cf": "mā",
+                    "gw": "not",
+                    "sense": "not",
+                    "norm": "mā",
+                    "pos": "MOD",
+                    "epos": "MOD"
+                  }
+                },
+                {
+                  "node": "d",
+                  "frag": ":",
+                  "type": "punct",
+                  "ref": "Q007275.6.24",
+                  "lang": "peo",
+                  "delim": ""
+                },
+                {
+                  "node": "l",
+                  "frag": "k-y-a-d-a",
+                  "id": "Q007275.l00219",
+                  "ref": "Q007275.6.25",
+                  "inst": "kayādā[indifference]N",
+                  "sig": "@ario%peo:k-y-a-d-a=kayādā[indifference//indifference]N'N$kayādā",
+                  "f": {
+                    "lang": "peo",
+                    "form": "k-y-a-d-a",
+                    "delim": "",
+                    "gdl": [
+                      {
+                        "v": "k",
+                        "id": "Q007275.6.25.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "y",
+                        "id": "Q007275.6.25.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "a",
+                        "id": "Q007275.6.25.2",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "d",
+                        "id": "Q007275.6.25.3",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "a",
+                        "id": "Q007275.6.25.4"
+                      }
+                    ],
+                    "cf": "kayādā",
+                    "gw": "indifference",
+                    "sense": "indifference",
+                    "norm": "kayādā",
+                    "pos": "N",
+                    "epos": "N"
+                  }
+                },
+                {
+                  "node": "d",
+                  "frag": ":",
+                  "type": "punct",
+                  "ref": "Q007275.6.26",
+                  "lang": "peo",
+                  "delim": ""
+                },
+                {
+                  "node": "l",
+                  "frag": "vi-[x-x]-i-tu-[x]",
+                  "id": "Q007275.l0021a",
+                  "ref": "Q007275.6.27",
+                  "inst": "u",
+                  "f": {
+                    "lang": "peo",
+                    "form": "vi-x-x-i-tu-x",
+                    "gdl": [
+                      {
+                        "v": "vi",
+                        "id": "Q007275.6.27.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "x",
+                        "id": "Q007275.6.27.1",
+                        "breakStart": "1",
+                        "o": "[",
+                        "break": "missing",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "x",
+                        "id": "Q007275.6.27.2",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "Q007275.6.27.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "i",
+                        "id": "Q007275.6.27.3",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "tu",
+                        "id": "Q007275.6.27.4",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "x",
+                        "id": "Q007275.6.27.5",
+                        "breakStart": "1",
+                        "o": "]",
+                        "break": "missing",
+                        "breakEnd": "Q007275.6.27.5"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

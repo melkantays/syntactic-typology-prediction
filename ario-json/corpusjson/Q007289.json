@@ -1,0 +1,466 @@
+{
+  "type": "cdl",
+  "project": "ario",
+  "source": "http://oracc.org/ario",
+  "license": "This data is released under the CC0 license",
+  "license-url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "more-info": "http://oracc.org/doc/opendata/",
+  "UTC-timestamp": "2019-08-23T10:03:26",
+  "textid": "Q007289",
+  "cdl": [
+    {
+      "node": "c",
+      "type": "text",
+      "id": "Q007289.U0",
+      "cdl": [
+        {
+          "node": "d",
+          "type": "object",
+          "ref": ""
+        },
+        {
+          "node": "d",
+          "type": "surface",
+          "ref": ""
+        },
+        {
+          "node": "c",
+          "type": "discourse",
+          "subtype": "body",
+          "id": "Q007289.U1",
+          "cdl": [
+            {
+              "node": "c",
+              "type": "sentence",
+              "implicit": "yes",
+              "id": "Q007289.U2",
+              "label": "Persian 1 - Persian 4",
+              "cdl": [
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "Q007289.1",
+                  "n": "1",
+                  "label": "Persian 1"
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢θ-i-y⸣",
+                  "id": "Q007289.l01fcb",
+                  "ref": "Q007289.1.1",
+                  "inst": "%peo:θ-i-y=",
+                  "f": {
+                    "lang": "peo",
+                    "form": "θ-i-y",
+                    "delim": "",
+                    "gdl": [
+                      {
+                        "v": "θ",
+                        "id": "Q007289.1.1.0",
+                        "break": "damaged",
+                        "ho": "1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "i",
+                        "id": "Q007289.1.1.1",
+                        "break": "damaged",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "y",
+                        "id": "Q007289.1.1.2",
+                        "break": "damaged",
+                        "hc": "1"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "frag": "[:",
+                  "type": "punct",
+                  "ref": "Q007289.1.2",
+                  "lang": "peo",
+                  "delim": ""
+                },
+                {
+                  "node": "l",
+                  "frag": "d-h-y-u-n-a-m",
+                  "id": "Q007289.l01fcc",
+                  "ref": "Q007289.1.3",
+                  "inst": "%peo:d-h-y-u-n-a-m=",
+                  "f": {
+                    "lang": "peo",
+                    "form": "d-h-y-u-n-a-m",
+                    "delim": "",
+                    "gdl": [
+                      {
+                        "v": "d",
+                        "id": "Q007289.1.3.0",
+                        "break": "missing",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "h",
+                        "id": "Q007289.1.3.1",
+                        "break": "missing",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "y",
+                        "id": "Q007289.1.3.2",
+                        "break": "missing",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "u",
+                        "id": "Q007289.1.3.3",
+                        "break": "missing",
+                        "delim": "-"
+                      },
+                      {
+                        "n": "n",
+                        "form": "n",
+                        "id": "Q007289.1.3.4",
+                        "break": "missing",
+                        "delim": "-",
+                        "seq": [
+                          {
+                            "r": "n"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "a",
+                        "id": "Q007289.1.3.5",
+                        "break": "missing",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "m",
+                        "id": "Q007289.1.3.6",
+                        "break": "missing"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "frag": ":",
+                  "type": "punct",
+                  "ref": "Q007289.1.4",
+                  "lang": "peo",
+                  "delim": ""
+                },
+                {
+                  "node": "l",
+                  "frag": "x]-;",
+                  "id": "Q007289.l01fcd",
+                  "ref": "Q007289.1.5",
+                  "inst": "%peo:x-š-a-y-θ-i-y=",
+                  "f": {
+                    "lang": "peo",
+                    "form": "x-š-a-y-θ-i-y",
+                    "headform": "x",
+                    "contrefs": "Q007289.1.5 Q007289.2.1",
+                    "gdl": [
+                      {
+                        "v": "x",
+                        "id": "Q007289.1.5.0",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "Q007289.1.2.0",
+                        "delim": "-"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "Q007289.2",
+                  "n": "2",
+                  "label": "Persian 2"
+                },
+                {
+                  "node": "d",
+                  "frag": ":",
+                  "type": "punct",
+                  "ref": "Q007289.2.2",
+                  "lang": "peo",
+                  "delim": ""
+                },
+                {
+                  "node": "l",
+                  "frag": "a-h-y-a-y]-;",
+                  "id": "Q007289.l01fce",
+                  "ref": "Q007289.2.3",
+                  "inst": "%peo:a-h-y-a-y-a=",
+                  "f": {
+                    "lang": "peo",
+                    "form": "a-h-y-a-y-a",
+                    "headform": "a-h-y-a-y",
+                    "contrefs": "Q007289.2.3 Q007289.3.1",
+                    "gdl": [
+                      {
+                        "v": "a",
+                        "id": "Q007289.2.3.0",
+                        "break": "missing",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "h",
+                        "id": "Q007289.2.3.1",
+                        "break": "missing",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "y",
+                        "id": "Q007289.2.3.2",
+                        "break": "missing",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "a",
+                        "id": "Q007289.2.3.3",
+                        "break": "missing",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "y",
+                        "id": "Q007289.2.3.4",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "Q007289.2.1.3",
+                        "delim": "-"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "Q007289.3",
+                  "n": "3",
+                  "label": "Persian 3"
+                },
+                {
+                  "node": "d",
+                  "frag": ":",
+                  "type": "punct",
+                  "ref": "Q007289.3.2",
+                  "lang": "peo",
+                  "delim": ""
+                },
+                {
+                  "node": "l",
+                  "frag": "b-⸢u⸣-[mi-i-y-a",
+                  "id": "Q007289.l01fcf",
+                  "ref": "Q007289.3.3",
+                  "inst": "%peo:b-u-mi-i-y-a=",
+                  "f": {
+                    "lang": "peo",
+                    "form": "b-u-mi-i-y-a",
+                    "delim": "",
+                    "gdl": [
+                      {
+                        "v": "b",
+                        "id": "Q007289.3.3.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "u",
+                        "id": "Q007289.3.3.1",
+                        "break": "damaged",
+                        "ho": "1",
+                        "delim": "-",
+                        "hc": "1"
+                      },
+                      {
+                        "v": "mi",
+                        "id": "Q007289.3.3.2",
+                        "breakStart": "1",
+                        "o": "[",
+                        "break": "missing",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "i",
+                        "id": "Q007289.3.3.3",
+                        "break": "missing",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "y",
+                        "id": "Q007289.3.3.4",
+                        "break": "missing",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "a",
+                        "id": "Q007289.3.3.5",
+                        "break": "missing"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "frag": ":",
+                  "type": "punct",
+                  "ref": "Q007289.3.4",
+                  "lang": "peo",
+                  "delim": ""
+                },
+                {
+                  "node": "l",
+                  "frag": "vi-i-š-t-a]-;",
+                  "id": "Q007289.l01fd0",
+                  "ref": "Q007289.3.5",
+                  "inst": "%peo:vi-i-š-t-a-s-p-h-y-a=",
+                  "f": {
+                    "lang": "peo",
+                    "form": "vi-i-š-t-a-s-p-h-y-a",
+                    "headform": "vi-i-š-t-a",
+                    "contrefs": "Q007289.3.5 Q007289.4.1",
+                    "gdl": [
+                      {
+                        "v": "vi",
+                        "id": "Q007289.3.5.0",
+                        "break": "missing",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "i",
+                        "id": "Q007289.3.5.1",
+                        "break": "missing",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "š",
+                        "id": "Q007289.3.5.2",
+                        "break": "missing",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "t",
+                        "id": "Q007289.3.5.3",
+                        "break": "missing",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "a",
+                        "id": "Q007289.3.5.4",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "Q007289.3.3.2",
+                        "delim": "-"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "Q007289.4",
+                  "n": "4",
+                  "label": "Persian 4"
+                },
+                {
+                  "node": "d",
+                  "frag": ":",
+                  "type": "punct",
+                  "ref": "Q007289.4.2",
+                  "lang": "peo",
+                  "delim": ""
+                },
+                {
+                  "node": "l",
+                  "frag": "p-u-c",
+                  "id": "Q007289.l01fd1",
+                  "ref": "Q007289.4.3",
+                  "inst": "%peo:p-u-c=",
+                  "f": {
+                    "lang": "peo",
+                    "form": "p-u-c",
+                    "delim": "",
+                    "gdl": [
+                      {
+                        "v": "p",
+                        "id": "Q007289.4.3.0",
+                        "break": "missing",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "u",
+                        "id": "Q007289.4.3.1",
+                        "break": "missing",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "c",
+                        "id": "Q007289.4.3.2",
+                        "break": "missing"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "frag": ":",
+                  "type": "punct",
+                  "ref": "Q007289.4.4",
+                  "lang": "peo",
+                  "delim": ""
+                },
+                {
+                  "node": "l",
+                  "frag": "h-x-a]-;",
+                  "id": "Q007289.l01fd2",
+                  "ref": "Q007289.4.5",
+                  "inst": "%peo:h-x-a-m-n-i-š-i-y=",
+                  "f": {
+                    "lang": "peo",
+                    "form": "h-x-a-m-n-i-š-i-y",
+                    "headform": "h-x-a",
+                    "contrefs": "Q007289.4.5 Q007289.5.1",
+                    "gdl": [
+                      {
+                        "v": "h",
+                        "id": "Q007289.4.5.0",
+                        "break": "missing",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "x",
+                        "id": "Q007289.4.5.1",
+                        "break": "missing",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "a",
+                        "id": "Q007289.4.5.2",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "Q007289.4.1.4",
+                        "delim": "-"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "Q007289.5",
+                  "n": "5",
+                  "label": "Persian 5"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

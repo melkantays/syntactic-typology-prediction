@@ -1,0 +1,24 @@
+{
+    "project_name": "Elamite Typological Syntax Predictor",
+    "developer_target": "Cross-lingual Grammar Feature Extraction (X -> Y Mapping)",
+    "data_sources": {
+        "x_features": "Universal Dependencies (UD) v2.18 Treebanks",
+        "y_targets": "URIEL Typological Database (via lang2vec)"
+    },
+    "x_feature_definitions": {
+        "TTR": "Type-Token Ratio. Represents morphological richness and lexical diversity.",
+        "Avg_Length": "Average token length per language. Asian logographic languages (e.g., jpn) tokenized via CRF-based Fugashi/UniDic.",
+        "Length_Var": "Standard deviation of token length. Represents the structural variance of morphemes in the corpus."
+    },
+    "y_target_definitions": {
+        "format": "103-length boolean vector (1.0 = Feature Present, 0.0 = Feature Absent)",
+        "sample_mappings": {
+            "Y_1": "SVO (Subject-Verb-Object) Word Order",
+            "Y_2": "SOV (Subject-Object-Verb) Word Order",
+            "Y_7": "Adjective precedes Noun",
+            "Y_11": "Language uses Postpositions (instead of Prepositions)"
+        },
+        "full_reference": "Carnegie Mellon University - URIEL Database Syntax-KNN Array"
+    },
+    "pipeline_status": "Ready for Scikit-Learn Regression/Classification Model Training"
+}
