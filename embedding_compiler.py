@@ -1,22 +1,25 @@
 """embedding_compiler.py
  
-768 boyutlu dil temsillerini PCA ile 10 boyuta indirir ve ayni 7 URIEL
-hedefiyle birlestirerek ikinci deneyin egitim matrisini uretir.
+Reduces the 768-dimensional language representations to 10 dimensions
+with PCA and joins them to the same 7 URIEL targets, producing the
+training matrix for the second experiment.
  
-Neden PCA: 768 ozellik ama sadece ~31 dil var. Bu oranda model gercek
-oruntu yerine GURULTUYU ezberler (boyut laneti / curse of dimensionality).
-768'i, en cok bilgi tasiyan 10 eksene sikistirinca zengin temsilin ozu
-korunur ama veri/boyut orani makul olur.
+Why PCA: 768 features but only ~31 languages. At that ratio a model
+memorises NOISE rather than any real pattern (the curse of
+dimensionality). Compressing 768 down to the 10 most informative axes
+preserves the substance of the rich representation while bringing the
+sample-to-dimension ratio back to something defensible.
  
-Neden ayni dil kumesi: yuzey deneyi (3 istatistik) ile bu deneyi
-karsilastiracagiz. Farkli dil kumelerinde kosarsak, sonuc farkinin
-ozellikten mi yoksa dil kumesinden mi geldigini ayiramayiz. Bu yuzden
-training_matrix.csv'deki dillerle KESISTIRIYORUZ -- bu ayni zamanda
-ara/jpn/vie gibi icerigi bozuk dosyalari da otomatik eler.
+Why the same language set: this experiment will be compared against the
+surface experiment (3 statistics). Run on different language sets, any
+difference in the result could not be attributed to the features rather
+than to the sample. We therefore INTERSECT with the languages in
+training_matrix.csv -- which additionally filters out files with corrupt
+content, such as ara/jpn/vie.
  
-Girdi : embedding_features.csv  (ISO_Code + emb_0..emb_767)
-        training_matrix.csv     (yuzey deneyinin dil kumesi icin)
-Cikti : training_matrix_emb.csv (ISO_Code + pca_0..pca_9 + 7 hedef)
+Input  : embedding_features.csv  (ISO_Code + emb_0..emb_767)
+         training_matrix.csv     (for the surface experiment's language set)
+Output : training_matrix_emb.csv (ISO_Code + pca_0..pca_9 + 7 targets)
 """
  
 from __future__ import annotations
@@ -38,28 +41,29 @@ TARGET_FEATURES = [
 ]
  
  
-# --- BLOK 1: Embedding dosyasini oku --------------------------------- #
+# --- BLOCK 1: read the embedding file --------------------------------- #
 def load_embeddings(path):
-    """embedding_features.csv'yi okur; ISO kodlari ve 768 boyutlu matris."""
+    """Read embedding_features.csv: ISO codes and the 768-dim matrix."""
     frame = pd.read_csv(path)
     emb_cols = [c for c in frame.columns if c.startswith("emb_")]
     if not emb_cols:
-        raise ValueError("emb_ ile baslayan sutun yok.")
+        raise ValueError("No column starting with emb_ was found.")
     return frame["ISO_Code"].tolist(), frame[emb_cols].to_numpy(np.float64)
  
  
-# --- BLOK 2: Ayni dil kumesine kisitla ------------------------------- #
+# --- BLOCK 2: restrict to the same language set ----------------------- #
 def restrict_to_reference(iso_codes, matrix, reference_path):
-    """Yuzey deneyindeki dillerle kesistirir.
+    """Intersect with the languages used in the surface experiment.
  
-    Iki isi birden yapar:
-      1) Adil karsilastirma: iki deney ayni dillerde kosar.
-      2) Temizlik: icerigi bozuk dosyalar (ornegin sadece tire iceren
-         ara.txt) yuzey deneyinde zaten elenmisti; burada da otomatik
-         disarida kalir -- anlamsiz vektorler veriye karismaz.
+    This does two jobs at once:
+      1) Fair comparison: both experiments run on identical languages.
+      2) Hygiene: files with corrupt content (for example an ara.txt
+         containing nothing but dashes) were already excluded from the
+         surface experiment, so they drop out here automatically --
+         meaningless vectors never enter the data.
     """
     if not Path(reference_path).exists():
-        print(f"UYARI: {reference_path} yok, kisitlama yapilmadi.")
+        print(f"WARNING: {reference_path} not found; no restriction applied.")
         return iso_codes, matrix
  
     ref = pd.read_csv(reference_path)
@@ -68,24 +72,26 @@ def restrict_to_reference(iso_codes, matrix, reference_path):
     keep = [i for i, code in enumerate(iso_codes) if code in ref_langs]
     dropped = [c for c in iso_codes if c not in ref_langs]
     if dropped:
-        print(f"Referans kumede olmayan {len(dropped)} dil elendi: {dropped}")
+        print(f"Dropped {len(dropped)} language(s) absent from the reference "
+              f"set: {dropped}")
  
     return [iso_codes[i] for i in keep], matrix[keep]
  
  
-# --- BLOK 3: PCA ile boyut indirgeme --------------------------------- #
+# --- BLOCK 3: dimensionality reduction with PCA ----------------------- #
 def reduce_dimensions(matrix, n_components):
-    """768 boyutu n_components boyuta indirir.
+    """Reduce 768 dimensions down to n_components.
  
-    Once StandardScaler: her boyut farkli olcekte olabilir, PCA olcege
-    duyarlidir. Sonra PCA: veriyi en cok degiskenlik (varyans) tasiyan
-    eksenlere yeniden yazar; ilk eksenler en cok bilgiyi tasir.
+    StandardScaler first: the dimensions may be on different scales and
+    PCA is scale-sensitive. Then PCA: the data is re-expressed along the
+    axes carrying the most variance, with the leading axes carrying the
+    most information.
  
-    NOT (durustluk): PCA burada TUM X uzerinde egitiliyor. PCA
-    denetimsizdir -- hedefleri (Y) hic gormez -- bu yuzden klasik veri
-    sizintisi olusturmaz. Yine de en titiz yontem PCA'yi capraz
-    dogrulama katlamalarinin ICINDE calistirmaktir; makalede bu tercih
-    belirtilmelidir.
+    NOTE (disclosure): PCA is fitted here on ALL of X. PCA is
+    unsupervised -- it never sees the targets (Y) -- so this does not
+    constitute classical label leakage. The strictest protocol would
+    nonetheless fit PCA INSIDE the cross-validation folds; this choice
+    must be stated in the paper.
     """
     scaled = StandardScaler().fit_transform(matrix)
     n_components = min(n_components, scaled.shape[0], scaled.shape[1])
@@ -93,16 +99,16 @@ def reduce_dimensions(matrix, n_components):
     reduced = pca.fit_transform(scaled)
  
     explained = pca.explained_variance_ratio_
-    print(f"\nPCA: {matrix.shape[1]} boyut -> {n_components} boyut")
-    print(f"Korunan bilgi (toplam varyans): {explained.sum():.1%}")
-    print("Ilk 5 eksenin payi: " +
+    print(f"\nPCA: {matrix.shape[1]} dimensions -> {n_components} dimensions")
+    print(f"Variance retained (total): {explained.sum():.1%}")
+    print("Share of the first 5 axes: " +
           ", ".join(f"{v:.1%}" for v in explained[:5]))
     return reduced, explained
  
  
-# --- BLOK 4: URIEL hedeflerini cek ----------------------------------- #
+# --- BLOCK 4: fetch the URIEL targets --------------------------------- #
 def fetch_targets(langs):
-    """Ayni 7 gozlenmis (wals) hedefi ceker; eksigi olan dili eler."""
+    """Fetch the same 7 observed (wals) targets; drop incomplete languages."""
     data = l2v.get_features(langs, "syntax_wals", header=True)
     index = {name: i for i, name in enumerate(data["CODE"])}
  
@@ -122,12 +128,14 @@ def fetch_targets(langs):
         (rows if complete else dropped).append(row if complete else lang)
  
     if dropped:
-        print(f"Eksik hedef verisi yuzunden elenen: {dropped}")
+        print(f"Dropped for missing target data: {dropped}")
     return pd.DataFrame(rows)
  
  
 def main(argv=None):
-    p = argparse.ArgumentParser(description="Embedding + PCA matris derleyici.")
+    p = argparse.ArgumentParser(
+        description="Embedding + PCA training-matrix compiler."
+    )
     p.add_argument("--emb", type=Path, default=Path("embedding_features.csv"))
     p.add_argument("--reference", type=Path, default=Path("training_matrix.csv"))
     p.add_argument("--out", type=Path, default=Path("training_matrix_emb.csv"))
@@ -135,14 +143,14 @@ def main(argv=None):
     args = p.parse_args(argv)
  
     if not args.emb.exists():
-        print(f"HATA: {args.emb} yok.", file=sys.stderr)
+        print(f"ERROR: {args.emb} not found.", file=sys.stderr)
         return 1
  
     iso_codes, matrix = load_embeddings(args.emb)
-    print(f"Okunan: {len(iso_codes)} dil, {matrix.shape[1]} boyut")
+    print(f"Read: {len(iso_codes)} languages, {matrix.shape[1]} dimensions")
  
     iso_codes, matrix = restrict_to_reference(iso_codes, matrix, args.reference)
-    print(f"Kisitlamadan sonra: {len(iso_codes)} dil")
+    print(f"After restriction: {len(iso_codes)} languages")
  
     reduced, _ = reduce_dimensions(matrix, args.components)
  
@@ -151,16 +159,17 @@ def main(argv=None):
     )
     x_frame.insert(0, "ISO_Code", iso_codes)
  
-    print(f"\n[{len(iso_codes)} dil] URIEL'den {len(TARGET_FEATURES)} hedef...")
+    print(f"\n[{len(iso_codes)} languages] fetching {len(TARGET_FEATURES)} "
+          f"targets from URIEL...")
     y_frame = fetch_targets(iso_codes)
  
     final = pd.merge(x_frame, y_frame, on="ISO_Code")
     final.to_csv(args.out, index=False)
  
-    print(f"\n[BASARILI] {args.out}")
-    print(f"Boyut: {final.shape}  "
-          f"(1 ISO + {reduced.shape[1]} PCA + {len(TARGET_FEATURES)} hedef)")
-    print(f"Dil sayisi: {len(final)}")
+    print(f"\n[SUCCESS] {args.out}")
+    print(f"Shape: {final.shape}  "
+          f"(1 ISO + {reduced.shape[1]} PCA + {len(TARGET_FEATURES)} targets)")
+    print(f"Languages: {len(final)}")
     return 0
  
  

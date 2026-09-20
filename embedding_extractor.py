@@ -1,20 +1,22 @@
 """embedding_extractor.py
  
-Her dilin metnini pretrained bir cok-dilli modelden (XLM-RoBERTa) gecirip,
-o dili temsil eden ZENGIN bir vektor (embedding) uretir.
+Passes each language's text through a pretrained multilingual model
+(XLM-RoBERTa) to produce a RICH vector (embedding) representing that
+language.
  
-Neden: onceki asamada X = 3 elle-yapilmis istatistikti (TTR, ortalama
-uzunluk, uzunluk varyansi) ve bu yetmedi (robustness_check.py bunu
-dort testle kanitladi). Burada X'i degistiriyoruz: metni, milyonlarca
-cumlede egitilmis bir dil modelinin gozunden temsil eden 768 boyutlu
-bir vektorle. Hipotez: zengin temsil, yuzey istatistiginin yakalayamadigi
-yapisal bilgiyi tasir.
+Rationale: in the previous stage X consisted of 3 hand-built statistics
+(TTR, mean length, length variance), and that was not enough --
+robustness_check.py established this across four tests. Here we replace
+X with a 768-dimensional vector that represents the text through the
+eyes of a model trained on millions of sentences. Hypothesis: a rich
+representation carries structural information that surface statistics
+cannot capture.
  
-Girdi : UD_Corpus/*.txt  (her dil bir dosya)
-Cikti : embedding_features.csv  (ISO_Code + emb_0 ... emb_767)
+Input  : UD_Corpus/*.txt  (one file per language)
+Output : embedding_features.csv  (ISO_Code + emb_0 ... emb_767)
  
-NOT: Model egitilmiyor, sadece kullaniliyor (inference). CPU'da calisir,
-31 dil icin birkac dakika surer.
+NOTE: the model is not trained here, only used (inference). Runs on CPU;
+a few minutes for 31 languages.
 """
  
 from __future__ import annotations
@@ -28,43 +30,44 @@ import numpy as np
 import torch
 from transformers import AutoModel, AutoTokenizer
  
-MODEL_NAME = "xlm-roberta-base"   # 100 dil kapsar, 768 boyutlu cikti
-MAX_TOKENS = 512                  # modelin tek seferde alabilecegi azami uzunluk
-N_CHUNKS = 20                     # her dilden kac parca alinacak
+MODEL_NAME = "xlm-roberta-base"   # covers 100 languages, 768-dim output
+MAX_TOKENS = 512                  # the model's maximum input length
+N_CHUNKS = 20                     # how many chunks to sample per language
  
  
-# --- BLOK 1: Modeli yukle -------------------------------------------- #
+# --- BLOCK 1: load the model ------------------------------------------ #
 def load_model(model_name, device):
-    """Pretrained tokenizer ve modeli indirir/yukler.
+    """Download / load the pretrained tokenizer and model.
  
-    Ilk calistirmada model internetten iner (~1.1 GB), sonrakilerde
-    diskten okunur. .eval() modu: model egitim degil, tahmin modunda --
-    bu, rastgelelik (dropout) kapatir, sonuclar tekrarlanabilir olur.
+    On the first run the model is downloaded (~1.1 GB); afterwards it is
+    read from disk. .eval() puts the model in inference rather than
+    training mode, which disables dropout and therefore makes the
+    outputs deterministic and reproducible.
     """
-    print(f"Model yukleniyor: {model_name} (ilk seferde indirilir, ~1.1 GB)")
+    print(f"Loading model: {model_name} (downloaded on first run, ~1.1 GB)")
     tokenizer = AutoTokenizer.from_pretrained(model_name)
     model = AutoModel.from_pretrained(model_name).to(device).eval()
     return tokenizer, model
  
  
-# --- BLOK 2: Metni parcalara bol ------------------------------------- #
+# --- BLOCK 2: split the text into chunks ------------------------------ #
 def make_chunks(text, tokenizer, max_tokens, n_chunks):
-    """Uzun metni, modelin alabilecegi boyutta parcalara boler.
+    """Split long text into pieces the model can accept.
  
-    Model tek seferde en fazla 512 token isleyebilir. Metnin tamamini
-    veremeyiz; bu yuzden metni esit araliklarla ornekleyip n_chunks
-    kadar parca aliyoruz. Esit aralik onemli: metnin sadece basindan
-    almak, o dilin bir bolumune (ornegin giris cumlelerine) yanlilik
-    yaratirdi.
+    The model processes at most 512 tokens at a time, so the full text
+    cannot be passed in one go. Instead we sample n_chunks pieces at
+    evenly spaced positions. Even spacing matters: taking only the head
+    of the file would bias the representation toward one section of the
+    corpus (for instance, opening sentences).
     """
     token_ids = tokenizer.encode(text, add_special_tokens=False)
-    usable = max_tokens - 2          # [CLS] ve [SEP] icin yer birak
+    usable = max_tokens - 2          # leave room for [CLS] and [SEP]
     total = len(token_ids)
  
     if total <= usable:
         return [token_ids]
  
-    # Metin boyunca esit araliklarla baslangic noktalari sec
+    # Pick evenly spaced starting points across the whole text.
     starts = np.linspace(0, total - usable, num=min(n_chunks, total // usable + 1))
     chunks = []
     for s in starts:
@@ -73,18 +76,19 @@ def make_chunks(text, tokenizer, max_tokens, n_chunks):
     return chunks
  
  
-# --- BLOK 3: Bir dilin vektorunu hesapla ----------------------------- #
+# --- BLOCK 3: compute one language's vector --------------------------- #
 def embed_language(text, tokenizer, model, device):
-    """Metni modelden gecirip tek bir 768 boyutlu vektor uretir.
+    """Run the text through the model and return a single 768-dim vector.
  
-    Iki asamali ortalama:
-      1) Her parca icin, token vektorlerinin ortalamasi alinir
-         (mean pooling). Dolgu (padding) tokenlari maskeyle disarida
-         birakilir -- yoksa bos yerler ortalamayi bozar.
-      2) Tum parcalarin vektorleri ortalanir -> dilin tek temsili.
+    Averaging happens twice:
+      1) Within each chunk, the token vectors are averaged (mean
+         pooling). Padding tokens are excluded via the attention mask --
+         otherwise empty positions would distort the mean.
+      2) The chunk vectors are then averaged into one representation of
+         the language.
  
-    torch.no_grad(): gradyan hesabi kapali. Egitim yapmiyoruz, sadece
-    tahmin; bu, hem hizlandirir hem bellek tasarrufu saglar.
+    torch.no_grad(): gradient tracking is off. We are not training, only
+    predicting, which makes this both faster and far lighter on memory.
     """
     chunks = make_chunks(text, tokenizer, MAX_TOKENS, N_CHUNKS)
     vectors = []
@@ -96,9 +100,9 @@ def embed_language(text, tokenizer, model, device):
             attention = torch.ones_like(input_ids)
  
             output = model(input_ids=input_ids, attention_mask=attention)
-            hidden = output.last_hidden_state          # (1, uzunluk, 768)
+            hidden = output.last_hidden_state          # (1, length, 768)
  
-            # Mean pooling: maskeyle agirlikli ortalama
+            # Mean pooling: mask-weighted average
             mask = attention.unsqueeze(-1).float()
             summed = (hidden * mask).sum(dim=1)
             counts = mask.sum(dim=1).clamp(min=1e-9)
@@ -107,34 +111,34 @@ def embed_language(text, tokenizer, model, device):
     return np.mean(vectors, axis=0)
  
  
-# --- BLOK 4: Tum korpusu isle ---------------------------------------- #
+# --- BLOCK 4: process the whole corpus -------------------------------- #
 def process_corpus(corpus_dir, tokenizer, model, device):
-    """UD_Corpus icindeki her .txt dosyasi icin bir vektor uretir."""
+    """Produce one vector for every .txt file in the corpus directory."""
     rows = []
     files = sorted(corpus_dir.glob("*.txt"))
-    print(f"{len(files)} dil bulundu.\n")
+    print(f"{len(files)} language file(s) found.\n")
  
     for i, path in enumerate(files, 1):
         iso_code = path.stem
         text = path.read_text(encoding="utf-8", errors="replace").strip()
  
         if not text:
-            print(f"[{i}/{len(files)}] {iso_code}: BOS dosya, atlandi.")
+            print(f"[{i}/{len(files)}] {iso_code}: EMPTY file, skipped.")
             continue
  
         vector = embed_language(text, tokenizer, model, device)
         rows.append((iso_code, vector))
-        print(f"[{i}/{len(files)}] {iso_code}: tamam "
-              f"({len(vector)} boyut)")
+        print(f"[{i}/{len(files)}] {iso_code}: done "
+              f"({len(vector)} dimensions)")
  
     return rows
  
  
-# --- BLOK 5: Kaydet -------------------------------------------------- #
+# --- BLOCK 5: save ---------------------------------------------------- #
 def export(rows, out_path):
-    """ISO_Code + emb_0..emb_N seklinde CSV yazar."""
+    """Write a CSV of ISO_Code + emb_0..emb_N."""
     if not rows:
-        raise ValueError("Hicbir dil islenemedi.")
+        raise ValueError("No language could be processed.")
     dim = len(rows[0][1])
     with open(out_path, "w", encoding="utf-8", newline="") as f:
         writer = csv.writer(f)
@@ -144,25 +148,27 @@ def export(rows, out_path):
  
  
 def main(argv=None):
-    p = argparse.ArgumentParser(description="Pretrained dil temsili cikarici.")
+    p = argparse.ArgumentParser(
+        description="Pretrained language-representation extractor."
+    )
     p.add_argument("--corpus", type=Path, default=Path("UD_Corpus"))
     p.add_argument("--out", type=Path, default=Path("embedding_features.csv"))
     p.add_argument("--model", default=MODEL_NAME)
     args = p.parse_args(argv)
  
     if not args.corpus.is_dir():
-        print(f"HATA: {args.corpus} klasoru yok.", file=sys.stderr)
+        print(f"ERROR: directory {args.corpus} does not exist.", file=sys.stderr)
         return 1
  
     device = "cuda" if torch.cuda.is_available() else "cpu"
-    print(f"Cihaz: {device}")
+    print(f"Device: {device}")
  
     tokenizer, model = load_model(args.model, device)
     rows = process_corpus(args.corpus, tokenizer, model, device)
     export(rows, args.out)
  
-    print(f"\n[TAMAM] {len(rows)} dil -> {args.out}")
-    print(f"Her dil {len(rows[0][1])} boyutlu bir vektorle temsil edildi.")
+    print(f"\n[DONE] {len(rows)} language(s) -> {args.out}")
+    print(f"Each language is represented by a {len(rows[0][1])}-dim vector.")
     return 0
  
  

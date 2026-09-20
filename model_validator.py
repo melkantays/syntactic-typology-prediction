@@ -1,20 +1,20 @@
 """model_validator.py
  
-training_matrix.csv'yi alir, Random Forest modelini LOOCV (Leave-One-Out
-Cross-Validation) ile test eder ve sonucu APTAL BIR TAHMINCIYLE (majority
-baseline) karsilastirir.
+Takes training_matrix.csv, tests a Random Forest under LOOCV
+(Leave-One-Out Cross-Validation), and compares the result against a
+DUMB PREDICTOR (the majority baseline).
  
-Neden bu dosya var: bir modelin "iyi" olup olmadigini, dogruluk (accuracy)
-gibi kolay kandiran bir sayiya bakarak degil, "her seye en sik cevabi
-diyen" aptal bir tahminciyi yenip yenemedigine bakarak anlariz. Yenemiyorsa
-model degersizdir -- ne kadar sik gorunurse gorunsun.
+Why this file exists: whether a model is "good" is not established by an
+easily-flattered number like accuracy, but by whether it can beat a dumb
+predictor that answers the most common label every time. If it cannot,
+the model is worthless -- however sophisticated it looks.
  
-Girdi  : training_matrix.csv  (ISO_Code + 3 X + N tane Y)
-Cikti  : ekrana rapor + optimised_pipeline.joblib + validation_report.json
+Input  : training_matrix.csv  (ISO_Code + 3 X + N Y)
+Output : report on screen + optimised_pipeline.joblib + validation_report.json
  
-NOT: Hedef sayisi ARTIK SABIT DEGIL. Dosyada kac Y sutunu varsa onu alir
-(7 de olsa, 6 da olsa). Boylece hedef sayisini degistirince bu dosyaya
-dokunmana gerek kalmaz.
+NOTE: the number of targets is NO LONGER FIXED. Whatever Y columns the
+file contains are used (7 or 6 alike), so changing the target count
+requires no edit to this file.
 """
  
 from __future__ import annotations
@@ -35,13 +35,10 @@ from sklearn.preprocessing import StandardScaler
  
 RANDOM_STATE = 42
 ID_COLUMN = "ISO_Code"
-# X ozelliklerinin isimleri sabit; geri kalan her sutun bir Y hedefidir.
-FEATURE_COLS = ["TTR", "Avg_Length", "Length_Var"]
  
-# Denenecek hiperparametre kombinasyonlari. Kucuk veride modelin
-# KAPASITESI degil, ASIRI OGRENMEYE (overfitting) karsi FRENLERI onemli
-# oldugu icin, derinlik (max_depth) ve bolunme (min_samples_split) gibi
-# frenleri tariyoruz.
+# Hyperparameter combinations to try. On small data what matters is not
+# the model's CAPACITY but its BRAKES against overfitting, so the grid
+# sweeps the brakes: depth (max_depth) and splitting (min_samples_split).
 PARAM_GRID = {
     "clf__n_estimators": [100, 300, 500],
     "clf__max_depth": [2, 3, 5, None],
@@ -50,77 +47,80 @@ PARAM_GRID = {
 }
  
  
-# --- BLOK 1: Veriyi oku, X ve Y'yi ayir ------------------------------ #
+# --- BLOCK 1: read the data, split X from Y --------------------------- #
 def load_matrix(csv_path):
-    """Matrisi X (ozellikler) ve Y (hedefler) olarak ayirir.
+    """Split the matrix into X (features) and Y (targets).
  
-    ISO_Code sutunu ATILIR -- ozellik olarak kullanilmaz, cunku her dile
-    ozgu benzersiz bir etiket; model onu "ezber anahtari" gibi kullanip
-    sahte basari uretebilir. Y sutun sayisi dosyadan OKUNUR, sabit degil.
+    The ISO_Code column is DISCARDED -- it is never used as a feature,
+    because it is a unique label per language and the model could use it
+    as a lookup key, producing spurious apparent accuracy. The number of
+    Y columns is READ FROM THE FILE, not fixed.
     """
     frame = pd.read_csv(csv_path)
     if ID_COLUMN in frame.columns:
         frame = frame.drop(columns=[ID_COLUMN])
  
-    # X ve Y sutunlari SABIT DEGIL, dosyadan tespit edilir:
-    #   Y hedefleri "S_" ile baslar (URIEL sentaks ozellikleri).
-    #   Geri kalan her sutun bir X ozelligidir.
-    # Boylece ayni kod hem yuzey matrisini (TTR, Avg_Length, Length_Var)
-    # hem embedding matrisini (pca_0..pca_9) isler -- iki deneyi ayni
-    # kodla kosmak karsilastirmayi adil kilar.
+    # X and Y columns are NOT hard-coded; they are detected from the file:
+    #   Y targets begin with "S_" (URIEL syntax features).
+    #   Every remaining column is an X feature.
+    # The same code therefore handles both the surface matrix (TTR,
+    # Avg_Length, Length_Var) and the embedding matrix (pca_0..pca_9) --
+    # running both experiments through identical code is what makes the
+    # comparison fair.
     target_names = [c for c in frame.columns if c.startswith("S_")]
     if not target_names:
-        raise ValueError("Hic 'S_' ile baslayan Y hedef sutunu yok.")
+        raise ValueError("No Y target column starting with 'S_' was found.")
  
     feature_names = [c for c in frame.columns if c not in target_names]
     if not feature_names:
-        raise ValueError("Hic X ozellik sutunu bulunamadi.")
+        raise ValueError("No X feature column was found.")
  
     features = frame[feature_names].to_numpy(dtype=np.float64)
     targets = frame[target_names].to_numpy()
  
-    # Guvenlik: X'te bosluk olmamali, Y ikili (0/1) olmali.
+    # Sanity: X must have no gaps, Y must be binary (0/1).
     if not np.isfinite(features).all():
-        raise ValueError("X ozelliklerinde NaN/inf var; once temizle.")
+        raise ValueError("X contains NaN/inf; clean the data first.")
     observed = np.unique(targets)
     if not np.isin(observed, [0, 1]).all():
-        raise ValueError(f"Y hedefleri 0/1 olmali; bulunan: {observed[:8]}")
+        raise ValueError(f"Y targets must be 0/1; found: {observed[:8]}")
  
     return features, targets.astype(np.int8), feature_names, target_names
  
  
-# --- BLOK 2: Aptal tahminci (baseline) hesapla ----------------------- #
+# --- BLOCK 2: compute the dumb predictor (baseline) ------------------- #
 def majority_baseline(targets, target_names):
-    """Her hedef icin "en sik gorulen cevabi" korukorune diyen tahminci.
+    """A predictor that blindly answers the most common label per target.
  
-    Bu, yenilmesi gereken CIZGIDIR. Modelimiz bunun Hamming Loss'unu
-    gecemezse, "zeka" katmamis demektir. Ayrica DEJENERE hedefleri
-    (tum dillerde ayni deger) sayar -- onlar sahte kolay puandir.
+    This is the LINE that has to be beaten. If our model cannot improve
+    on its Hamming Loss, it has added no intelligence. This also counts
+    DEGENERATE targets (the same value in every language) -- those are
+    free points that flatter any model.
     """
     n = targets.shape[0]
     positive_rate = targets.mean(axis=0)
     constant = (positive_rate == 0.0) | (positive_rate == 1.0)
  
     print("--- Label geometry ---")
-    print(f"Samples (n)        : {n}")
-    print(f"Targets               : {targets.shape[1]}")
-    print(f"Degenerate labels: {int(constant.sum())}")
+    print(f"Samples (n)          : {n}")
+    print(f"Targets              : {targets.shape[1]}")
+    print(f"Degenerate labels    : {int(constant.sum())}")
     print(f"Informative labels   : {int((~constant).sum())}")
  
     majority = (positive_rate >= 0.5).astype(np.int8)
     baseline_pred = np.tile(majority, (n, 1))
     baseline_loss = hamming_loss(targets, baseline_pred)
-    print(f"Majority baseline     : {baseline_loss:.4f} (Hamming Loss)\n")
+    print(f"Majority baseline    : {baseline_loss:.4f} (Hamming Loss)\n")
     return baseline_loss
  
  
-# --- BLOK 3: Model iskeletini kur ------------------------------------ #
+# --- BLOCK 3: build the model skeleton -------------------------------- #
 def build_pipeline():
-    """Olcekleme + Random Forest'i tek bir boru hatti (pipeline) yapar.
+    """Combine scaling and the Random Forest into a single pipeline.
  
-    Her sey pipeline icinde oldugu icin, olcekleme her katlamada
-    (fold) SADECE egitim verisinden ogrenilir -- test dili sizmaz.
-    Buna veri sizintisini onleme denir.
+    Because everything lives inside the pipeline, the scaler is fitted on
+    the TRAINING data of each fold only -- the held-out language never
+    leaks in. This is what prevents data leakage.
     """
     return Pipeline([
         ("scaler", StandardScaler()),
@@ -128,16 +128,16 @@ def build_pipeline():
     ])
  
  
-# --- BLOK 4: En iyi hiperparametreleri LOOCV ile ara ----------------- #
+# --- BLOCK 4: search for the best hyperparameters under LOOCV --------- #
 def run_search(features, targets, n_jobs):
-    """GridSearchCV, her kombinasyonu LOOCV ile deneyip en iyisini secer.
+    """GridSearchCV tries every combination under LOOCV and keeps the best.
  
-    LOOCV: 31 dil varsa, 30'uyla egit + 1'inde test et, bunu 31 kez
-    tekrarla. Kucuk veride en dogru test yontemi budur.
+    LOOCV: with 31 languages, train on 30 and test on 1, repeated 31
+    times. On small data this is the most accurate evaluation available.
  
-    Hamming Loss bir HATA olcusu (kucuk=iyi), ama GridSearch puani
-    BUYUTMEYE calisir. make_scorer(greater_is_better=False) skoru
-    negatiflestirir; boylece "en az hata" = "en buyuk negatif skor".
+    Hamming Loss is an ERROR measure (lower is better), but GridSearch
+    tries to MAXIMISE its score. make_scorer(greater_is_better=False)
+    negates it, so "least error" becomes "largest negative score".
     """
     scorer = make_scorer(hamming_loss, greater_is_better=False)
     search = GridSearchCV(
@@ -153,14 +153,14 @@ def run_search(features, targets, n_jobs):
     return search
  
  
-# --- BLOK 5: Secilen konfigin DURUST kaybini olc --------------------- #
+# --- BLOCK 5: measure the chosen config's HONEST loss ----------------- #
 def honest_loss(estimator, features, targets):
-    """Secilen model icin gercek LOOCV kaybi.
+    """The true LOOCV loss of the selected model.
  
-    Dikkat: GridSearch'in "en iyi skoru", denenen ONLARCA konfig
-    icinden en dususudur -- yani secim yanliligiyla iyimserdir.
-    Bu fonksiyon, TEK ve SABIT en iyi konfigi bagimsizca yeniden
-    olcer; savunulmasi gereken sayi budur.
+    Important: GridSearch's "best score" is the lowest among DOZENS of
+    configurations tried, and is therefore optimistic through selection
+    bias. This function independently re-measures the SINGLE FIXED best
+    configuration; that is the number that has to be defended.
     """
     predictions = cross_val_predict(
         estimator, features, targets, cv=LeaveOneOut(), n_jobs=1
@@ -168,10 +168,10 @@ def honest_loss(estimator, features, targets):
     return hamming_loss(targets, predictions)
  
  
-# --- BLOK 6: Raporla ve kaydet --------------------------------------- #
+# --- BLOCK 6: report and save ----------------------------------------- #
 def report(search, features, targets, baseline_loss, feat_names,
            target_names, model_path, report_path):
-    """Sonuclari ekrana basar, modeli ve JSON ozeti diske kaydeder."""
+    """Print the results, and write the model and a JSON summary to disk."""
     grid_loss = -search.best_score_
  
     print("--- Best configuration ---")
@@ -179,21 +179,23 @@ def report(search, features, targets, baseline_loss, feat_names,
         print(f"{key:26s}: {search.best_params_[key]}")
  
     print("\n--- Performance ---")
-    print(f"Model Hamming Loss (grid)    : {grid_loss:.4f}")
+    print(f"Model Hamming Loss (grid)         : {grid_loss:.4f}")
     print(f"Majority baseline (Hamming Loss)  : {baseline_loss:.4f}")
  
     fixed_loss = honest_loss(search.best_estimator_, features, targets)
-    print(f"Model Hamming Loss (honest LOOCV)  : {fixed_loss:.4f}")
+    print(f"Model Hamming Loss (honest LOOCV) : {fixed_loss:.4f}")
  
     lift = baseline_loss - fixed_loss
-    print(f"\nImprovement           : {lift:+.4f}")
+    print(f"\nImprovement          : {lift:+.4f}")
     if lift <= 0:
-        print("SONUC: Model aptal tahminciyi GECEMEDI. Pozitif sonuc "
-              "olarak sunma. Bu, yuzey istatistiklerinin yetersizliginin\n"
-              "       kaniti -- durust bir negatif bulgu.")
+        print("CONCLUSION: the model did NOT beat the dumb predictor. Do not "
+              "present this as a positive result. It is evidence that surface\n"
+              "            statistics are insufficient -- an honest negative "
+              "finding.")
     else:
-        print(f"SONUC: Model aptal tahminciyi GECTI ({lift/baseline_loss:.1%} "
-              "daha az hata). Savunulabilir pozitif sonuc.")
+        print(f"CONCLUSION: the model BEAT the dumb predictor "
+              f"({lift/baseline_loss:.1%} less error). A defensible positive "
+              "result.")
  
     forest = search.best_estimator_.named_steps["clf"]
     print("\n--- Feature importance ---")
@@ -213,14 +215,18 @@ def report(search, features, targets, baseline_loss, feat_names,
     }
     Path(report_path).write_text(json.dumps(summary, indent=2))
     print(f"\nModel  -> {model_path}")
-    print(f"Rapor  -> {report_path}")
+    print(f"Report -> {report_path}")
  
  
 def parse_args(argv=None):
-    p = argparse.ArgumentParser(description="LOOCV validator (esnek hedef sayisi).")
+    p = argparse.ArgumentParser(
+        description="LOOCV validator (flexible target count)."
+    )
     p.add_argument("--data", type=Path, default=Path("training_matrix.csv"))
-    p.add_argument("--model-out", type=Path, default=Path("optimised_pipeline.joblib"))
-    p.add_argument("--report-out", type=Path, default=Path("validation_report.json"))
+    p.add_argument("--model-out", type=Path,
+                   default=Path("optimised_pipeline.joblib"))
+    p.add_argument("--report-out", type=Path,
+                   default=Path("validation_report.json"))
     p.add_argument("--n-jobs", type=int, default=-1)
     return p.parse_args(argv)
  
@@ -228,14 +234,14 @@ def parse_args(argv=None):
 def main(argv=None):
     args = parse_args(argv)
     if not args.data.exists():
-        print(f"HATA: {args.data} bulunamadi.", file=sys.stderr)
+        print(f"ERROR: {args.data} not found.", file=sys.stderr)
         return 1
  
     features, targets, feat_names, target_names = load_matrix(args.data)
     baseline_loss = majority_baseline(targets, target_names)
  
-    print(f"LOOCV araniyor ({features.shape[0]} dil, "
-          f"{len(target_names)} hedef)...\n")
+    print(f"Running LOOCV search ({features.shape[0]} languages, "
+          f"{len(target_names)} targets)...\n")
     search = run_search(features, targets, args.n_jobs)
     report(search, features, targets, baseline_loss, feat_names,
            target_names, args.model_out, args.report_out)

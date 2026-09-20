@@ -1,25 +1,28 @@
 """robustness_check.py
  
-Negatif bulgunun ("3 yuzey istatistigi derin sentaksi tahmin edemiyor")
-tek bir sansa, tek bir modele ya da tek bir ayara bagli OLMADIGINI
-gosterir.
+Demonstrates that the negative finding ("3 surface statistics cannot
+predict deep syntax") is NOT an artefact of one lucky draw, one model,
+or one hyperparameter setting.
  
-Neden gerekli: bir hakem "belki RandomForest kotuydu", "belki o hedefler
-sansti", "belki veri sirasi etkiledi" diyebilir. Bu dosya o itirazlari
-ONCEDEN eler: ayni negatif sonuc birden cok bagimsiz ayarda tekrar
-ediyorsa, bulgu artik "bizim hatamiz" degil, yontemin gercek siniridir.
+Why this is needed: a reviewer can object that "maybe RandomForest was
+a poor choice", "maybe those targets were unlucky", "maybe the ordering
+of the data mattered". This file forecloses those objections in advance:
+if the same negative result recurs across several independent settings,
+the finding is no longer "our mistake" but a real limit of the method.
  
-Girdi : training_matrix.csv  (ISO_Code + 3 X + N Y)
-Cikti : ekrana karsilastirma tablosu + robustness_report.json
+Input  : training_matrix.csv  (ISO_Code + 3 X + N Y)
+Output : comparison table on screen + robustness_report.json
  
-Yaptigi dort bagimsiz test:
-  1. Farkli modeller     : RandomForest, LogisticRegression, DummyClassifier
-                           hepsi baseline'i gecemiyorsa, sorun model degil.
-  2. Ozellik karistirma  : X'i satir satir karistirinca sonuc DEGISMIYORSA,
-                           model zaten X'ten bilgi almiyordu demektir (kanit).
-  3. Hedef alt kumeleri  : rastgele 4'er hedeflik gruplar -- sonuc her
-                           grupta negatifse, belirli hedeflere bagli degil.
-  4. Farkli tohumlar     : rastgeleligi degistirince sonuc oynamiyorsa saglam.
+The four independent tests:
+  1. Different models   : RandomForest, LogisticRegression, DummyClassifier.
+                          If none beats the baseline, the model is not the problem.
+  2. Feature shuffle    : if shuffling X row-wise does NOT change the result,
+                          the model was drawing no information from X (evidence).
+  3. Target subsets     : random groups of 4 targets -- if the result is
+                          negative in every group, it does not hinge on
+                          particular targets.
+  4. Different seeds    : if changing the randomness does not move the
+                          result, the finding is stable.
 """
  
 from __future__ import annotations
@@ -35,44 +38,65 @@ from sklearn.dummy import DummyClassifier
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import hamming_loss
-from sklearn.model_selection import LeaveOneOut, cross_val_predict
-from sklearn.multioutput import MultiOutputClassifier
+from sklearn.model_selection import LeaveOneOut
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
  
-FEATURE_COLS = ["TTR", "Avg_Length", "Length_Var"]
 ID_COLUMN = "ISO_Code"
  
  
-# --- BLOK 1: Veriyi yukle -------------------------------------------- #
+# --- BLOCK 1: load the data ------------------------------------------- #
 def load_matrix(csv_path):
-    """training_matrix.csv'yi X (3 ozellik) ve Y (kalan hepsi) olarak ayirir."""
+    """Split the matrix into X (features) and Y (targets).
+ 
+    Targets are detected as the columns starting with "S_" (URIEL syntax
+    features); every remaining column is a feature.
+ 
+    FIXED: this previously hard-coded the feature names as
+    ["TTR", "Avg_Length", "Length_Var"] and treated everything else as a
+    target. Run against an embedding matrix, the pca_* columns would
+    have been silently treated as TARGETS -- producing nonsense rather
+    than an error. Detecting targets by their "S_" prefix matches the
+    rest of the pipeline and makes this file safe on either matrix.
+    """
     frame = pd.read_csv(csv_path)
     if ID_COLUMN in frame.columns:
         frame = frame.drop(columns=[ID_COLUMN])
-    target_names = [c for c in frame.columns if c not in FEATURE_COLS]
-    features = frame[FEATURE_COLS].to_numpy(dtype=np.float64)
+ 
+    target_names = [c for c in frame.columns if c.startswith("S_")]
+    if not target_names:
+        raise ValueError("No target column starting with 'S_' was found.")
+    feature_names = [c for c in frame.columns if c not in target_names]
+    if not feature_names:
+        raise ValueError("No feature column was found.")
+ 
+    features = frame[feature_names].to_numpy(dtype=np.float64)
     targets = frame[target_names].to_numpy().astype(np.int8)
     return features, targets, target_names
  
  
-# --- BLOK 2: Baseline (yenilmesi gereken cizgi) ---------------------- #
+# --- BLOCK 2: baseline (the line that must be beaten) ----------------- #
 def majority_baseline_loss(targets):
-    """Her hedef icin en sik cevabi diyen tembel tahmincinin Hamming Loss'u."""
+    """Hamming Loss of a lazy predictor that always answers the majority class."""
     majority = (targets.mean(axis=0) >= 0.5).astype(np.int8)
     baseline_pred = np.tile(majority, (targets.shape[0], 1))
     return hamming_loss(targets, baseline_pred)
  
  
-# --- BLOK 3: Bir modelin LOOCV kaybini olc --------------------------- #
+# --- BLOCK 3: measure one model's LOOCV loss -------------------------- #
 def loocv_loss(pipeline, features, targets):
-    """Her hedefi AYRI isleyerek LOOCV Hamming Loss hesaplar.
+    """Compute LOOCV Hamming Loss, handling each target separately.
  
-    Neden hedef-hedef: kucuk/dengesiz veride, bir hedef LOOCV katlaminda
-    tek-sinifli kalabilir (o dili atinca geri kalan hep 0). Lojistik
-    regresyon bunda coker. Burada her hedefi ayri isleyip, egitim verisi
-    tek sinifliysa dogrudan o sabiti tahmin ediyoruz -- cokme olmadan,
-    dogru sonucla.
+    Why per-target: on small, imbalanced data a target can end up
+    single-class within a LOOCV fold (remove that one language and the
+    rest are all 0). Logistic regression crashes on this. Here each
+    target is handled separately, and where the training split is
+    single-class we simply predict that constant -- no crash, and the
+    correct answer.
+ 
+    NOTE: because of this per-target loop, absolute values here differ
+    slightly from results_compiler.py, which fits one multi-output model.
+    The conclusion is identical; the difference must be stated in the paper.
     """
     loo = LeaveOneOut()
     n, n_targets = targets.shape
@@ -82,7 +106,7 @@ def loocv_loss(pipeline, features, targets):
         for train_idx, test_idx in loo.split(features):
             y_train = yj[train_idx]
             if len(np.unique(y_train)) < 2:
-                # Egitimde tek sinif: o sabiti tahmin et.
+                # Single class in training: predict that constant.
                 preds[test_idx, j] = y_train[0]
             else:
                 from sklearn.base import clone
@@ -92,10 +116,8 @@ def loocv_loss(pipeline, features, targets):
     return hamming_loss(targets, preds)
  
  
- 
- 
 def make_model(kind, seed):
-    """Uc farkli siniflandiriciyi ayni pipeline iskeletinde uretir."""
+    """Build each of the three classifiers on the same pipeline skeleton."""
     if kind == "RandomForest":
         clf = RandomForestClassifier(n_estimators=300, max_depth=2,
                                      random_state=seed, n_jobs=1)
@@ -108,58 +130,60 @@ def make_model(kind, seed):
     return Pipeline([("scaler", StandardScaler()), ("clf", clf)])
  
  
-# --- BLOK 4: Test 1 -- farkli modeller ------------------------------- #
+# --- BLOCK 4: Test 1 -- different models ------------------------------ #
 def test_models(features, targets, baseline):
-    """Uc farkli model de baseline'i gecemiyorsa, sorun model degildir."""
-    print("\n=== TEST 1: Farkli modeller ===")
-    print(f"{'Model':16s} {'Hamming Loss':>13s} {'vs baseline':>12s}")
+    """If none of three different models beats the baseline, the model
+    class is not what is holding the result back."""
+    print("\n=== TEST 1: Different models ===")
+    print(f"{'Model':16s} {'Hamming Loss':>13s} {'vs baseline':>13s}")
     results = {}
     for kind in ["RandomForest", "LogisticReg", "Dummy"]:
         loss = loocv_loss(make_model(kind, 42), features, targets)
-        verdict = "GECTI" if loss < baseline else "gecemedi"
-        print(f"{kind:16s} {loss:13.4f} {verdict:>12s}")
+        verdict = "BEATS" if loss < baseline else "does not beat"
+        print(f"{kind:16s} {loss:13.4f} {verdict:>13s}")
         results[kind] = float(loss)
     return results
  
  
-# --- BLOK 5: Test 2 -- ozellik karistirma (permutation) -------------- #
+# --- BLOCK 5: Test 2 -- feature shuffle (permutation test) ------------ #
 def test_shuffle(features, targets, baseline, seed=42):
-    """X satirlarini karistir: sonuc degismiyorsa X zaten bilgi tasimiyordu.
+    """Shuffle the rows of X: if nothing changes, X carried no information.
  
-    Bu en guclu kanit: eger X'i dil-dil karistirinca (yani her dile YANLIS
-    istatistikleri verince) model ayni ya da daha iyi calisiyorsa, model
-    X'ten hicbir gercek sinyal almiyor demektir. 'Sinyal yoklugunun' dogrudan
-    kaniti budur.
+    This is the strongest single piece of evidence. If shuffling X across
+    languages -- that is, handing every language the WRONG statistics --
+    leaves the model performing as well or better, the model was drawing
+    no genuine signal from X at all. That is a direct demonstration of
+    the ABSENCE of signal, not merely a failure to find one.
     """
-    print("\n=== TEST 2: Ozellik karistirma (X'i bozunca ne oluyor?) ===")
+    print("\n=== TEST 2: Feature shuffle (what happens when X is corrupted?) ===")
     rng = np.random.default_rng(seed)
     shuffled = features[rng.permutation(features.shape[0])]
     real_loss = loocv_loss(make_model("RandomForest", 42), features, targets)
     shuf_loss = loocv_loss(make_model("RandomForest", 42), shuffled, targets)
-    print(f"Gercek X ile        : {real_loss:.4f}")
-    print(f"Karistirilmis X ile : {shuf_loss:.4f}")
+    print(f"With real X       : {real_loss:.4f}")
+    print(f"With shuffled X   : {shuf_loss:.4f}")
     gap = real_loss - shuf_loss
     if gap >= -0.01:
-        print("YORUM: Gercek X, bozuk X'ten daha iyi DEGIL. Model X'ten "
-              "anlamli sinyal almiyor -- negatif bulgu dogrulandi.")
+        print("READING: real X is NOT better than corrupted X. The model "
+              "draws no meaningful signal from X -- negative finding confirmed.")
     else:
-        print("YORUM: Gercek X belirgin daha iyi -- X'te bir sinyal VAR, "
-              "bulgu yeniden degerlendirilmeli.")
+        print("READING: real X is clearly better -- there IS signal in X, "
+              "and the finding must be re-examined.")
     return {"real": float(real_loss), "shuffled": float(shuf_loss)}
  
  
-# --- BLOK 6: Test 3 -- rastgele hedef alt kumeleri ------------------- #
+# --- BLOCK 6: Test 3 -- random target subsets ------------------------- #
 def test_subsets(features, targets, target_names, seed=42):
-    """Rastgele 4'er hedeflik gruplarda da sonuc negatif mi?
+    """Is the result still negative on random groups of 4 targets?
  
-    Belirli birkac 'kotu' hedefin sonucu bozmadigini gosterir: farkli
-    hedef gruplarinda tekrar tekrar baseline gecilemiyor.
+    Shows that a few particular "bad" targets are not driving the result:
+    the baseline goes unbeaten across different target groupings.
     """
-    print("\n=== TEST 3: Rastgele hedef alt kumeleri (4'er) ===")
+    print("\n=== TEST 3: Random target subsets (4 at a time) ===")
     rng = np.random.default_rng(seed)
     n_targets = targets.shape[1]
     if n_targets < 4:
-        print("Hedef sayisi < 4, bu test atlandi.")
+        print("Fewer than 4 targets; test skipped.")
         return []
     results = []
     for i in range(3):
@@ -167,44 +191,47 @@ def test_subsets(features, targets, target_names, seed=42):
         sub = targets[:, cols]
         base = majority_baseline_loss(sub)
         loss = loocv_loss(make_model("RandomForest", 42), features, sub)
-        verdict = "GECTI" if loss < base else "gecemedi"
+        verdict = "BEATS" if loss < base else "does not beat"
         names = ", ".join(target_names[c] for c in cols)
-        print(f"Grup {i+1}: model={loss:.4f}  baseline={base:.4f}  -> {verdict}")
-        print(f"        ({names})")
+        print(f"Group {i+1}: model={loss:.4f}  baseline={base:.4f}  -> {verdict}")
+        print(f"         ({names})")
         results.append({"model": float(loss), "baseline": float(base),
                         "beats": bool(loss < base)})
     return results
  
  
-# --- BLOK 7: Test 4 -- farkli tohumlar ------------------------------- #
+# --- BLOCK 7: Test 4 -- different seeds ------------------------------- #
 def test_seeds(features, targets, baseline):
-    """Rastgeleligi degistirince (farkli seed) sonuc oynuyor mu?"""
-    print("\n=== TEST 4: Farkli rastgele tohumlar ===")
+    """Does the result move when the randomness is changed?"""
+    print("\n=== TEST 4: Different random seeds ===")
     losses = []
     for seed in [0, 1, 42, 123, 2024]:
         loss = loocv_loss(make_model("RandomForest", seed), features, targets)
         losses.append(loss)
-        print(f"seed={seed:5d}: {loss:.4f}  ({'GECTI' if loss < baseline else 'gecemedi'})")
+        verdict = "BEATS" if loss < baseline else "does not beat"
+        print(f"seed={seed:5d}: {loss:.4f}  ({verdict})")
     spread = max(losses) - min(losses)
-    print(f"Yayilim (max-min): {spread:.4f}  "
-          f"({'kararli' if spread < 0.03 else 'oynak'})")
+    print(f"Spread (max-min): {spread:.4f}  "
+          f"({'stable' if spread < 0.03 else 'volatile'})")
     return [float(x) for x in losses]
  
  
 def main(argv=None):
-    p = argparse.ArgumentParser(description="Negatif bulgu saglamlik kontrolu.")
+    p = argparse.ArgumentParser(
+        description="Robustness check for the negative finding."
+    )
     p.add_argument("--data", type=Path, default=Path("training_matrix.csv"))
     p.add_argument("--out", type=Path, default=Path("robustness_report.json"))
     args = p.parse_args(argv)
  
     if not args.data.exists():
-        print(f"HATA: {args.data} bulunamadi.", file=sys.stderr)
+        print(f"ERROR: {args.data} not found.", file=sys.stderr)
         return 1
  
     features, targets, target_names = load_matrix(args.data)
     baseline = majority_baseline_loss(targets)
-    print(f"Dil: {features.shape[0]}, Hedef: {targets.shape[1]}")
-    print(f"Majority baseline (yenilmesi gereken): {baseline:.4f}")
+    print(f"Languages: {features.shape[0]}, Targets: {targets.shape[1]}")
+    print(f"Majority baseline (the line to beat): {baseline:.4f}")
  
     report = {
         "n_languages": int(features.shape[0]),
@@ -216,17 +243,19 @@ def main(argv=None):
         "test4_seeds": test_seeds(features, targets, baseline),
     }
  
-    print("\n=== GENEL YORUM ===")
+    print("\n=== OVERALL READING ===")
     rf = report["test1_models"]["RandomForest"]
     if rf >= baseline:
-        print("Hicbir ayar baseline'i anlamli gecemedi. Negatif bulgu "
-              "SAGLAM: 3 yuzey istatistigi bu hedefleri tahmin etmeye "
-              "yetmiyor, ve bu tek bir modele/ayara/sansa bagli degil.")
+        print("No configuration beat the baseline by any meaningful margin. "
+              "The negative finding is ROBUST: 3 surface statistics are not "
+              "sufficient to predict these targets, and this does not depend "
+              "on one model, one setting, or one lucky draw.")
     else:
-        print("Bir ayarda baseline gecildi -- bulgu yeniden incelenmeli.")
+        print("One configuration beat the baseline -- the finding must be "
+              "re-examined.")
  
     args.out.write_text(json.dumps(report, indent=2))
-    print(f"\nRapor -> {args.out}")
+    print(f"\nReport -> {args.out}")
     return 0
  
  
