@@ -67,7 +67,7 @@ Two further limitations bear specifically on the embedding branch: the Elamite c
 
 Citing
 
-Melkan Taysi, Department of Artificial Intelligence Engineering, Hacettepe University, Ankara. Work supervised by Orhan Demirci.
+Melkan Taysi, Department of Artificial Intelligence Engineering, Hacettepe University, Ankara. Work supervised by Res. Asst. Orhan Demirci, Hacettepe University.
 
 License
 
